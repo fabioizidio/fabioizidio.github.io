@@ -1,7 +1,7 @@
-title:            Site Title
-description:      Site description for the metas.
+title:            Fábio Izidio
+description:      Um pouco de tudo o que gosto
 logo:             omikron.png
-disqus_shortname: shortname
+disqus_shortname: fabioizidio
 # Assign a default image for your site's header and footer
 default_bg:       default_bg.jpg
 search:           true
@@ -14,7 +14,7 @@ animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
-url:          http://hmfaysal.me/hmfaysal-omega-theme
+url:          http://fabioizidio.com.br
 # baseurl:           
 
 # Gems used
@@ -42,15 +42,15 @@ jekyll-archives:
 
 # Owner/author information
 author:
-  name:           Your Name
-  picture:        your-photo.jpg
-  email:          your@email.com
+  name:           Fábio Izidio
+  picture:        my-photo.jpg
+  email:          fabioizidio7@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    Some Details about yourself
+  description:    Sou um estudante de Matem&#225;tica e entusiasta da tecnologia. Tenho paix&#227;o especial por sistemas operacionais, principalmente GNU/Linux. Nas horas vagas sou programador. E na raridade brinco com m&#250;sica e poesia. Apesar disso tudo, prefiro ser lembrado como um servo de Jesus Cristo.
   # Social networking links used in footer. Update and remove as you like.
-  twitter:
-  facebook:
-  github:
+  twitter:        Fabio_Izidio
+  facebook:       fi.fabioizidio
+  github:         fabioizidio
   linkedin:
   instagram:
   tumblr:
@@ -64,11 +64,11 @@ google_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: Início
     url: /
     external: false
     icon: home
-  - title: Categories
+  - title: Categorias
     url: /categories
   - title: Tags
     url: /tags
@@ -85,7 +85,7 @@ sitemap:
         - "/index.html"
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Fortaleza
 future:      true
 markdown:    kramdown
 highlighter: rouge
