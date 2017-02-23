@@ -1,138 +1,75 @@
 [
   
     {
-      "title"    : "First Commit",
-      "category" : "",
-      "tags"     : "blogging, jekyll",
-      "url"      : "/blog/first-commit",
-      "date"     : "2014-05-15 00:00:00 -0300",
-			"shortdate": "May 15, 2014"
+      "title"    : "Homens de Caráter",
+      "category" : "Espírito de Profecia",
+      "tags"     : "",
+      "url"      : "/blog/Homens-de-Carater",
+      "date"     : "2017-02-22 00:00:00 -0300",
+			"shortdate": "February 22, 2017"
     } ,
   
     {
-      "title"    : "ABOUT HMFAYSAL OMEGA",
-      "category" : "Theme-Setup",
-      "tags"     : "Jekyll, HMFAYSAL OMEGA, Features",
-      "url"      : "/blog/about-hmfaysal-omega",
-      "date"     : "2014-01-12 00:00:00 -0300",
-			"shortdate": "January 12, 2014"
+      "title"    : "Como Ativar o Comando &quot;Ver Área de Trabalho&quot; no Elementary OS Freya",
+      "category" : "GNU/Linux",
+      "tags"     : "Elementary OS, GNU/Linux, Personalização, Script",
+      "url"      : "/blog/Como-Ativar-o-Comando-Ver-Area-de-Trabalho-no-Elementary-OS-Freya",
+      "date"     : "2017-02-15 00:00:00 -0300",
+			"shortdate": "February 15, 2017"
     } ,
   
     {
-      "title"    : "Sample Status Post",
-      "category" : "Sample-Posts",
-      "tags"     : "sample post, status",
-      "url"      : "/blog/a-status",
-      "date"     : "2014-01-11 00:00:00 -0300",
-			"shortdate": "January 11, 2014"
+      "title"    : "No Vale de Ossos Secos",
+      "category" : "Devocional",
+      "tags"     : "Graça, Paz, Salvação, Espírito Santo, Jesus Cristo, Restauração, Fé",
+      "url"      : "/blog/No-Vale-de-Ossos-Secos",
+      "date"     : "2017-02-08 00:00:00 -0300",
+			"shortdate": "February 08, 2017"
     } ,
   
     {
-      "title"    : "Theme Elements",
-      "category" : "Theme-Setup",
-      "tags"     : "Jekyll, HMFAYSAL OMEGA",
-      "url"      : "/blog/theme-elements",
-      "date"     : "2014-01-10 00:00:00 -0300",
-			"shortdate": "January 10, 2014"
+      "title"    : "Jesus Cristo Está Voltando",
+      "category" : "Poesia",
+      "tags"     : "Poesias, Volta de Cristo, Jesus Cristo, Bíblia, Esperança",
+      "url"      : "/blog/Jesus-Cristo-Esta-Voltando",
+      "date"     : "2017-02-01 00:00:00 -0300",
+			"shortdate": "February 01, 2017"
     } ,
   
     {
-      "title"    : "Sample Gallery Post",
-      "category" : "photos",
-      "tags"     : "sample post, images, gallery, test",
-      "url"      : "/blog/sample-gallery-post",
-      "date"     : "2014-01-09 00:00:00 -0300",
-			"shortdate": "January 09, 2014"
+      "title"    : "Cristo Virá de Forma Invisível e Haverá um Arrebatamento Secreto?",
+      "category" : "Teologia",
+      "tags"     : "Volta de Cristo, Arrebatamento Secreto, Escatologia, Historicismo, Futurismo, Fim dos Tempos",
+      "url"      : "/blog/Cristo-Vira-de-Forma-Invis%C3%ADvel-e-Havera-um-Arrebatamento-Secreto",
+      "date"     : "2017-01-26 00:00:00 -0300",
+			"shortdate": "January 26, 2017"
     } ,
   
     {
-      "title"    : "Sample Quotation Post",
-      "category" : "Sample-Posts",
-      "tags"     : "sample post, quotation",
-      "url"      : "/blog/a-quotation",
-      "date"     : "2014-01-08 00:00:00 -0300",
-			"shortdate": "January 08, 2014"
+      "title"    : "Antes do Milênio Cristo Virá Uma ou Duas Vezes à Terra?",
+      "category" : "Teologia",
+      "tags"     : "Volta de Cristo, Profecias, Escatologia, Historicismo, Futurismo, Arrebatamento Secreto",
+      "url"      : "/blog/Antes-do-Milenio-Cristo-Vira-Uma-ou-Duas-Vezes-a-Terra",
+      "date"     : "2017-01-19 00:00:00 -0300",
+			"shortdate": "January 19, 2017"
     } ,
   
     {
-      "title"    : "A Post with a Video",
-      "category" : "videos",
-      "tags"     : "sample post, video",
-      "url"      : "/blog/video-post",
-      "date"     : "2014-01-07 00:00:00 -0300",
-			"shortdate": "January 07, 2014"
+      "title"    : "Amargura de Alma",
+      "category" : "Poesia",
+      "tags"     : "Poesias, Jesus Cristo, Salvação, Esperança, Perdão, Arrependimento, Vida Nova",
+      "url"      : "/blog/Amargura-de-Alma",
+      "date"     : "2017-01-12 00:00:00 -0300",
+			"shortdate": "January 12, 2017"
     } ,
   
     {
-      "title"    : "Fancy Some Columns?",
-      "category" : "Sample-Posts",
-      "tags"     : "sample post, columns",
-      "url"      : "/blog/fancy-columns",
-      "date"     : "2014-01-07 00:00:00 -0300",
-			"shortdate": "January 07, 2014"
-    } ,
-  
-    {
-      "title"    : "Sample Mathjax Post",
-      "category" : "Sample-Posts",
-      "tags"     : "sample post, mathjax",
-      "url"      : "/blog/sample-mathjax-post",
-      "date"     : "2014-01-06 00:00:00 -0300",
-			"shortdate": "January 06, 2014"
-    } ,
-  
-    {
-      "title"    : "Sample Link Post",
-      "category" : "Sample-Posts",
-      "tags"     : "sample post, link post",
-      "url"      : "/blog/sample-link-post",
-      "date"     : "2014-01-05 00:00:00 -0300",
-			"shortdate": "January 05, 2014"
-    } ,
-  
-    {
-      "title"    : "Syntax Highlighting Post",
-      "category" : "Sample-Posts",
-      "tags"     : "sample post, code, highlighting",
-      "url"      : "/blog/code-highlighting-post",
-      "date"     : "2014-01-04 00:00:00 -0300",
-			"shortdate": "January 04, 2014"
-    } ,
-  
-    {
-      "title"    : "A Post with Images",
-      "category" : "photos",
-      "tags"     : "sample post, images, test",
-      "url"      : "/blog/sample-post-images",
-      "date"     : "2014-01-03 00:00:00 -0300",
-			"shortdate": "January 03, 2014"
-    } ,
-  
-    {
-      "title"    : "Testing Readability with a Bunch of Text",
-      "category" : "Sample-Posts",
-      "tags"     : "sample post, readability, test, intro",
-      "url"      : "/blog/readability-post",
-      "date"     : "2014-01-01 00:00:00 -0300",
-			"shortdate": "January 01, 2014"
-    } ,
-  
-    {
-      "title"    : "Installing Jekyll on Windows",
-      "category" : "Theme-Setup",
-      "tags"     : "Jekyll, Installation",
-      "url"      : "/blog/installing-jekyll-on-windows",
-      "date"     : "2013-12-31 00:00:00 -0300",
-			"shortdate": "December 31, 2013"
-    } ,
-  
-    {
-      "title"    : "Post with Large Feature Image and Text",
-      "category" : "Sample-Posts",
-      "tags"     : "sample post, readability",
-      "url"      : "/blog/readability-feature-post",
-      "date"     : "2013-12-30 00:00:00 -0300",
-			"shortdate": "December 30, 2013"
+      "title"    : "A Lei que Constava de Ordenanças",
+      "category" : "Teologia",
+      "tags"     : "Graça, Lei Cerimonial, Cruz, Jesus Cristo, Salvação, Antigo Testamento",
+      "url"      : "/blog/A-Lei-que-Constava-de-Ordenancas",
+      "date"     : "2017-01-05 00:00:00 -0300",
+			"shortdate": "January 05, 2017"
     } 
   
 ]

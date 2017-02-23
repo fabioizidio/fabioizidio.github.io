@@ -1,667 +1,436 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://fabioizidio.com.br/feed.xml" rel="self" type="application/atom+xml" /><link href="http://fabioizidio.com.br/" rel="alternate" type="text/html" /><updated>2017-02-22T01:43:50-03:00</updated><id>http://fabioizidio.com.br/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">First Commit</title><link href="http://fabioizidio.com.br/blog/first-commit" rel="alternate" type="text/html" title="First Commit" /><published>2014-05-15T00:00:00-03:00</published><updated>2014-05-15T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/first-commit</id><content type="html" xml:base="http://fabioizidio.com.br/blog/first-commit">&lt;blockquote&gt;
-  &lt;p&gt;&quot;The beginning is the most important part of the work.&quot;
-&lt;small&gt;&lt;cite title=&quot;Plato&quot;&gt;Plato&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-02-23T16:51:44-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">Homens de Caráter</title><link href="http://localhost:4000/blog/Homens-de-Carater" rel="alternate" type="text/html" title="Homens de Caráter" /><published>2017-02-22T00:00:00-03:00</published><updated>2017-02-22T00:00:00-03:00</updated><id>http://localhost:4000/blog/Homens-de-Carater</id><content type="html" xml:base="http://localhost:4000/blog/Homens-de-Carater">&lt;blockquote&gt;
+  &lt;p&gt;“A maior necessidade do mundo é a de homens — homens que se não comprem nem se vendam; homens que no íntimo da alma sejam verdadeiros e honestos; homens que não temam chamar o pecado pelo seu nome exato; homens, cuja consciência seja tão fiel ao dever como a bússola o é ao pólo; homens que permaneçam firmes pelo que é reto, ainda que caiam os céus.”&lt;/p&gt;
+  &lt;smal&gt;&lt;cite title=&quot;Ellen G. White&quot;&gt;Ellen G. White&lt;/cite&gt;&lt;/smal&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I have been away from the blogging scene for quite a while now, suddenly today it dawned upon me that I need to start writing/posting again. My writing is a little bit rusty now, and I need to brush on that. Anyways, the moment I thought about blogging, Wordpress flashed in my mind. Well, I used Wordpress &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in the past and it worked well for a while, then I had to face issues like high-traffic and high CPU load and unexpected spikes in my server. Well, those weren’t too much trouble, I would avoid fixing those bugs if I was busy, and sometimes I would leave the system untouched for 2 days straight and let the server admins frown and try to mitigate the outage (I had a pretty straight forward deal with my hosting provider, that no matter what, they can’t shut down my website). The PHP runtime errors weren’t a big deal, the hundreds of thousands of SQL database queries weren’t a trouble, sometimes the site would run a tad bit slower than average, but it was OK overall for me. A sample of the emails I would receive from my hosting provider is given below:&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2ud96iyxCw4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Espírito de Profecia" /><summary type="html">“A maior necessidade do mundo é a de homens — homens que se não comprem nem se vendam; homens que no íntimo da alma sejam verdadeiros e honestos; homens que não temam chamar o pecado pelo seu nome exato; homens, cuja consciência seja tão fiel ao dever como a bússola o é ao pólo; homens que permaneçam firmes pelo que é reto, ainda que caiam os céus.” Ellen G. White</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /></entry><entry><title type="html">Como Ativar o Comando “Ver Área de Trabalho” no Elementary OS Freya</title><link href="http://localhost:4000/blog/Como-Ativar-o-Comando-Ver-Area-de-Trabalho-no-Elementary-OS-Freya" rel="alternate" type="text/html" title="Como Ativar o Comando &quot;Ver Área de Trabalho&quot; no Elementary OS Freya" /><published>2017-02-15T00:00:00-03:00</published><updated>2017-02-15T00:00:00-03:00</updated><id>http://localhost:4000/blog/Como-Ativar-o-Comando-Ver-Area-de-Trabalho-no-Elementary-OS-Freya</id><content type="html" xml:base="http://localhost:4000/blog/Como-Ativar-o-Comando-Ver-Area-de-Trabalho-no-Elementary-OS-Freya">&lt;p&gt;Saudações, linuxusers! Nossa dica de hoje será como ativar o comando “mostrar área de trabalho” no Elementary OS Freya, isto é, como minimizar todas as janelas ativas com um único comando no teclado. Confesso que a falta desse comando no eOS foi terrível para mim que estava migrando recentemente do Windows. Pressionar &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt; + &amp;lt; D &amp;gt;&lt;/code&gt; sempre tornou meu trabalho produtivo (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt;&lt;/code&gt; é a famosa “tecla do Windows”). Espero ajudá-los nas próximas linhas.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;tickets@hostgator.com
-10/11/10
+&lt;p&gt;Antes de tudo, é preciso que o sistema esteja atualizado. Para isso, pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt; + &amp;lt; T &amp;gt;&lt;/code&gt; para acessar o terminal e em seguida digite os seguintes comandos:&lt;/p&gt;
 
-to hmfaysal 
-Hello, 
-
-
-I apologize, but I was forced to suspend the script &quot;/home/hmfaysal/public_html/hmfaysal.com/index.php&quot; as it was causing a high load on the server, and due to it affecting all of the other accounts on the system, I was forced to take immediate action for the health of the server.g 
-
-I did notice that this was a Wordpress installation, and would recommend that you enable caching for it.
-
-Please note that if you already have caching enabled, you will need to take more action such as looking into any high use modules or plugins, and seeing if there are any updates, or possibly any that you can disable to reduce the load that your site causes. 
-
-If you reply back to this with your IP address (http://www.hostgator.com/ip.shtml) we will be more than happy to go ahead enable HTTP access for you, so that you can safely work on the script without it causing further issues. Please let me know how you would like to proceed.  
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt-get update
+$ sudo apt-get dist-upgrade
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;But the game was changed when my site got hacked. Wordpress is notorious in getting hacked. The PHP code libraries are huge, and while Automattic tries to keep it relatively clean and bug free, bugs do persist among the thousands of lines of codes and every once in a while a bug gets discovered by the code breakers. If the bug can be exploited in some way to gain access of the site, the code breakers tend to do some serious damage. While I wasn’t been exclusively targeted by such individuals, I was part of a victimized group who used the same version of Wordpress, and all of our sites got defaced by some mass defacing software. Although it didn’t do serious damage, as I have daily off-site backup, I became dubious about the Wordpress platform.&lt;/p&gt;
+&lt;p&gt;Após encerrar o processo de atualização do sistema, vamos instalar o comando &lt;strong&gt;wmctrl&lt;/strong&gt;. Ele serve para fazer o controle de janelas. É nele que reside a mágica para mostrar a área de trabalho de nosso sistema. Para instalá-lo, digite o comando abaixo:&lt;/p&gt;
 
-&lt;p&gt;So, this time around, while I was still brainstorming for ideas and theme designs and what not, I decided to go back to Jekyll, or you may say, rather old school. Why not use plain static HTML files with some CSS styling and JS animations? Static sites are impossible to hack, as there are no codes needed to be run on the server. The only way a static site can be compromised if the code breakers have access to your FTP account. I have used Jekyll in the past during my college years. I was working as a Teaching Assistant in the Mathematics Dept, and I was supposed to post weekly course materials on the course website. The trouble was my Alma maters IT dept didn’t allow dynamic sites to run on the nodes, and I wasn’t going download the HTML files, edit them with Sublime text, and push them back onto the server every week. So I used Jekyll and GIT Version Control to do that for me. And it was so efficient that I would post materials daily instead of weekly. It was like love on first use. But Wordpress had lots of theme choices and for my personal site I decided to use Wordpress anyways disregarding the simpleness and speed static sites provided. After the takeover of my Wordpress powered blog happened, I turned to self written PHP sites and static sites completely. I have built a social network based on PHP for my peer group which is highly secure but when it comes down to speed it lags behind. So I built this site using Jekyll, a blog aware static site generator. I hope this site will perform as envisioned.&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;This domain previously hosted a Wordpress blog.&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="blogging" /><category term="jekyll" /><summary type="html">&quot;The beginning is the most important part of the work.&quot; Plato</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://fabioizidio.com.br/%7B%22feature%22=%3E%22website-speed.jpg%22,%20%22credit%22=%3E%22spreadeffect.com%22,%20%22creditlink%22=%3E%22http://www.spreadeffect.com/blog/improve-website-speed/%22%7D" /></entry><entry><title type="html">ABOUT HMFAYSAL OMEGA</title><link href="http://fabioizidio.com.br/blog/about-hmfaysal-omega" rel="alternate" type="text/html" title="ABOUT HMFAYSAL OMEGA" /><published>2014-01-12T00:00:00-03:00</published><updated>2014-01-12T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/about-hmfaysal-omega</id><content type="html" xml:base="http://fabioizidio.com.br/blog/about-hmfaysal-omega">&lt;p&gt;HMFAYSAL OMEGA is a minimalist, beautiful, responsive theme for Jekyll designed for engineers as well as writers who want their content to take front and center. This theme elegantly wraps each page and post with featured images complementing the content. HMFAYSAL OMEGA (named after the Greek Alphabet) complements Jekyll’s minimalist, content-first approach with gorgeous typography and subtle design elements.&lt;/p&gt;
-
-&lt;p&gt;Write well, write beautifully, write responsively!&lt;/p&gt;
-
-&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
-  &lt;header&gt;
-    &lt;h1&gt;Features&lt;/h1&gt;
-  &lt;/header&gt;
-&lt;div id=&quot;drawer&quot;&gt;
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#twitter-bootstrap-3&quot; id=&quot;markdown-toc-twitter-bootstrap-3&quot;&gt;Twitter Bootstrap 3&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#option-to-set-parallax-featured-image-that-wraps-your-post-in-header-and-footer&quot; id=&quot;markdown-toc-option-to-set-parallax-featured-image-that-wraps-your-post-in-header-and-footer&quot;&gt;Option to set Parallax featured image that wraps your post in header and footer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#variable-templates-for-articles-link-quotation-and-status-updates&quot; id=&quot;markdown-toc-variable-templates-for-articles-link-quotation-and-status-updates&quot;&gt;Variable templates for articles, link, quotation and status updates&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#responsive-images-and-magnific-popup-lightbox&quot; id=&quot;markdown-toc-responsive-images-and-magnific-popup-lightbox&quot;&gt;Responsive images and Magnific Popup Lightbox&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#plugin-freegithub-pages-deployment-ready&quot; id=&quot;markdown-toc-plugin-freegithub-pages-deployment-ready&quot;&gt;Plugin-free/Github Pages Deployment Ready&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#read-time-calculator-calculation-of-post-read-time-based-on-word-count&quot; id=&quot;markdown-toc-read-time-calculator-calculation-of-post-read-time-based-on-word-count&quot;&gt;Read time Calculator: Calculation of post read-time based on word count&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#simple-search-that-overlays-results-based-on-post-title&quot; id=&quot;markdown-toc-simple-search-that-overlays-results-based-on-post-title&quot;&gt;Simple search that overlays results based on post title&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#display-mathematical-equations-beautifully-via-mathjax&quot; id=&quot;markdown-toc-display-mathematical-equations-beautifully-via-mathjax&quot;&gt;Display mathematical equations beautifully via MathJax&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#css3-transitions-and-svg-graphics-for-better-performance&quot; id=&quot;markdown-toc-css3-transitions-and-svg-graphics-for-better-performance&quot;&gt;CSS3 transitions and SVG graphics for better performance&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#ability-to-turn-of-animations-in-_configyml&quot; id=&quot;markdown-toc-ability-to-turn-of-animations-in-_configyml&quot;&gt;Ability to turn of animations in _config.yml&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#readable-typography-to-make-your-words-shine&quot; id=&quot;markdown-toc-readable-typography-to-make-your-words-shine&quot;&gt;Readable typography to make your words shine&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#google-fonts&quot; id=&quot;markdown-toc-google-fonts&quot;&gt;Google Fonts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#other-features&quot; id=&quot;markdown-toc-other-features&quot;&gt;Other features&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#designed-by-an-electrical-engineer&quot; id=&quot;markdown-toc-designed-by-an-electrical-engineer&quot;&gt;Designed by an Electrical Engineer&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#questions&quot; id=&quot;markdown-toc-questions&quot;&gt;Questions?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#requests&quot; id=&quot;markdown-toc-requests&quot;&gt;Requests?&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#license&quot; id=&quot;markdown-toc-license&quot;&gt;License&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;!-- /#table-of-contents --&gt;
-
-&lt;h2 id=&quot;twitter-bootstrap-3&quot;&gt;Twitter Bootstrap 3&lt;/h2&gt;
-
-&lt;p&gt;Based on the latest Bootstrap its easy to update and customize to your own needs. Plus the power of the mobile first front-end framework adds to faster and easier web development.&lt;/p&gt;
-
-&lt;p&gt;See the list of theme elements.&lt;/p&gt;
-
-&lt;h2 id=&quot;option-to-set-parallax-featured-image-that-wraps-your-post-in-header-and-footer&quot;&gt;Option to set Parallax featured image that wraps your post in header and footer&lt;/h2&gt;
-
-&lt;p&gt;I always thought an article should wrap up in the end. What better way to do it other than wrapping it around with pictures? As we all know, a picture is worth a thousand words. Why not put 500 of those in the header and the rest in the footer to help writers tell their story?&lt;/p&gt;
-
-&lt;h2 id=&quot;variable-templates-for-articles-link-quotation-and-status-updates&quot;&gt;Variable templates for articles, link, quotation and status updates&lt;/h2&gt;
-
-&lt;p&gt;HMFAYSAL OMEGA Theme employs &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;post.type&quot;&lt;/code&gt; to assign variable templates article entries, link posts, quotation and status updates. No other Jekyll theme offers this functionality. In the future, more &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;post.types&quot;&lt;/code&gt; will be included.&lt;/p&gt;
-
-&lt;h2 id=&quot;responsive-images-and-magnific-popup-lightbox&quot;&gt;Responsive images and Magnific Popup Lightbox&lt;/h2&gt;
-
-&lt;p&gt;This theme supports responsive images and uses a responsive lightbox to showcase larger images. Images also use CSS3 transitions to turn to B&amp;amp;W when not hovered.&lt;/p&gt;
-
-&lt;h2 id=&quot;plugin-freegithub-pages-deployment-ready&quot;&gt;Plugin-free/Github Pages Deployment Ready&lt;/h2&gt;
-
-&lt;p&gt;Although featuring a mind-boggling number of features, this theme has been coded in such a way that it can be compiled without the usage of any plugins whatsoever. You do not have to worry about compatibility. Its ready for deployment on the Github Pages immediately.&lt;/p&gt;
-
-&lt;h2 id=&quot;read-time-calculator-calculation-of-post-read-time-based-on-word-count&quot;&gt;Read time Calculator: Calculation of post read-time based on word count&lt;/h2&gt;
-
-&lt;p&gt;I have been enjoying Medium.com as of lately and I simply love their Estimated Reading Time (ERT) of an article feature. What it does, it takes the word count of an article and calculates the ERT based on the average reading speed (ARS). While ARS is simply an estimation and it differs from person-to-person, Medium uses 180 Words-Per-Minute (WPM) as their ARS. I figured out that ARS in general is around 200 WPM. You can turn on or off this feature in the _config.yml file. Very recommended to use this feature as it increases user engagement.&lt;/p&gt;
-
-&lt;h2 id=&quot;simple-search-that-overlays-results-based-on-post-title&quot;&gt;Simple search that overlays results based on post title&lt;/h2&gt;
-
-&lt;p&gt;HMFAYSAL OMEGA Theme provides search using Christian Fei’s &lt;a href=&quot;https://github.com/christian-fei/Simple-Jekyll-Search&quot;&gt;Simple Jekyll jQuery plugin&lt;/a&gt; if you choose to enable search functionality in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file. Clicking search will trigger a fullscreen overlay that searches post titles’ using an autogenerated JSON file.&lt;/p&gt;
-
-&lt;h2 id=&quot;display-mathematical-equations-beautifully-via-mathjax&quot;&gt;Display mathematical equations beautifully via MathJax&lt;/h2&gt;
-
-&lt;p&gt;Both inline and displayed equations can be rendered via MathJax. HMFAYSAL OMEGA Theme supports MathJax natively.&lt;/p&gt;
-
-&lt;h2 id=&quot;css3-transitions-and-svg-graphics-for-better-performance&quot;&gt;CSS3 transitions and SVG graphics for better performance&lt;/h2&gt;
-
-&lt;p&gt;This theme uses subtle CSS3 transitions and SVG to showcase subtle animations for viewer pleasure. This ensures that optimal performance is guaranteed during page viewing.&lt;/p&gt;
-
-&lt;h2 id=&quot;ability-to-turn-of-animations-in-_configyml&quot;&gt;Ability to turn of animations in _config.yml&lt;/h2&gt;
-
-&lt;p&gt;HMFAYSAL OMEGA Theme avoids Javascript animations to increase website performance. But if you are still facing some lag in your test device, you can turn off the animations in the _config.yml file.&lt;/p&gt;
-
-&lt;h2 id=&quot;readable-typography-to-make-your-words-shine&quot;&gt;Readable typography to make your words shine&lt;/h2&gt;
-
-&lt;p&gt;HMFAYSAL OMEGA Theme is a minimal, simple and responsive Jekyll theme built for maximum readability. The main design focus of HMFAYSAL OMEGA Theme is the typography and the clean design.&lt;/p&gt;
-
-&lt;h2 id=&quot;google-fonts&quot;&gt;Google Fonts&lt;/h2&gt;
-
-&lt;p&gt;This theme uses Google Webfonts instead of Adobe Edgefonts for performance.&lt;/p&gt;
-
-&lt;h2 id=&quot;other-features&quot;&gt;Other features&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Disqus comments if you choose to enable.&lt;/li&gt;
-  &lt;li&gt;Simple and clear permalink structure&lt;/li&gt;
-  &lt;li&gt;Footer Menu&lt;/li&gt;
-  &lt;li&gt;361 Fontawesome icons&lt;/li&gt;
-  &lt;li&gt;Tags for &lt;a href=&quot;https://developers.facebook.com/docs/opengraph/&quot;&gt;Open Graph&lt;/a&gt; and &lt;a href=&quot;https://dev.twitter.com/docs/cards&quot;&gt;Twitter Cards&lt;/a&gt; for a better social sharing experience&lt;/li&gt;
-  &lt;li&gt;Beautifully crafted &lt;a href=&quot;http://fabioizidio.com.br/404.html&quot;&gt;404 page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Custom &lt;a href=&quot;http://fabioizidio.com.br/categories/&quot;&gt;categories&lt;/a&gt; and &lt;a href=&quot;http://fabioizidio.com.br/tags/&quot;&gt;tags&lt;/a&gt; pages for viewers pleasure&lt;/li&gt;
-  &lt;li&gt;Stylesheets for Pygments and Coderay to make your code examples look snazzy.&lt;/li&gt;
-  &lt;li&gt;Sitemap for search engines&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;designed-by-an-electrical-engineer&quot;&gt;Designed by an Electrical Engineer&lt;/h2&gt;
-
-&lt;p&gt;HMFAYSAL OMEGA Theme was designed by Hossain Mohd Faysal – an Electrical Engineer. I have to confess I am not a designer. So when you download this theme, you have to know you are not getting the best designed elements out there, but instead what you are getting is extremely clean code even though the site uses some highly complex liquid logic expressions.&lt;/p&gt;
-
-&lt;h3 id=&quot;questions&quot;&gt;Questions?&lt;/h3&gt;
-
-&lt;p&gt;Having a problem getting something to work or want to know why I setup something in a certain way? Read the &lt;a href=&quot;http://fabioizidio.com.br/documentation/&quot;&gt;theme documentation&lt;/a&gt; or ping me on Twitter &lt;a href=&quot;http://twitter.com/hmfaysal&quot;&gt;@hmfaysal&lt;/a&gt; or &lt;a href=&quot;https://github.com/hmfaysal/hmfaysal-omega-theme/issues/new&quot;&gt;file a GitHub Issue&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;requests&quot;&gt;Requests?&lt;/h3&gt;
-
-&lt;p&gt;If you have some specific requests for this theme, or if you need help custom coding some elements, message me on Twitter &lt;a href=&quot;http://twitter.com/hmfaysal&quot;&gt;@hmfaysal&lt;/a&gt; or email me at &lt;a href=&quot;mailto:hmfaysal@alum.mit.edu&quot;&gt;hmfaysal@alum.mit.edu&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;license&quot;&gt;License&lt;/h2&gt;
-
-&lt;p&gt;This theme is free and open source software, distributed under the &lt;a href=&quot;http://fabioizidio.com.br/license/&quot;&gt;The MIT License&lt;/a&gt;. So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.&lt;/p&gt;
-
-&lt;p&gt;If you’d like to give me credit somewhere on your blog or tweet a shout out to &lt;a href=&quot;https://twitter.com/hmfaysal&quot;&gt;@hmfaysal&lt;/a&gt;, that would be pretty sweet.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Theme-Setup" /><category term="Jekyll" /><category term="HMFAYSAL OMEGA" /><category term="Features" /><summary type="html">HMFAYSAL OMEGA is a minimalist, beautiful, responsive theme for Jekyll designed for engineers as well as writers who want their content to take front and center. This theme elegantly wraps each page and post with featured images complementing the content. HMFAYSAL OMEGA (named after the Greek Alphabet) complements Jekyll’s minimalist, content-first approach with gorgeous typography and subtle design elements.</summary></entry><entry><title type="html">Sample Status Post</title><link href="http://fabioizidio.com.br/blog/a-status" rel="alternate" type="text/html" title="Sample Status Post" /><published>2014-01-11T00:00:00-03:00</published><updated>2014-01-11T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/a-status</id><content type="html" xml:base="http://fabioizidio.com.br/blog/a-status">&lt;p&gt;Oh Hello. This is a status post. Click here to learn about it more :-)&lt;/p&gt;
-
-&lt;p&gt;Don’t worry, you can enter additional details about your status update. Only the first paragraph &lt;code class=&quot;highlighter-rouge&quot;&gt;[p:first-child]&lt;/code&gt; will be shown in the home page :-)&lt;/p&gt;
-
-&lt;p&gt;To start a status post, simply run &lt;code class=&quot;highlighter-rouge&quot;&gt;rake newstatus['Some Status Title']&lt;/code&gt; in the command line. Or if you want to create the post by yourself, make sure your post contains the following contents in your post’s Front Matter YAML:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-type: status
-title: &quot;Sample Status Title&quot;
-description: 
-headline: 
-modified: YYYY-MM-DD
-category: status
-image: 
-  feature: 
-comments: true
-mathjax: 
----
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt-get install wmctrl
 &lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Sample-Posts" /><category term="sample post" /><category term="status" /><summary type="html">Oh Hello. This is a status post. Click here to learn about it more :-)</summary></entry><entry><title type="html">Theme Elements</title><link href="http://fabioizidio.com.br/blog/theme-elements" rel="alternate" type="text/html" title="Theme Elements" /><published>2014-01-10T00:00:00-03:00</published><updated>2014-01-10T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/theme-elements</id><content type="html" xml:base="http://fabioizidio.com.br/blog/theme-elements">&lt;p&gt;I’ve put together a little post to introduce you to the HMFAYSAL OMEGA theme and get you started with Markdown. Go ahead and edit this post to get going and learn how it all works!&lt;/p&gt;
-
-&lt;section&gt;
-  &lt;header&gt;
-    &lt;h1&gt;Elements&lt;/h1&gt;
-  &lt;/header&gt;
-&lt;div id=&quot;drawer&quot;&gt;
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#elements&quot; id=&quot;markdown-toc-elements&quot;&gt;ELEMENTS&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#lists&quot; id=&quot;markdown-toc-lists&quot;&gt;LISTS&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#links&quot; id=&quot;markdown-toc-links&quot;&gt;LINKS&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#what-about-images&quot; id=&quot;markdown-toc-what-about-images&quot;&gt;WHAT ABOUT IMAGES?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#and-videos&quot; id=&quot;markdown-toc-and-videos&quot;&gt;AND VIDEOS?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#equations&quot; id=&quot;markdown-toc-equations&quot;&gt;EQUATIONS&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#the-logo&quot; id=&quot;markdown-toc-the-logo&quot;&gt;THE LOGO&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#icons&quot; id=&quot;markdown-toc-icons&quot;&gt;ICONS&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#quoting&quot; id=&quot;markdown-toc-quoting&quot;&gt;QUOTING&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#working-with-code&quot; id=&quot;markdown-toc-working-with-code&quot;&gt;WORKING WITH CODE&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#ready-for-a-break&quot; id=&quot;markdown-toc-ready-for-a-break&quot;&gt;READY FOR A BREAK?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#fancy-some-columns&quot; id=&quot;markdown-toc-fancy-some-columns&quot;&gt;FANCY SOME COLUMNS?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#buttons&quot; id=&quot;markdown-toc-buttons&quot;&gt;BUTTONS&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#advanced-usage&quot; id=&quot;markdown-toc-advanced-usage&quot;&gt;ADVANCED USAGE&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/section&gt;
-
-&lt;h1 id=&quot;elements&quot;&gt;ELEMENTS&lt;/h1&gt;
-
-&lt;p&gt;Writing in markdown is really easy. In any editor like notepad, you simply write as you normally would. Where appropriate, you can use formatting shortcuts to style your content.&lt;/p&gt;
-
-&lt;h2 id=&quot;lists&quot;&gt;LISTS&lt;/h2&gt;
-
-&lt;p&gt;For example, a list:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Item number one&lt;/li&gt;
-  &lt;li&gt;Item number two
-    &lt;ul&gt;
-      &lt;li&gt;A nested item&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;A final item&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;or with numbers!&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Remember to buy some milk&lt;/li&gt;
-  &lt;li&gt;Drink the milk&lt;/li&gt;
-  &lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;links&quot;&gt;LINKS&lt;/h2&gt;
-
-&lt;p&gt;Want to link to a source? No problem. If you put the url in this format, like &lt;code class=&quot;highlighter-rouge&quot;&gt;[http://alum.mit.edu/www/hmfaysal](http://alum.mit.edu/www/hmfaysal)&lt;/code&gt; - it’ll automatically be linked up like &lt;a href=&quot;http://alum.mit.edu/www/hmfaysal&quot;&gt;http://alum.mit.edu/www/hmfaysal&lt;/a&gt;. But if you want to customize your anchor text, you can do that too! Here’s a link to the &lt;a href=&quot;http://alum.mit.edu/www/hmfaysal&quot; title=&quot;HMFAYSAL's Blog&quot;&gt;my website&lt;/a&gt;. Neat.&lt;/p&gt;
-
-&lt;h2 id=&quot;what-about-images&quot;&gt;WHAT ABOUT IMAGES?&lt;/h2&gt;
-
-&lt;p&gt;Images work too! And they are responsive! Already know the URL of the image you want to include in your article? Images are responsive and uses lightbox.&lt;/p&gt;
-
-&lt;figure&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (16).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (16).jpg&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (14).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (13).jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (20).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (19).jpg&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Check out &lt;a href=&quot;http://fabioizidio.com.br/articles/sample-post-images/&quot;&gt;this post&lt;/a&gt; to learn about including images in your post.&lt;/p&gt;
-
-&lt;h2 id=&quot;and-videos&quot;&gt;AND VIDEOS?&lt;/h2&gt;
-
-&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;equations&quot;&gt;EQUATIONS&lt;/h2&gt;
-
-&lt;p&gt;Are you an engineer? Or a mathematician? Want to post some equations in your Jekyll blog for the world to see? No problem. HMFAYSAL OMEGA has MathJax built in to beautifully render your equations in the browser. To use MathJax simply turn on the MathJax feature by declaring in the Front YAML Matter like &lt;code class=&quot;highlighter-rouge&quot;&gt;mathjax: true&lt;/code&gt;, then wrapping your equation between &lt;code class=&quot;highlighter-rouge&quot;&gt;$$...$$&lt;/code&gt; will produce something like this:&lt;/p&gt;
-
-&lt;math display=&quot;block&quot;&gt;
-  &lt;mstyle&gt;
-    &lt;mi&gt;f&lt;/mi&gt;
-    &lt;mrow&gt;
-      &lt;mo&gt;(&lt;/mo&gt;
-      &lt;mi&gt;a&lt;/mi&gt;
-      &lt;mo&gt;)&lt;/mo&gt;
-    &lt;/mrow&gt;
-    &lt;mo&gt;=&lt;/mo&gt;
- &lt;mfrac&gt;
-        &lt;mn&gt;1&lt;/mn&gt;
-        &lt;mrow&gt;
-          &lt;mn&gt;2&lt;/mn&gt;
-          &lt;mi&gt;π&lt;!-- π --&gt;&lt;/mi&gt;
-          &lt;mi&gt;i&lt;/mi&gt;
-        &lt;/mrow&gt;
-      &lt;/mfrac&gt;
-    &lt;msub&gt;
-      &lt;mo&gt;∮&lt;/mo&gt;
-      &lt;mrow&gt;
-        &lt;mi&gt;γ&lt;/mi&gt;
-      &lt;/mrow&gt;
-    &lt;/msub&gt;
-    &lt;mfrac&gt;
-      &lt;mrow&gt;
-        &lt;mi&gt;f&lt;/mi&gt;
-        &lt;mo&gt;(&lt;/mo&gt;
-        &lt;mi&gt;z&lt;/mi&gt;
-        &lt;mo&gt;)&lt;/mo&gt;
-      &lt;/mrow&gt;
-      &lt;mrow&gt;
-        &lt;mi&gt;z&lt;/mi&gt;
-        &lt;mo&gt;−&lt;/mo&gt;
-        &lt;mi&gt;a&lt;/mi&gt;
-      &lt;/mrow&gt;
-    &lt;/mfrac&gt;
-    &lt;mi&gt;d&lt;/mi&gt;
-    &lt;mi&gt;z&lt;/mi&gt;
-  &lt;/mstyle&gt;
-&lt;/math&gt;
-
-&lt;h2 id=&quot;the-logo&quot;&gt;THE LOGO&lt;/h2&gt;
-
-&lt;p&gt;Not sure which image you want to use yet? That’s ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and change the image in the _config.yml.&lt;/p&gt;
-
-&lt;h2 id=&quot;icons&quot;&gt;ICONS&lt;/h2&gt;
-
-&lt;p&gt;This theme includes over 360 fontawesome icons. To use an icon go to &lt;a href=&quot;http://fontawesome.io/3.2.1/icons/&quot;&gt;Fontawesome&lt;/a&gt; website and click on the desired icon to find the appropriate tag.&lt;/p&gt;
-
-&lt;div class=&quot;text-center&quot;&gt;
-&lt;i class=&quot;icon-cogs&quot;&gt;&lt;/i&gt; &lt;i class=&quot;icon-youtube-sign&quot;&gt;&lt;/i&gt; &lt;i class=&quot;icon-thumbs-up&quot;&gt;&lt;/i&gt; &lt;i class=&quot;icon-coffee&quot;&gt;&lt;/i&gt; &lt;i class=&quot;icon-cloud-upload&quot;&gt;&lt;/i&gt; &lt;i class=&quot;icon-camera&quot;&gt;&lt;/i&gt; &lt;i class=&quot;icon-comments-alt&quot;&gt;&lt;/i&gt; &lt;i class=&quot;icon-eye-open&quot;&gt;&lt;/i&gt; &lt;i class=&quot;icon-heart&quot;&gt;&lt;/i&gt; &lt;i class=&quot;icon-globe&quot;&gt;&lt;/i&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;quoting&quot;&gt;QUOTING&lt;/h2&gt;
+&lt;p&gt;Pronto! Temos tudo o que precisamos para que o nosso comando funcione. A próxima etapa é criar um script que encapsule nosso comando. Abra o gerenciador de arquivos do Elementary OS em modo root (administrador) no diretório &lt;em&gt;/usr/local/bin&lt;/em&gt;:&lt;/p&gt;
 
-&lt;p&gt;Sometimes a link isn’t enough, you want to quote someone on what they’ve said. It was probably very wisdomous. Is wisdomous a word? Find out in a future release when I introduce spellcheck! For now - it’s definitely a word.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo su
+# pantheon-files /usr/local/bin
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Agora crie um arquivo chamado &lt;strong&gt;show-desktop&lt;/strong&gt; e edite-o usando um editor de texto do seu gosto (o &lt;em&gt;scratch&lt;/em&gt; por exemplo) inserindo o seguinte código de script:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;wmctrl -m | grep &lt;span class=&quot;s1&quot;&gt;'mode: ON'&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;wmctrl -k off
+&lt;span class=&quot;k&quot;&gt;else
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;wmctrl -k on
+&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Salve o arquivo. Em seguida, no terminal, insira o comando à seguir para tornar o script &lt;strong&gt;show-desktop&lt;/strong&gt; executável:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo chmod +x /usr/local/bin/show-desktop
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Feito tudo isso, vá para &lt;strong&gt;Configurações do Sistema –&amp;gt; Teclado –&amp;gt; Atalhos –&amp;gt; Custom&lt;/strong&gt; e adicione o script &lt;strong&gt;show-desktop&lt;/strong&gt; e como tecla aceleradora pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt; + &amp;lt; D &amp;gt;&lt;/code&gt;. Pronto! Agora é só encerrar a sessão e efetuar novamente login para usufruir do comando &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt; + &amp;lt; D &amp;gt;&lt;/code&gt; para visualizar a sua área de trabalho.&lt;/p&gt;
+
+&lt;p&gt;Até a próxima dica!!!&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="GNU/Linux" /><category term="Elementary OS" /><category term="GNU/Linux" /><category term="Personalização" /><category term="Script" /><summary type="html">Saudações, linuxusers! Nossa dica de hoje será como ativar o comando “mostrar área de trabalho” no Elementary OS Freya, isto é, como minimizar todas as janelas ativas com um único comando no teclado. Confesso que a falta desse comando no eOS foi terrível para mim que estava migrando recentemente do Windows. Pressionar &amp;lt; WinKey &amp;gt; + &amp;lt; D &amp;gt; sempre tornou meu trabalho produtivo (&amp;lt; WinKey &amp;gt; é a famosa “tecla do Windows”). Espero ajudá-los nas próximas linhas.</summary></entry><entry><title type="html">No Vale de Ossos Secos</title><link href="http://localhost:4000/blog/No-Vale-de-Ossos-Secos" rel="alternate" type="text/html" title="No Vale de Ossos Secos" /><published>2017-02-08T00:00:00-03:00</published><updated>2017-02-08T00:00:00-03:00</updated><id>http://localhost:4000/blog/No-Vale-de-Ossos-Secos</id><content type="html" xml:base="http://localhost:4000/blog/No-Vale-de-Ossos-Secos">&lt;blockquote&gt;
+  &lt;p&gt;“Veio sobre mim a mão do SENHOR; Ele me levou pelo Espírito do SENHOR e me deixou no meio de um vale que estava cheio de ossos, e me fez andar ao redor deles; eram mui numerosos na superfície do vale e estavam sequíssimos. Então, me perguntou: Filho do homem, acaso, poderão reviver estes ossos? Respondi: SENHOR Deus, Tu o sabes.”
+&lt;small&gt;&lt;cite title=&quot;Ezequiel 37:1-3&quot;&gt;Ezequiel 37:1-3&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No decorrer desta vida, de vez em quando nos deparamos com pessoas que externamente evidenciam que estão sem vida; sobrevivem neste mundo. Algumas vezes as condições de vida as conduzem a tal estado, mas também até aqueles que tem a vida privilegiada são atingidos por tal crise. Podemos inferir que o problema não é de status, fama, riquezas ou cultura; a solução não pode vir dessas coisas. O problema é a falta de Deus em suas vidas! Já dizia Blaise Pascal: “Existe no coração do homem um vazio do tamanho de Deus, o qual, somente Jesus Cristo pode preencher.” E é esse vazio que vem sugando as energias vitais de cada ser humano.&lt;/p&gt;
+
+&lt;p&gt;As pessoas tem buscado alternativas, tais como drogas, sexo, dinheiro, aventuras, entre outras, para compensar tal vazio. Impossível! Já disse o sábio Salomão: &lt;em&gt;“Tudo fez Deus formoso no seu devido tempo; também pôs a eternidade no coração do homem, sem que este possa descobrir as obras que Deus fez desde o princípio até ao fim”&lt;/em&gt; (Eclesiastes 3:11). Tal é a imagem da sociedade contemporânea que, em meio às suas fantasias, suspira e geme pela pungente dor que dilacera seu coração. É dessa classe de pessoas que o profeta Ezequiel nos fala em sua profecia do vale de ossos secos.&lt;/p&gt;
+
+&lt;p&gt;Aparentemente, não há solução para tamanha dor provocada pela crise existencial. Será que a vida é só isso? E o que há de ser depois? Existe propósito para minha vida ou sou simplesmente um subproduto da ação de leis aleatórias? Há esperança de vida em abundância? De fato, o Senhor Deus lançou essa questão ao profeta quando disse: &lt;em&gt;“Filho do homem, acaso, poderão reviver estes ossos?”&lt;/em&gt; (v. 3). O interessante é que quando Deus faz um questionamento desse tipo não o faz porque tenha dúvidas, mas para por em dúvida as nossas próprias dúvidas! Estranho? Ele deseja que compreendamos que não há problema demasiado difícil para que o Céu não derrame um dilúvio de bênçãos sobre aquele que Nele confia. &lt;em&gt;“Porque para Deus não haverá impossíveis em todas as suas promessas”&lt;/em&gt; (Lucas 1:37). Tem um outro detalhe: a resposta do profeta: &lt;em&gt;“SENHOR Deus, Tu o sabes”&lt;/em&gt; (v. 3). Isso demonstra que a solução para esse problema está somente nas mãos de Deus.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Wisdomous - it’s definitely a word.
-&lt;small&gt;&lt;cite title=&quot;Hossain Mohd Faysal&quot;&gt;Hossain Mohd Faysal&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+  &lt;p&gt;“Não é o instrumento humano que deve infundir vida. O Senhor, Deus de Israel, fará essa parte, avivando a natureza espiritual sem vida e pondo-a em atividade. O fôlego do Senhor dos Exércitos precisa penetrar nos corpos inanimados. No juízo, quando forem revelados todos os segredos, saber-se-á que a voz de Deus falou através do instrumento humano, despertando a consciência entorpecida, avivando as faculdades sem vida, e levando pecadores ao arrependimento e contrição, e ao abandono de pecados. Então se verá claramente que através do instrumento humano foi comunicada fé à alma, e infundida vida espiritual procedente do Céu a quem estava morto em delitos e pecados, e ele foi avivado espiritualmente.”
+&lt;small&gt;&lt;cite title=&quot;Ellen G. White, E Recebereis Poder, pág. 47&quot;&gt;Ellen G. White, E Recebereis Poder, pág. 47&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;working-with-code&quot;&gt;WORKING WITH CODE&lt;/h2&gt;
+&lt;p&gt;Vemos que o mundo está cheio de cadáveres espirituais, sem luz e esperança, mas Cristo promete uma nova vida. É somente pelo método divino que encontraremos esta paz. De fato, disse o Senhor Jesus: &lt;em&gt;“Deixo-vos a paz, a minha paz vos dou; não vo-la dou como a dá o mundo”&lt;/em&gt; (João 14:27).&lt;/p&gt;
 
-&lt;p&gt;Got a streak of geek? We’ve got you covered there, too. You can write inline &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;code&amp;gt;&lt;/code&gt; blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.&lt;/p&gt;
+&lt;p&gt;Esse método é descrito pelo profeta nas seguintes palavras: &lt;em&gt;“Disse-me Ele: Profetiza a estes ossos e dize-lhes: Ossos secos, ouvi a palavra do SENHOR. Assim diz o SENHOR Deus a estes ossos: Eis que farei entrar o espírito em vós, e vivereis. Porei tendões sobre vós, farei crescer carne sobre vós, sobre vós estenderei pele e porei em vós o espírito, e vivereis. E sabereis que Eu sou o SENHOR”&lt;/em&gt; (Ezequiel 37:4-6).&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nc&quot;&gt;.awesome-thing&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;block&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Vemos aqui três passos para que a paz superabunde no coração. São estes: (1) Ouvir a Palavra do Senhor; (2) se deixar moldar por ela e; (3) receber o batismo do Espírito Santo.&lt;/p&gt;
 
-&lt;p&gt;Learn more about syntax highlighting &lt;a href=&quot;http://fabioizidio.com.br/articles/code-highlighting-post/&quot;&gt;in this post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A Palavra da Vida&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;ready-for-a-break&quot;&gt;READY FOR A BREAK?&lt;/h2&gt;
+&lt;p&gt;Muitas pessoas encaram a Bíblia como mais um livro entre outros; um livro arcaico e mitológico que só pessoas antiquadas e de mente fechada ainda insistem em ler. Mas, eliminando a visão estereotipada sobre esse livro, você verá que ele é especial. De fato, ele tem transformado vidas e esse é o grande objetivo do mesmo.&lt;/p&gt;
 
-&lt;p&gt;Throw 4 or more dashes down on any new line and you’ve got yourself a fancy new divider. Aw yeah.&lt;/p&gt;
+&lt;p&gt;A própria Bíblia nos diz: &lt;em&gt;“E, assim, a fé vem pela pregação, e a pregação, pela palavra de Cristo”&lt;/em&gt; (Romanos 10:17). Ela é a base para a fé, esta que é tão ausente ou mal interpretada nestes últimos tempos (ver Lucas 18:8). A falta de fé tem deixado as pessoas perplexas, inseguras sobre o futuro do mundo. Os noticiários diariamente divulgam uma onda de violência e catástrofes capaz de fazer desmaiar qualquer um. É preciso exercitar a fé, mas não qualquer fé nem em qualquer coisa. O Senhor Jesus certa vez disse: &lt;em&gt;“Não se turbe o vosso coração; credes em Deus, crede também em Mim”&lt;/em&gt; (João 14:1). Somente a fé em Jesus é capaz de transformar uma vida, e esta só pode ser obtida a partir da leitura diária da Bíblia.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Metamorfose&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;fancy-some-columns&quot;&gt;FANCY SOME COLUMNS?&lt;/h2&gt;
+&lt;p&gt;Um fenômeno natural que ocorrerá quando você aceitar com fé as palavras de Cristo conforme está na Bíblia é a transformação de sua vida. Está escrito: &lt;em&gt;“E todos nós, com o rosto desvendado, contemplando, como por espelho, a glória do Senhor, somos transformados, de glória em glória, na Sua própria imagem, como pelo o Senhor, o Espírito”&lt;/em&gt; (2ª Coríntios 3:18). Isso não é difícil de entender: se nos dispusermos para contemplar coisas más seremos também maus; por outro lado, se visualizamos as boas seremos bons. É só uma questão de tempo. Por isso o apóstolo Paulo exorta: &lt;em&gt;“Finalmente, irmãos, tudo o que é verdadeiro, tudo o que é respeitável, tudo o que é justo, tudo o que é puro, tudo o que é amável, tudo o que é de boa fama, se alguma virtude há e se algum louvor existe, seja isso que ocupe o vosso pensamento”&lt;/em&gt; (Filipenses 4:8); e também acrescenta: &lt;em&gt;“Portanto, se fostes ressuscitados juntamente com Cristo, buscai as coisas lá do alto, onde Cristo vive, assentado à direita de Deus. Pensai nas coisas lá do alto, não nas que são aqui da terra”&lt;/em&gt; (Colossenses 3:1 e 2).&lt;/p&gt;
 
-&lt;div class=&quot;col-md-6&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Quando pela fé sua vida for transformada pode ter certeza de que você se tornará um templo para o Espírito Santo.&lt;/p&gt;
 
-&lt;div class=&quot;col-md-6&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Uma Fonte a Jorrar para Sempre&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;col-md-4&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Uma vida plena é garantida para aqueles que herdam a salvação mediante Cristo Jesus. A alegria está constantemente em seus corações. Acabaram-se as provações? De modo nenhum, eles só passaram a encarar os problemas ao lado de Jesus. Disse o Senhor Jesus: &lt;em&gt;“No mundo, passais por aflições; mas tende bom animo; eu venci o mundo”&lt;/em&gt; (João 16:33). E o apóstolo João incrementa: &lt;em&gt;“E esta é a vitória que vence o mundo: a nossa fé”&lt;/em&gt; (1ª João 5:4). Mesmo que os céus desabem sobre nós e as maiores incertezas encobrirem a luz, estaremos em paz.&lt;/p&gt;
 
-&lt;div class=&quot;col-md-4&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Esta paz é promovida unicamente pela presença do Santo Espírito no coração do crente. Tal experiência não é o mesmo que sentimentalismo ou êxtase temporário é um estilo de vida. O Espírito Santo habitando em nós torna-nos agências de bênçãos para este mundo moribundo. Você se tornará &lt;em&gt;“uma fonte a jorrar para a vida eterna”&lt;/em&gt; (João 4:14). Assim diz as Escrituras: &lt;em&gt;“Quem crer em Mim, como diz a Escritura, do seu interior fluirão rios de água viva. E isso disse com respeito ao Espírito que haviam de receber os que Nele cressem”&lt;/em&gt; (João 7:38 e 39). &lt;em&gt;“Porque derramarei água sobre o sedento e torrentes sobre a terra seca; derramarei o Meu Espírito sobre a tua posteridade e a Minha bênção, sobre os teus descendentes”&lt;/em&gt; (Isaías 44:3). Tudo que estiver ao seu redor terá uma nova vida; tudo será revestido de uma atmosfera de paz e contentamento; haverá novo vigor para sua vida.&lt;/p&gt;
 
-&lt;div class=&quot;col-md-4&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Este é o apelo divino a você que já se cansou de uma vida sufocada pelas imposições do mundo: &lt;em&gt;“Porei em vós o Meu Espírito, e vivereis, e vos estabelecerei na vossa própria terra. Então sabereis que eu, o SENHOR, disse isto e o fiz, diz o SENHOR”&lt;/em&gt; (Ezequiel 37:14).&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Devocional" /><category term="Graça" /><category term="Paz" /><category term="Salvação" /><category term="Espírito Santo" /><category term="Jesus Cristo" /><category term="Restauração" /><category term="Fé" /><summary type="html">“Veio sobre mim a mão do SENHOR; Ele me levou pelo Espírito do SENHOR e me deixou no meio de um vale que estava cheio de ossos, e me fez andar ao redor deles; eram mui numerosos na superfície do vale e estavam sequíssimos. Então, me perguntou: Filho do homem, acaso, poderão reviver estes ossos? Respondi: SENHOR Deus, Tu o sabes.” Ezequiel 37:1-3</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /></entry><entry><title type="html">Jesus Cristo Está Voltando</title><link href="http://localhost:4000/blog/Jesus-Cristo-Esta-Voltando" rel="alternate" type="text/html" title="Jesus Cristo Está Voltando" /><published>2017-02-01T00:00:00-03:00</published><updated>2017-02-01T00:00:00-03:00</updated><id>http://localhost:4000/blog/Jesus-Cristo-Esta-Voltando</id><content type="html" xml:base="http://localhost:4000/blog/Jesus-Cristo-Esta-Voltando">&lt;p&gt;Jesus Cristo Está Voltando&lt;/p&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Ao observar o mundo ao redor&lt;br /&gt;
+Vejo tristezas e falta de amor.&lt;br /&gt;
+Fico reflexivo me perguntando&lt;br /&gt;
+Se Jesus Cristo está voltando.&lt;/p&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Ouço falar de guerras e revoluções&lt;br /&gt;
+Afligindo feridos corações.&lt;br /&gt;
+Esses eventos estão anunciando&lt;br /&gt;
+Que Jesus Cristo está voltando?&lt;/p&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;As enfermidades e pragas incontidas&lt;br /&gt;
+Com sua foice, ceifando vidas,&lt;br /&gt;
+Percorrem o mundo, profetizando&lt;br /&gt;
+Que Jesus Cristo está voltando.&lt;/p&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Da natura os elementos em convulsão&lt;br /&gt;
+Trás sobre este mundo nefasta destruição.&lt;br /&gt;
+Tais cataclismos estão nos alertando&lt;br /&gt;
+Que Jesus Cristo está voltando.&lt;/p&gt;
 
-&lt;p&gt;For more column combinations, visit &lt;a href=&quot;http://fabioizidio.com.br/personal/fancy-columns/&quot;&gt;this post&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Mas o fim virá, a Bíblia diz, e será em glória,&lt;br /&gt;
+Pois Deus possui em mãos o timão da História.&lt;br /&gt;
+Portanto, irmão, continue orando e vigiando,&lt;br /&gt;
+Pois Jesus Cristo está voltando.&lt;br /&gt;&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Volta de Cristo" /><category term="Jesus Cristo" /><category term="Bíblia" /><category term="Esperança" /><summary type="html">Jesus Cristo Está Voltando</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /></entry><entry><title type="html">Cristo Virá de Forma Invisível e Haverá um Arrebatamento Secreto?</title><link href="http://localhost:4000/blog/Cristo-Vira-de-Forma-Invis%C3%ADvel-e-Havera-um-Arrebatamento-Secreto" rel="alternate" type="text/html" title="Cristo Virá de Forma Invisível e Haverá um Arrebatamento Secreto?" /><published>2017-01-26T00:00:00-03:00</published><updated>2017-01-26T00:00:00-03:00</updated><id>http://localhost:4000/blog/Cristo-Vira-de-Forma-Invis%C3%ADvel-e-Havera-um-Arrebatamento-Secreto</id><content type="html" xml:base="http://localhost:4000/blog/Cristo-Vira-de-Forma-Invis%C3%ADvel-e-Havera-um-Arrebatamento-Secreto">&lt;p&gt;Os estudantes de orientação futurista em meio as suas hipóteses sustentam a teoria do arrebatamento secreto e, por conseqüência, concluem que para que seja secreto Cristo deve vir de forma invisível, secretamente, “como um ladrão”, sabendo que tal arrebatamento só se dará na vinda de Cristo para a Igreja. Para manter a crença no rapto secreto utilizam-se dos textos de Mateus 24:40-42 e Lucas 17:34-36. Estes textos nos falam realmente de um arrebatamento secreto e de uma vinda furtiva? Vejamos:&lt;/p&gt;
 
-&lt;h2 id=&quot;buttons&quot;&gt;BUTTONS&lt;/h2&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn-danger btn-large&quot;&gt;Some danger button&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn-info btn-large&quot;&gt;Some info button&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn-warning btn-large&quot;&gt;Some warning button&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn-success btn-large&quot;&gt;Some success button&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a class=&quot;btn btn-primary btn-large&quot;&gt;Some primary button&lt;/a&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;advanced-usage&quot;&gt;ADVANCED USAGE&lt;/h2&gt;
-
-&lt;p&gt;There’s one fantastic secret about Markdown. If you want, you can write plain old HTML and it’ll still work! Very flexible.&lt;/p&gt;
-
-&lt;p&gt;&lt;input type=&quot;text&quot; placeholder=&quot;I'm an input field!&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;That should be enough to get you started. Have fun - and let me know what you think &lt;a href=&quot;https://twitter.com/hmfaysal&quot;&gt;@hmfaysal&lt;/a&gt; or at &lt;a href=&quot;mailto:hmfaysal@alum.mit.edu&quot;&gt;hmfaysal@alum.mit.edu&lt;/a&gt; :)&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Theme-Setup" /><category term="Jekyll" /><category term="HMFAYSAL OMEGA" /><summary type="html">I’ve put together a little post to introduce you to the HMFAYSAL OMEGA theme and get you started with Markdown. Go ahead and edit this post to get going and learn how it all works!</summary></entry><entry><title type="html">Sample Gallery Post</title><link href="http://fabioizidio.com.br/blog/sample-gallery-post" rel="alternate" type="text/html" title="Sample Gallery Post" /><published>2014-01-09T00:00:00-03:00</published><updated>2014-01-09T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/sample-gallery-post</id><content type="html" xml:base="http://fabioizidio.com.br/blog/sample-gallery-post">&lt;p&gt;Here is an example of what a post with a gallery might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (4).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (3).jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (18).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (17).jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (10).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (9).jpg&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (6).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (5).jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (12).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (11).jpg&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;figure&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (16).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (16).jpg&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (14).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (13).jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (20).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (19).jpg&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;
-&lt;figure class=&quot;third&quot;&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (22).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (21).jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (24).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (23).jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://fabioizidio.com.br/images/gallery1/photo (74).jpg&quot;&gt;&lt;img src=&quot;http://fabioizidio.com.br/images/gallery1/photo (73).jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Photos from my Japan trip.&lt;/figcaption&gt;
-&lt;/figure&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="photos" /><category term="sample post" /><category term="images" /><category term="gallery" /><category term="test" /><summary type="html">Here is an example of what a post with a gallery might look like. If you want to display two or three images next to each other responsively use figure with the appropriate class. Each instance of figure is auto-numbered and displayed in the caption.</summary></entry><entry><title type="html">Sample Quotation Post</title><link href="http://fabioizidio.com.br/blog/a-quotation" rel="alternate" type="text/html" title="Sample Quotation Post" /><published>2014-01-08T00:00:00-03:00</published><updated>2014-01-08T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/a-quotation</id><content type="html" xml:base="http://fabioizidio.com.br/blog/a-quotation">&lt;blockquote&gt;
-  &lt;p&gt;&quot;Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius - and a lot of courage - to move in the opposite direction.&quot;
-&lt;small&gt;&lt;cite title=&quot;Albert Einstein&quot;&gt;Albert Einstein&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Então, dois estarão no campo, um será tomado, e deixado o outro; duas estarão trabalhando num moinho, uma será tomada e deixada a outra. Portanto, vigiai, porque não sabeis em que dia vem o vosso Senhor.”&lt;sup&gt;[1]&lt;/sup&gt;
+&lt;small&gt;&lt;cite title=&quot;Mateus 24:40-42&quot;&gt;Mateus 24:40-42&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;HMFAYSAL OMEGA theme now supports Quotation posting, made famous by some premium WordPress themes. To make a quotation post, specify the post type as quote in the Front Matter YAML. So the Front Matter YAML should look like something like the following:&lt;/p&gt;
+&lt;p&gt;Se lermos este texto sob a ótica futurista nós poderíamos concluir que como dois estão trabalhando e que “um é tomado e deixado o outro” o arrebatamento é secreto, visto que o que foi deixado continua as suas atividades normalmente como se nada tivesse ocorrido. Assim acabamos de “provar” que o arrebatamento é secreto e, por conseqüência, a vinda invisível de Cristo.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-type: quote
-title: &quot;Sample Quotation Post&quot;
-description: 
-headline: 
-modified: YYYY-MM-DD
-category: quote
-image: 
-  feature: 
-comments: true
-mathjax: 
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;É aqui onde está à fraqueza do argumento; o futurismo está provando demais, o que acaba de fato não provando nada. Aonde é que o texto diz que os que não foram arrebatados continuaram com “suas atividades normalmente”? E onde está escrito que os que ficaram não perceberam nada, procedendo “como se nada tivesse ocorrido”. O texto de Mateus é bastante claro; ele simplesmente diz que “um será tomado e deixado o outro”.&lt;/p&gt;
 
-&lt;p&gt;Or you can simply run the rake task command &lt;code class=&quot;highlighter-rouge&quot;&gt;rake newquote[&quot;Some Quotation Title&quot;]&lt;/code&gt; to generate a skeleton quotation post. Include the intended quotation in Markdown format in your post. A sample quotation in markdown looks like the following:&lt;/p&gt;
+&lt;p&gt;Para os doutores que ensinam que haverão duas vindas separadas pela “grande tribulação”, o rapto secreto de Mateus 24:40-42 (que implica também numa vinda – invisível – para a igreja) é diferente da vinda gloriosa (com seu arrebatamento não secreto) descrita em Mateus 24:30 e 31. Eles apóiam esta teoria no fato de que o texto de Mateus 24 não está em ordem cronológica. De fato, este capítulo não apresenta os eventos em ordem cronológica, mas é correto sustentar esta teoria com base neste argumento? Provaremos que não.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt; &quot;The Quotation Goes here&quot;
-&amp;gt; &amp;lt;small&amp;gt;&amp;lt;cite title=&quot;Name of the Person&quot;&amp;gt;Person&amp;lt;/cite&amp;gt;&amp;lt;/small&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;No Monte das Oliveiras&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;You can add additional details about the quotation in the post. Just make sure the posted quotation goes first in the post, meaning it is the first paragraph of the post. Additional paragraphs can only be seen in the post page. You can also assign a featured image for the post page in the post’s Front Matter YAML.&lt;/p&gt;
+&lt;p&gt;Quando os discípulos estão junto do Mestre no Monte das Oliveiras, perguntaram a Ele: &lt;em&gt;“Dize-nos quando sucederão estas coisas e que sinal haverá da Tua vinda e da consumação do século”&lt;/em&gt; (Mateus 24:3).&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;p&gt;Os discípulos queriam entender como ocorreria à destruição do Templo e associaram este evento com a vinda de Cristo e a consumação dos séculos. Não é difícil de entender que esta vinda e a consumação dos séculos estão relacionadas, o que nos leva a concluir que esta é a vinda gloriosa de que os antigos profetas anunciaram.&lt;/p&gt;
 
-&lt;p&gt;Albert Einstein was born at Ulm, in Württemberg, Germany, on March 14, 1879. Six weeks later the family moved to Munich, where he later on began his schooling at the Luitpold Gymnasium. Later, they moved to Italy and Albert continued his education at Aarau, Switzerland and in 1896 he entered the Swiss Federal Polytechnic School in Zurich to be trained as a teacher in physics and mathematics. In 1901, the year he gained his diploma, he acquired Swiss citizenship and, as he was unable to find a teaching post, he accepted a position as technical assistant in the Swiss Patent Office. In 1905 he obtained his doctor’s degree.&lt;/p&gt;
+&lt;p&gt;O Senhor Jesus continua o Seu sermão falando-lhes dos sinais que ocorreriam antes de Sua vinda. Em um dado momento Ele diz:&lt;/p&gt;
 
-&lt;p&gt;During his stay at the Patent Office, and in his spare time, he produced much of his remarkable work and in 1908 he was appointed Privatdozent in Berne. In 1909 he became Professor Extraordinary at Zurich, in 1911 Professor of Theoretical Physics at Prague, returning to Zurich in the following year to fill a similar post. In 1914 he was appointed Director of the Kaiser Wilhelm Physical Institute and Professor in the University of Berlin. He became a German citizen in 1914 and remained in Berlin until 1933 when he renounced his citizenship for political reasons and emigrated to America to take the position of Professor of Theoretical Physics at Princeton*. He became a United States citizen in 1940 and retired from his post in 1945.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“E será pregado este evangelho do reino por todo mundo, para testemunho a todas as nações. Então vira o fim.”
+&lt;small&gt;&lt;cite title=&quot;Mateus 24:14&quot;&gt;Mateus 24:14&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;After World War II, Einstein was a leading figure in the World Government Movement, he was offered the Presidency of the State of Israel, which he declined, and he collaborated with Dr. Chaim Weizmann in establishing the Hebrew University of Jerusalem.&lt;/p&gt;
+&lt;p&gt;Veja como o Senhor conclui Sua fala: “E então virá o fim”. Isto é o mesmo que a “consumação do século” citada no verso 3. Assim esta vinda é ainda a vinda gloriosa do Senhor. Avançando um pouco mais em Sua exposição sobre os eventos finais, Cristo nos adverte:&lt;/p&gt;
 
-&lt;p&gt;Einstein always appeared to have a clear view of the problems of physics and the determination to solve them. He had a strategy of his own and was able to visualize the main stages on the way to his goal. He regarded his major achievements as mere stepping-stones for the next advance.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Portanto, se vos disserem: Eis que Ele está no deserto!, não saiais. Ou: Ei-Lo no interior da casa!, não acrediteis. Porque, assim como um relâmpago sai do oriente e se mostra até no ocidente, assim há de ser a vinda do Filho do Homem.”
+&lt;small&gt;&lt;cite title=&quot;Mateus 24:26 e 27&quot;&gt;Mateus 24:26 e 27&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;At the start of his scientific work, Einstein realized the inadequacies of Newtonian mechanics and his special theory of relativity stemmed from an attempt to reconcile the laws of mechanics with the laws of the electromagnetic field. He dealt with classical problems of statistical mechanics and problems in which they were merged with quantum theory: this led to an explanation of the Brownian movement of molecules. He investigated the thermal properties of light with a low radiation density and his observations laid the foundation of the photon theory of light.&lt;/p&gt;
+&lt;p&gt;Esta é uma advertência feita à Igreja no tempo em que existem muitas especulações acerca da maravilhosa vinda de Cristo, a nossa “bendita esperança” (Tito 2:13). Cristo nos fala que não nos ocupemos em imaginar como ou aonde Ele virá, mas nos diz que Sua vinda será como relâmpago, que surge no oriente e é visto no ocidente. Em outras palavras, Ele se manifestará de forma visível e todos O perceberão como se percebe um relâmpago. Este texto não nos provê o mínimo indício de que a vinda de Cristo será secreta. Aqui nos é declarada mais uma vez a vinda gloriosa de nosso Senhor.
+Mas o Mestre continua o Seu sermão:&lt;/p&gt;
 
-&lt;p&gt;In his early days in Berlin, Einstein postulated that the correct interpretation of the special theory of relativity must also furnish a theory of gravitation and in 1916 he published his paper on the general theory of relativity. During this time he also contributed to the problems of the theory of radiation and statistical mechanics.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Logo em seguida à tribulação daqueles dias,… Então aparecerá no céu o sinal do Filho do Homem; todos os povos da Terra se lamentarão e verão o Filho do Homem vindo sobre as nuvens do céu, com poder e muita glória.”
+&lt;small&gt;&lt;cite title=&quot;Mateus 24:29 e 30&quot;&gt;Mateus 24:29 e 30&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;In the 1920’s, Einstein embarked on the construction of unified field theories, although he continued to work on the probabilistic interpretation of quantum theory, and he persevered with this work in America. He contributed to statistical mechanics by his development of the quantum theory of a monatomic gas and he has also accomplished valuable work in connection with atomic transition probabilities and relativistic cosmology.&lt;/p&gt;
+&lt;p&gt;Esta é por definição a vinda gloriosa. Tanto os estudantes futuristas como os historicistas crêem assim. Até aqui não nos foi dado nenhum rastro de que o capítulo de Mateus 24 nos apresente um arrebatamento secreto e uma vinda furtiva, invisível. Agora só falta discutirmos a última declaração no capítulo que nos fala acerca sobre a vinda de Cristo: Mateus 24:40-42.&lt;/p&gt;
 
-&lt;p&gt;After his retirement he continued to work towards the unification of the basic concepts of physics, taking the opposite approach, geometrisation, to the majority of physicists.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Onde se Encontra a Vinda Secreta?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Einstein’s researches are, of course, well chronicled and his more important works include Special Theory of Relativity (1905), Relativity (English translations, 1920 and 1950), General Theory of Relativity (1916), Investigations on Theory of Brownian Movement (1926), and The Evolution of Physics (1938). Among his non-scientific works, About Zionism (1930), Why War? (1933), My Philosophy (1934), and Out of My Later Years (1950) are perhaps the most important.&lt;/p&gt;
+&lt;p&gt;Como vimos antes, usar o texto de Mateus 24:40-42 para fundamentar a teoria do arrebatamento secreto só é baseada em especulações; não existe um verdadeiro “assim diz o Senhor” que a aprove. Apresentarei mais uma prova bíblica que define de uma vez por todas que o texto mencionado não tem nada haver com uma vinda secreta, invisível. Observe os seguintes pontos:&lt;/p&gt;
 
-&lt;p&gt;Albert Einstein received honorary doctorate degrees in science, medicine and philosophy from many European and American universities. During the 1920’s he lectured in Europe, America and the Far East, and he was awarded Fellowships or Memberships of all the leading scientific academies throughout the world. He gained numerous awards in recognition of his work, including the Copley Medal of the Royal Society of London in 1925, and the Franklin Medal of the Franklin Institute in 1935.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Embora Mateus 24 não seja ordenado cronologicamente, até o verso 30 ele nos fala de uma real “vinda gloriosa”.&lt;/li&gt;
+  &lt;li&gt;Depois da parábola da figueira Cristo diz no verso 36 que ninguém conhece o Dia da vinda, senão o Pai.&lt;/li&gt;
+  &lt;li&gt;Logicamente este Dia é o da “volta gloriosa”, pois até então não nos foi mencionada outra volta em paralelo.&lt;/li&gt;
+  &lt;li&gt;Após a descrição de que “um é tomado e deixado o outro” em Mateus 24:40 e 41, o verso 42 nos diz que não sabemos o Dia em que o Senhor virá.&lt;/li&gt;
+  &lt;li&gt;Visto que nos versos 40 a 42 sequer houve uma pequena sugestão de uma “vinda secreta”, então o Dia que nos fala o verso 42 é exatamente o da “vinda gloriosa”.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;Einstein’s gifts inevitably resulted in his dwelling much in intellectual solitude and, for relaxation, music played an important part in his life. He married Mileva Maric in 1903 and they had a daughter and two sons; their marriage was dissolved in 1919 and in the same year he married his cousin, Elsa Löwenthal, who died in 1936. He died on April 18, 1955 at Princeton, New Jersey.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Sample-Posts" /><category term="sample post" /><category term="quotation" /><summary type="html">&quot;Any intelligent fool can make things bigger, more complex, and more violent. It takes a touch of genius - and a lot of courage - to move in the opposite direction.&quot; Albert Einstein</summary></entry><entry><title type="html">A Post with a Video</title><link href="http://fabioizidio.com.br/blog/video-post" rel="alternate" type="text/html" title="A Post with a Video" /><published>2014-01-07T00:00:00-03:00</published><updated>2014-01-07T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/video-post</id><content type="html" xml:base="http://fabioizidio.com.br/blog/video-post">&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Agora não restam dúvidas: mesmo com a ausência de ordem cronológica, não existe suporte para a teoria de que existem duas vindas, uma “secreta”, “invisível”, e outra “gloriosa”. Provamos que Mateus 24 só nos fala de uma única espécie de vinda que é a “gloriosa”.&lt;/p&gt;
 
-&lt;p&gt;Not sure if this only effects Kramdown or if it’s an issue with Markdown in general. But adding YouTube video embeds causes errors when building your Jekyll site. To fix add a space between the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;iframe&amp;gt;&lt;/code&gt; tags and remove &lt;code class=&quot;highlighter-rouge&quot;&gt;allowfullscreen&lt;/code&gt;. Example below:&lt;/p&gt;
+&lt;p&gt;Quanto ao texto de Mateus 24:40-42 a cena do arrebatamento que nos é aparece é exatamente a que nos é apresentada no verso 31 do mesmo capítulo: Os anjos reunindo os escolhidos para o encontro com o Senhor nos ares. É desta forma que “um é tomado e deixado o outro”.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;940&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;529&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//www.youtube.com/embed/CQJByFp7H38?theme=light&amp;amp;amp;color=white&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="videos" /><category term="sample post" /><category term="video" /><summary type="html">Video embeds are responsive and scale with the width of the main content block with the help of FitVids.</summary></entry><entry><title type="html">Fancy Some Columns?</title><link href="http://fabioizidio.com.br/blog/fancy-columns" rel="alternate" type="text/html" title="Fancy Some Columns?" /><published>2014-01-07T00:00:00-03:00</published><updated>2014-01-07T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/fancy-columns</id><content type="html" xml:base="http://fabioizidio.com.br/blog/fancy-columns">&lt;p&gt;Some Premium WordPress themes feature multi-column text entries, which is quite important for academics and engineers like myself for content presentation. HMFAYSAL OMEGA is the first Jekyll Theme to showcase multi-column text entries. HMFAYSAL OMEGA features four types of multi-column configuration, the first being the single column, the others are two, three and four columns. To insert a two-column text entry, simply enter this markup:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jesus Virá como um Ladrão&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;col-md-6&quot;&amp;gt;  
-&amp;lt;p class=&quot;lead&quot;&amp;gt;Some Content Here for Column One&amp;lt;/p&amp;gt;  
-&amp;lt;/div&amp;gt;  
+&lt;p&gt;Mas alguém ainda há de retrucar: “O Senhor Jesus não disse que viria como um ladrão? Ora, um ladrão não vem secretamente? Então Cristo virá de forma secreta!”. Pois bem, para este sincero estudante das Escrituras temos uma resposta sincera à sua pergunta. É verdade que um ladrão vem secretamente, mas esta conclusão não está de acordo com o texto de Mateus 24: 43 e 44. Vejamos o texto na íntegra:&lt;/p&gt;
 
-&amp;lt;div class=&quot;col-md-6&quot;&amp;gt;  
-&amp;lt;p class=&quot;lead&quot;&amp;gt;Some Content Here for Column Two&amp;lt;/p&amp;gt;  
-&amp;lt;/div&amp;gt;
-&amp;lt;br&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Mas considerai isto: se o pai de família soubesse a que hora viria o ladrão, vigiaria e não deixaria que fosse arrombada a sua casa. Por isso, ficai também vós apercebidos; porque, à hora em que não cuidais, o Filho do Homem virá.”
+&lt;small&gt;&lt;cite title=&quot;Mateus 24:43 e 44&quot;&gt;Mateus 24:43 e 44&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Which results in two columns with your content and looks like the following:&lt;/p&gt;
+&lt;p&gt;Depois de lermos esta impressionante parábola façamos a seguinte ilustração: Se você (não sei como) conseguisse descobrir o dia e à hora em que viria um determinado ladrão, você ainda vigiaria mesmo sabendo que em determinado momento não existiria a mínima possibilidade de o ladrão arrombar a sua casa? Logicamente não. Antes, você só chegaria alguns momentos antes para surpreender o bandido e assim ele fugir ou ser aprisionado. Da mesma forma é com a volta de Cristo: se conhecêssemos o “dia e a hora” de Sua vinda, faríamos tudo o que nos trouxesse prazeres e pecados. Mas quando chegássemos próximos à data marcada “miraculosamente” teríamos uma conversão para sermos salvos. Afinal de contas, quem não desejaria o Céu e a vida eterna?&lt;/p&gt;
 
-&lt;div class=&quot;col-md-6&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Ora, como a sabedoria de Deus é suprema (Romanos 11:33), Ele nos obscureceu o conhecimento do “dia e hora”, pois sabe qual é a natureza humana. Sabia que todos desejariam a vida eterna, mas de forma egoísta, sem amor a Deus e sem o compromisso de obedece-Lhe os mandamentos. Mas agora, se soubéssemos que o ladrão viria, mas sem o conhecimento do dia e da hora de seu assalto, vigiaríamos, pois a qualquer momento ele poderá aparecer.&lt;/p&gt;
 
-&lt;div class=&quot;col-md-6&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Aqui nos é dada uma solene mensagem. Vigiai! Este é o estandarte que o cristão deve erguer neste tempo de depravações e trevas morais. Cristo nos diz: “Embora vocês não conheçam o dia e a hora de Minha vinda, vocês tem o privilégio de vigiar, aguardando a Minha chegada”. É exatamente a vigilância que faz a linha divisória entre os verdadeiros seguidores de Cristo e os insubordinados que desejam viver uma vida dissoluta, entregue as suas vis paixões.&lt;/p&gt;
 
-&lt;p&gt;For three-column text entry, simply enter this markup:&lt;/p&gt;
+&lt;p&gt;O Senhor Jesus na mesma parábola nos aconselha: “… ficai também vós apercebidos”. Em outras palavras: “Prestem bastante atenção! Percebam os fenômenos que ocorrem em vosso redor; tenham cuidado por vós mesmos para que de forma alguma venham a perder a vida eterna”.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;col-md-4&quot;&amp;gt;  
-&amp;lt;p class=&quot;lead&quot;&amp;gt;Some Content Here for Column One&amp;lt;/p&amp;gt;  
-&amp;lt;/div&amp;gt;  
+&lt;p&gt;São através das experiências destes dois grupos, a Igreja de Jesus Cristo e os ímpios, que a Bíblia nos apresenta dois quadros distintos da vinda de Cristo; um referente a cada grupo. Assim nos diz o quadro pintado pelo grupo dos santos:&lt;/p&gt;
 
-&amp;lt;div class=&quot;col-md-4&quot;&amp;gt;  
-&amp;lt;p class=&quot;lead&quot;&amp;gt;Some Content Here for Column Two&amp;lt;/p&amp;gt;  
-&amp;lt;/div&amp;gt;  
+&lt;blockquote&gt;
+  &lt;p&gt;“Naquele dia se dirá: Eis que este é o nosso Deus, em quem esperávamos, e Ele nos salvará; este é o SENHOR, a quem aguardávamos; na Sua salvação exultaremos e nos alegraremos.”
+&lt;small&gt;&lt;cite title=&quot;Isaías 25:9&quot;&gt;Isaías 25:9&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&amp;lt;div class=&quot;col-md-4&quot;&amp;gt;  
-&amp;lt;p class=&quot;lead&quot;&amp;gt;Some Content Here for Column Three&amp;lt;/p&amp;gt;  
-&amp;lt;/div&amp;gt; 
-&amp;lt;br&amp;gt;  
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Agora veja o mesmo quadro, mas rasurado pela experiência dos ímpios:&lt;/p&gt;
 
-&lt;p&gt;Which results in three columns with your content and looks like the following:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Como se um homem fugisse de diante de um leão, e se encontrasse com ele o urso; ou como se, entrando em casa, encostando a mão à parede, fosse mordido de uma cobra. Não será, pois, o Dia do SENHOR trevas e não luz? Não será completa escuridão, sem nenhuma claridade?”
+&lt;small&gt;&lt;cite title=&quot;Amós 5:19 e 20&quot;&gt;Amós 5:19 e 20&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;col-md-4&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;O evento é o mesmo, mas as experiências são diferentes. Para uns é um perfume de vida, para a vida; para outros é um perfume de morte, para a morte. A nota tônica da parábola do Mestre é “vigiai”. Faça disso o seu estilo de vida!
+Com respeito à vinda do Rei Jesus Cristo o apóstolo Paulo nos escreve:&lt;/p&gt;
 
-&lt;div class=&quot;col-md-4&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“… aguardando a bendita esperança e a manifestação da glória do nosso Deus e Salvador Cristo Jesus…”
+&lt;small&gt;&lt;cite title=&quot;Tito 2:13&quot;&gt;Tito 2:13&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;col-md-4&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Para nós, a Igreja do Deus vivo, coluna e baluarte da Verdade (1ª Timóteo 3:15), a vinda de Cristo é a bendita esperança nossa. Mas, se temos esperança é porque esperamos algo, e sendo assim vigiamos.&lt;/p&gt;
 
-&lt;p&gt;For four-column text entry, simply enter this markup:&lt;/p&gt;
+&lt;p&gt;Logo, para nós, povo do grande Rei, a vinda de Cristo não vai ser “secreta”, mas esperada; não seremos pegues de surpresa. Para os ímpios, porém, inesperada, pois eles não têm tomado a atitude de vigiar, aguardando a vinda de Cristo. Portanto, para eles a vinda não será secreta, pois vira sobre eles repentina destruição (1ª Tessalonicenses 5:1-3). Em resumo: Cristo virá como ladrão, não de forma secreta, mas sim inesperada para aqueles que não vigiam.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;col-md-3&quot;&amp;gt;  
-&amp;lt;p class=&quot;lead&quot;&amp;gt;Some Content Here for Column One&amp;lt;/p&amp;gt;  
-&amp;lt;/div&amp;gt;  
+&lt;p&gt;&lt;strong&gt;Novamente o Arrebatamento Secreto&lt;/strong&gt;&lt;/p&gt;
 
-&amp;lt;div class=&quot;col-md-3&quot;&amp;gt;  
-&amp;lt;p class=&quot;lead&quot;&amp;gt;Some Content Here for Column One&amp;lt;/p&amp;gt;  
-&amp;lt;/div&amp;gt;  
+&lt;p&gt;Agora para tirar toda sombra de dúvidas com respeito ao tema do arrebatamento secreto e da suposta vinda invisível de Cristo examinaremos o texto paralelo a Mateus 24:38-42: Lucas 17:26-37.&lt;/p&gt;
 
-&amp;lt;div class=&quot;col-md-3&quot;&amp;gt;  
-&amp;lt;p class=&quot;lead&quot;&amp;gt;Some Content Here for Column One&amp;lt;/p&amp;gt;  
-&amp;lt;/div&amp;gt;  
+&lt;p&gt;Neste mesmo texto nos é apresentada a mesma cena do rapto secreto discutida anteriormente, a que “um será tomado, e o outro, deixado” (Lucas 17:36). Antes desta descrição, Cristo nos fala de dois acontecimentos do passado: o Dilúvio e a destruição de Sodoma e Gomorra. Além do mais, Cristo nos diz que as condições morais que existiam naquelas épocas seriam as mesmas no tempo de Sua gloriosa vinda.&lt;/p&gt;
 
-&amp;lt;div class=&quot;col-md-3&quot;&amp;gt;  
-&amp;lt;p class=&quot;lead&quot;&amp;gt;Some Content Here for Column One&amp;lt;/p&amp;gt;  
-&amp;lt;/div&amp;gt;
-&amp;lt;br&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Agora vejamos os pontos em comum às eras do Dilúvio e Sodoma e Gomorra:&lt;/p&gt;
 
-&lt;p&gt;Which results in four columns with your content and looks like the following:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Eram épocas de crises morais.&lt;/li&gt;
+  &lt;li&gt;Existiam dois grupos distintos:
+ a. O povo de Deus.
+ b. Os ímpios liderados por Satanás.&lt;/li&gt;
+  &lt;li&gt;O povo de Deus apregoava os juízos de Deus.&lt;/li&gt;
+  &lt;li&gt;Os ímpios continuavam em suas vidas desregradas.&lt;/li&gt;
+  &lt;li&gt;A salvação veio para o povo de Deus.&lt;/li&gt;
+  &lt;li&gt;A destruição veio para os ímpios.&lt;/li&gt;
+  &lt;li&gt;Os juízos de Deus foram manifestados por eventos cataclísmicos.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Será desta mesma forma quando Cristo regressar. “Um será tomado, e o outro, deixado” da mesma forma que Noé, Ló e suas famílias o foram. Eles receberam a vida e os ímpios a morte. Da mesma forma que o Dilúvio inundou a Terra e o “fogo do céu” com enxofre desceu sobre as cidades impertinentes, trazendo destruição por completo, assim será quando o Senhor regressar; Ele virá trazendo destruição sobre os ímpios e esta Terra corrupta. Assim Ele prometeu:&lt;/p&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Pois assim diz o SENHOR dos Exércitos: Ainda uma vez, dentro em pouco, farei abalar o céu, a terra, o mar e a terra seca…”
+&lt;small&gt;&lt;cite title=&quot;Ageu 2:6&quot;&gt;Ageu 2:6&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Com todo este cenário armado para que se apresente o Grande Protagonista do drama universal, com todos os efeitos especiais dignos de um Oscar, não existe espaço no script da História da redenção em que se encaixe a desestimulante cena de um arrebatamento secreto junto a uma vinda invisível de Cristo. Antes, o maravilhoso Diretor sabe qual a cena que o Universo expectante necessita para compreender o plano da salvação e Sua justiça. É exatamente a vinda gloriosa de Cristo – o Super-Herói amado por todo o Universo – o clímax do filme da História universal. Esta cena é única; não existirá um segundo volume do filme; este é o filme mais esperado de todos os tempos; e baterá todos os recordes de bilheteria neste imenso Universo. E o que você vai fazer: “comprar” o seu ingresso para a vida eterna, ou ficar do lado de fora onde haverá “choro e ranger de dentes”? (Mateus 24:51).&lt;/p&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Agora podemos observar claramente que o arrebatamento secreto junto a uma vinda invisível de Cristo não tem apoio nas Escrituras Sagradas. A vinda gloriosa de Cristo, única e surpreendente, é a revelada nas Escrituras e a que matem coerência com a razão, por que:&lt;/p&gt;
 
-&lt;p&gt;You can also have multiple layouts.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Não seria melhor, depois da humilhação e escárnio, o Senhor Jesus que veio antes como o “Homem de dores” agora se manifestar como o “Rei dos reis e Senhor dos Senhores” demonstrando toda a Sua glória e majestade diante daqueles que o traspassaram?&lt;/li&gt;
+  &lt;li&gt;Não seria mais empolgante e exultante para o povo de Deus ver a salvação de Deus em todo o Seu esplendor trazendo a justiça eterna para eles?&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;div class=&quot;col-md-6&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Então meu querido irmão, minha estimada irmã, agora vocês conhecem a verdade acerca da vinda de Cristo. Ele virá só mais uma vez, a segunda, trazendo “a vida eterna” para o Seu povo e a “vergonha e horror eterno” para os que O rejeitam (Daniel 12:1 e 2). Eis as verdadeiras recompensas.&lt;/p&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;Mas Cristo nos deixou uma advertência: “Lembrai-vos da mulher de Ló”. Estamos em risco de abandonar a vigilância e de nos apaixonarmos novamente pelas coisas que deixamos para trás. Esforcemo-nos para alcançarmos a nossa alta vocação. Não rebaixemos a norma. Busquemos diariamente o batismo do Espírito Santo. Induzamos o nosso coração a guardar a Lei de Deus (Salmos 119:112). E vivamos pela fé no Filho de Deus, pois Ele diz:&lt;/p&gt;
 
-&lt;div class=&quot;col-md-3&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Certamente, venho sem demora. Amem! Vem, Senhor Jesus!”
+&lt;small&gt;&lt;cite title=&quot;Apocalipse 22:20&quot;&gt;Apocalipse 22:20&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;div class=&quot;col-md-4&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean&lt;/p&gt;  
-&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Referências:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;col-md-8&quot;&gt;  
-&lt;p class=&quot;lead&quot;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis magna iaculis lacinia. Aenean sed nisi condimentum, placerat eros sit amet, lacinia purus. Ut sed euismod mauris. Morbi vitae diam quis diam egestas scelerisque a a ipsum.&lt;/p&gt;  
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;[1]&lt;/sup&gt; Salvo indicações, o texto bíblico utilizado é o de João Ferreira de Almeida, Revista e Atualizada no Brasil (ARA), 2ª Edição. Sociedade Bíblica do Brasil (SBB).&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Teologia" /><category term="Volta de Cristo" /><category term="Arrebatamento Secreto" /><category term="Escatologia" /><category term="Historicismo" /><category term="Futurismo" /><category term="Fim dos Tempos" /><summary type="html">Os estudantes de orientação futurista em meio as suas hipóteses sustentam a teoria do arrebatamento secreto e, por conseqüência, concluem que para que seja secreto Cristo deve vir de forma invisível, secretamente, “como um ladrão”, sabendo que tal arrebatamento só se dará na vinda de Cristo para a Igreja. Para manter a crença no rapto secreto utilizam-se dos textos de Mateus 24:40-42 e Lucas 17:34-36. Estes textos nos falam realmente de um arrebatamento secreto e de uma vinda furtiva? Vejamos:</summary></entry><entry><title type="html">Antes do Milênio Cristo Virá Uma ou Duas Vezes à Terra?</title><link href="http://localhost:4000/blog/Antes-do-Milenio-Cristo-Vira-Uma-ou-Duas-Vezes-a-Terra" rel="alternate" type="text/html" title="Antes do Milênio Cristo Virá Uma ou Duas Vezes à Terra?" /><published>2017-01-19T00:00:00-03:00</published><updated>2017-01-19T00:00:00-03:00</updated><id>http://localhost:4000/blog/Antes-do-Milenio-Cristo-Vira-Uma-ou-Duas-Vezes-a-Terra</id><content type="html" xml:base="http://localhost:4000/blog/Antes-do-Milenio-Cristo-Vira-Uma-ou-Duas-Vezes-a-Terra">&lt;p&gt;Existe uma teoria em que sustenta a crença em um anticristo que reinará por sete anos. É dito que a Igreja, a Noiva de Cristo, será resgatada antes da “grande tribulação” imposta pelo anticristo. Em outras palavras: Jesus virá e irá arrebatar (secretamente) a Igreja. Depois Cristo virá outra vez com a Igreja para resgatar os santos da “tribulação”.&lt;/p&gt;
 
-&lt;p&gt;For any layout, make sure in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div class=&quot;col-md-#&quot;&amp;gt;&lt;/code&gt; the &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;col-md-#&quot;&lt;/code&gt; numbers add up to 12. the You can include any type of elements between the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tags, like texts, images, videos etc.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Sample-Posts" /><category term="sample post" /><category term="columns" /><summary type="html">Some Premium WordPress themes feature multi-column text entries, which is quite important for academics and engineers like myself for content presentation. HMFAYSAL OMEGA is the first Jekyll Theme to showcase multi-column text entries. HMFAYSAL OMEGA features four types of multi-column configuration, the first being the single column, the others are two, three and four columns. To insert a two-column text entry, simply enter this markup:</summary></entry><entry><title type="html">Sample Mathjax Post</title><link href="http://fabioizidio.com.br/blog/sample-mathjax-post" rel="alternate" type="text/html" title="Sample Mathjax Post" /><published>2014-01-06T00:00:00-03:00</published><updated>2014-01-06T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/sample-mathjax-post</id><content type="html" xml:base="http://fabioizidio.com.br/blog/sample-mathjax-post">&lt;p&gt;HMFAYSAL OMEGA theme supports both inline and displayed equations via MathJax.  The theme keeps MathJax turned off by default to improve page load speed. MathJax can be turned on from the post’s Front Matter YAML. Simply put the following statement in the post’s Front Matter YAML:&lt;/p&gt;
+&lt;p&gt;A ausência de provas de que um anticristo irá firmar uma aliança com os judeus e que irá reinar por sete anos é evidente; mas as teorias dos sete anos e do arrebatamento secreto formam a “espinha dorsal” do futurismo moderno, no qual muitos são desviados de contemplar o real panorama dos eventos futuros sob o pano de fundo da coerência bíblica.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mathjax: true
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Os estudantes da linha futurista para provar o ensino do arrebatamento secreto usam textos fora do contexto, por exemplo, Mateus 24:40 e 41. Outro texto utilizado por eles é o de 1ª Tessalonicenses 4:16 e 17, no qual é mencionada a palavra arrebatamento. Tal palavra numa tradução latina é rapio, que significa literalmente “arrancar com força”. Por este raciocínio é fácil deduzir que a força com que os crentes serão arrancados é tão grande (pois esta pertence ao Senhor Jesus) que será tudo muito rápido, dando a impressão de que foi secreta. Obviamente, para que o arrebatamento seja “secreto” é necessário que a vinda do Senhor Jesus seja invisível. Agora vejamos os elementos existentes neste texto que é utilizado para sustentar a teoria futurista do rapto secreto:&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-Here are some examples collected from the MathJax page: 
-&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Porquanto o Senhor mesmo, dada a Sua palavra de ordem, ouvida a voz do Arcanjo, e ressoada a trombeta de Deus, descerá dos Céus, e os mortos em Cristo ressuscitarão primeiro; depois, nós, os vivos, os que ficarmos, seremos arrebatados juntamente com eles, entre as nuvens, para o encontro do Senhor nos ares, e, assim, estaremos para sempre com o Senhor.”&lt;sup&gt;[1]&lt;/sup&gt;
+&lt;small&gt;&lt;cite title=&quot;1ª Tessalonicenses 4:16 e 17&quot;&gt;1ª Tessalonicenses 4:16 e 17&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;The Lorenz Equations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Este texto é bastante claro em afirmar que o arrebatamento só se dará após a ressurreição dos mortos em Cristo, para que estes se unam aos crentes vivos e subam juntos para com o Senhor. A ressurreição será a chave utilizada aqui para determinarmos quantas vezes o Senhor irá voltar antes do milênio. Antes, os estudantes futuristas chamam a vinda de Cristo para a Igreja de “vinda secreta” e a vinda para o resgate de Israel e dos santos da tribulação de “vinda gloriosa”.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{aligned}
-\dot{x} &amp; = \sigma(y-x) \\
-\dot{y} &amp; = \rho x - y - xz \\
-\dot{z} &amp; = -\beta z + xy
-\end{aligned} %]]&gt;&lt;/script&gt;
+&lt;p&gt;Agora trabalhemos sob a hipótese de que a linha de interpretação futurista seja a correta.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;The Cauchy-Schwarz Inequality&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Como vimos, para que ocorra o arrebatamento é necessário que aconteça a ressurreição dos justos primeiro. Com respeito à ressurreição, qual era a esperança do apóstolo Paulo, o escritor da carta aos tessalonicenses? Falando de sua justificação, procedente de Deus, mediante a sua fé em Cristo Jesus, ele diz:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
- \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)&lt;/script&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“… para O conhecer, e o poder da Sua ressurreição, e a comunhão dos Seus sofrimentos, conformando-me com Ele na Sua morte; para, de algum modo, alcançar a ressurreição dentre os mortos.”
+&lt;small&gt;&lt;cite title=&quot;Filipenses 3:10 e 11&quot;&gt;Filipenses 3:10 e 11&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;A Cross Product Formula&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Paulo, o grande apóstolo, mostra com transparência que a sua esperança é “alcançar a ressurreição dos mortos”. Esta era a sua convicção, pois, como ele próprio diz: “Se a nossa esperança em Cristo se limita apenas a esta vida, somos os mais infelizes de todos os homens” (1ª Coríntios 15:19). Mas quando esta bendita esperança se cumprirá? O próprio Paulo nos responde:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\mathbf{V}_1 \times \mathbf{V}_2 =
-   \begin{vmatrix}
-    \mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
-    \frac{\partial X}{\partial u} &amp; \frac{\partial Y}{\partial u} &amp; 0 \\
-    \frac{\partial X}{\partial v} &amp; \frac{\partial Y}{\partial v} &amp; 0 \\
-   \end{vmatrix} %]]&gt;&lt;/script&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Já agora a coroa da justiça me está guardada, a qual o Senhor, reto Juiz, me dará naquele dia; e não somente a mim, mas também a todos quantos amam a Sua vinda.”
+&lt;small&gt;&lt;cite title=&quot;2ª Timóteo 4:8&quot;&gt;2ª Timóteo 4:8&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;The probability of getting (k) heads when flipping (n) coins is:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O Apóstolo Paulo nos diz que ele receberá a recompensa “naquele dia”, o dia da vinda de Cristo. E tais palavras se harmonizam com as do Senhor Jesus Cristo:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;P(E) = {n \choose k} p^k (1-p)^{ n-k}&lt;/script&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“… e serás bem-aventurado, pelo fato de não terem eles com que recompensar-te; a tua recompensa, porém, tu a receberás na ressurreição dos justos.”
+&lt;small&gt;&lt;cite title=&quot;Lucas 14:14&quot;&gt;Lucas 14:14&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;An Identity of Ramanujan&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“E eis que venho sem demora, e comigo está o galardão que tenho para retribuir a cada um segundo as suas obras.”
+&lt;small&gt;&lt;cite title=&quot;Apocalipse 22:12&quot;&gt;Apocalipse 22:12&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{1}{(\sqrt{\phi \sqrt{5}}-\phi) e^{\frac25 \pi}} =
-     1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}
-      {1+\frac{e^{-8\pi}} {1+\ldots} } } }&lt;/script&gt;
+&lt;p&gt;Assim podemos concluir que o apóstolo Paulo tinha certeza de que só receberia a sua recompensa quando ressuscitasse no dia da vinda de Cristo. Agora podemos avançar no raciocínio, lembrando que, por enquanto, assumimos como verídicas a teoria das duas vindas de Cristo, separadas pela “grande tribulação”.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;A Rogers-Ramanujan Identity&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O apóstolo Paulo em mais uma exposição sobre a volta de Cristo declara:&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-1 +  \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots =
-    \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})},
-     \quad\quad \text{for $|q|&lt;1$}. %]]&gt;&lt;/script&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Irmãos, no que diz respeito à vinda de nosso Senhor Jesus Cristo e à nossa reunião com Ele, nós vos exortamos…”2ª Tessalonicenses 2:1
+&lt;small&gt;&lt;cite title=&quot;2ª Tessalonicenses 2:1&quot;&gt;2ª Tessalonicenses 2:1&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Maxwell’s Equations&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;É muito curioso o modo como o apóstolo utiliza a expressão “nossa reunião com Ele”. Ele se inclui no grupo que se reunirá com o Senhor Jesus. Esta reunião ocorrerá na vinda de Cristo, o dia da recompensa dos justos, inclusive os mortos em Cristo. E é óbvio que o Senhor trará a recompensa ao apóstolo através da ressurreição. Logo, podemos concluir que esta vinda citada em 2ª Tessalonicenses 2:1 é a mesma citada em 1ª Tessalonicenses 4:16 e 17, a vinda para a Igreja, antes da “tribulação” promovida pelo satânico anticristo, conforme a interpretação futurista.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{align}
-  \nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\
-  \nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\
-  \nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\
-  \nabla \cdot \vec{\mathbf{B}} &amp; = 0
-\end{align} %]]&gt;&lt;/script&gt;
+&lt;p&gt;Mas o servo do Senhor ainda dá continuidade a sua exposição acerca da volta de Cristo, e prossegue assim:&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“Ninguém, de nenhum modo, vos engane, porque isto [a vinda de Cristo, citada no verso 1] não acontecerá sem que primeiro venha a apostasia e seja revelado o homem da iniqüidade, o filho da perdição,…”
+&lt;small&gt;&lt;cite title=&quot;2ª Tessalonicenses 2:3&quot;&gt;2ª Tessalonicenses 2:3&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Finally, while display equations look good for a page of samples, the
-ability to mix math and text in a paragraph is also important.  This
-expression $(\sqrt{3x-1}+(1+x)^2)$ is an example of an inline equation.  As
-you see, MathJax equations can be used this way as well, without unduly
-disturbing the spacing between lines.&lt;/p&gt;
+&lt;p&gt;Este filho da perdição, o “homem da iniqüidade”, e reconhecido tanto pelos expositores futuristas como pelos historicistas, como o terrível anticristo. Isto é um fato unânime.&lt;/p&gt;
 
-&lt;p&gt;In MathJax I use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$...$$&lt;/code&gt; or (&lt;code class=&quot;highlighter-rouge&quot;&gt;\begin{equation(*)}...\end{equation(*)}&lt;/code&gt; also works) for displayed equations and &lt;code class=&quot;highlighter-rouge&quot;&gt;$....$&lt;/code&gt; for inline equations. Take care of &amp;gt;,&amp;lt; and &amp;amp;, because they have special meanings in .html files. If your post/page is not displaying the equations properly, try to wrap the equations between &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;raw&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;endraw&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; tags.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Sample-Posts" /><category term="sample post" /><category term="mathjax" /><summary type="html">HMFAYSAL OMEGA theme supports both inline and displayed equations via MathJax. The theme keeps MathJax turned off by default to improve page load speed. MathJax can be turned on from the post’s Front Matter YAML. Simply put the following statement in the post’s Front Matter YAML:</summary></entry><entry><title type="html">Sample Link Post</title><link href="http://fabioizidio.com.br/blog/sample-link-post" rel="alternate" type="text/html" title="Sample Link Post" /><published>2014-01-05T00:00:00-03:00</published><updated>2014-01-05T00:00:00-03:00</updated><id>http://fabioizidio.com.br/blog/sample-link-post</id><content type="html" xml:base="http://fabioizidio.com.br/blog/sample-link-post">&lt;p&gt;HMFAYSAL OMEGA Theme now supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To activate just add &lt;code class=&quot;highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Sample-Posts" /><category term="sample post" /><category term="link post" /><summary type="html">HMFAYSAL OMEGA Theme now supports link posts, made famous by John Gruber. To activate just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.</summary></entry></feed>
+&lt;p&gt;O apóstolo Paulo nos ensina que esta vinda só ocorrerá após a apostasia e o reinado do anticristo. Mas pela nossa hipótese inicial tal vinda só se daria antes do domínio do anticristo! Temos uma contradição diante de nós, o que não é bom, pois “a Escritura não pode falhar” (João 10:35). Assim, só podemos concluir que esta contradição vem da falsa suposição de existirem duas vindas; uma para a igreja, para livrá-la da “tribulação” promovida pelo anticristo, e outra para salvar os judeus que foram perseguidos por ele.&lt;/p&gt;
+
+&lt;p&gt;Um fato a ser notado: além de existir uma única vinda para dar a recompensa, está só ocorrerá após o surgimento do anticristo.&lt;/p&gt;
+
+&lt;p&gt;Antes de concluir, faço a seguinte observação: A palavra grega para a vinda em 2ª Tessalonicenses 2:1 é parousia, a mesma usada em 1ª Tessalonicenses 4:15, dando-nos maior peso de evidência de que os dois textos falam de uma mesma vinda.&lt;/p&gt;
+
+&lt;p&gt;Que agora seja firmada a verdade na mente e no coração do caro leitor! Que só existirá mais uma vinda antes do período milenar, a segunda (pois a primeira deu-se no nascimento de Cristo, na “plenitude dos tempos”). É nesta vinda que Ele trará a recompensa aos santos, os que estarão vivos por ocasião da Sua vinda (logo após a “grande tribulação”), inclusive os judeus que O aceitarem como seu Salvador pessoal (como qualquer ser humano). Também os que morreram em Cristo (inclusive os judeus que creram em Cristo, como Paulo, os apóstolos, as santas mulheres, os patriarcas, os profetas, etc.). Ele os levará consigo para as mansões celestiais para habitar com Ele mil anos, até que se restaure a sua possessão: a Terra.&lt;/p&gt;
+
+&lt;p&gt;Leia este maravilhoso texto e medite:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“E, assim como aos homens está ordenado morrerem uma só vez, vindo, depois disto, o juízo, assim também Cristo, tendo-Se oferecido uma vez para sempre para tirar os pecados de muitos, aparecerá segunda vez, sem pecado, aos que O aguardam para a salvação.”
+&lt;small&gt;&lt;cite title=&quot;Hebreus 9:27 e 28&quot;&gt;Hebreus 9:27 e 28&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Referências:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;sup&gt;[1]&lt;/sup&gt; Salvo indicações, o texto bíblico utilizado é o de João Ferreira de Almeida, Revista e Atualizada no Brasil (ARA), 2ª Edição. Sociedade Bíblica do Brasil (SBB).&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Teologia" /><category term="Volta de Cristo" /><category term="Profecias" /><category term="Escatologia" /><category term="Historicismo" /><category term="Futurismo" /><category term="Arrebatamento Secreto" /><summary type="html">Existe uma teoria em que sustenta a crença em um anticristo que reinará por sete anos. É dito que a Igreja, a Noiva de Cristo, será resgatada antes da “grande tribulação” imposta pelo anticristo. Em outras palavras: Jesus virá e irá arrebatar (secretamente) a Igreja. Depois Cristo virá outra vez com a Igreja para resgatar os santos da “tribulação”.</summary></entry><entry><title type="html">Amargura de Alma</title><link href="http://localhost:4000/blog/Amargura-de-Alma" rel="alternate" type="text/html" title="Amargura de Alma" /><published>2017-01-12T00:00:00-03:00</published><updated>2017-01-12T00:00:00-03:00</updated><id>http://localhost:4000/blog/Amargura-de-Alma</id><content type="html" xml:base="http://localhost:4000/blog/Amargura-de-Alma">&lt;p&gt;A Palavra de Deus nos diz que as nossas “iniqüidades fazem separação” entre nós e o nosso Deus (Isaías 59:2). Sabemos que é pelo pecado que vem todos os transtornos que sofremos, mas o maior deles é a alienação de Deus. É preciso reconhecer nosso erro, clamar por perdão. Só assim podemos ter um coração purificado e regenerado, disposto a servir de forma sincera ao nosso Deus. Só um homem perdoado é capaz de pregar de forma eficaz o Evangelho Eterno.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;AMARGURA DE ALMA&lt;/strong&gt;&lt;br /&gt;
+&lt;small&gt;&lt;strong&gt;Autor:&lt;/strong&gt; Fábio Izidio&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Senhor Jesus, majestoso em poder,&lt;br /&gt;
+Perdoa-me, Pai, por não ser fiel ao dever.&lt;br /&gt;
+Reconheço minhas falhas&lt;br /&gt;
+E mendigo meras migalhas;&lt;br /&gt;
+Sei que grande é o meu pecado,&lt;br /&gt;
+Indigno sou de andar ao Teu lado.&lt;br /&gt;
+Não sou merecedor de Tua Graça,&lt;br /&gt;
+Pois sou de coração torto e malígna raça.&lt;br /&gt;
+Mas permita-me, Senhor, mas uma vez&lt;br /&gt;
+Ter renovada a alegria – um sorriso talvez…&lt;/p&gt;
+
+&lt;p&gt;Quero entrar em Tua presença;&lt;br /&gt;
+Livrar-me do pecado e da descrença.&lt;br /&gt;
+Meu farisaísmo quero renegar&lt;br /&gt;
+E de coração sincero meu Senhor louvar,&lt;br /&gt;
+Mas me sinto fraco, desmotivado,&lt;br /&gt;
+Pois reconheço o meu pecado.&lt;br /&gt;
+Sou depravado, …&lt;br /&gt;
+Descarado, …&lt;br /&gt;
+Rebelado, …&lt;br /&gt;
+De Deus afastado.&lt;/p&gt;
+
+&lt;p&gt;Mas, Senhor, mesmo sem dignidade,&lt;br /&gt;
+Quando penso no Teu amor – de verdade –&lt;br /&gt;
+Surge uma expectativa, uma esperança,&lt;br /&gt;
+De ter coração puro como de criança.&lt;br /&gt;
+Por isso, Pai, Te imploro por perdão;&lt;br /&gt;
+Purifica-me o impuro coração.&lt;br /&gt;
+Faça-o vivo, orgão regenerado;&lt;br /&gt;
+Torna-me novamente Teu filho amado.&lt;br /&gt;
+Transformar minha vida em bela canção&lt;br /&gt;
+É o que clamo a Ti nesta oração.&lt;/p&gt;
+
+&lt;p&gt;Somente assim terei felicidade,&lt;br /&gt;
+Pois andarei na senda da verdade.&lt;br /&gt;
+Tendo coração reto Te darei louvor,&lt;br /&gt;
+Te adorarei, devotar-Te-ei o meu amor.&lt;br /&gt;
+Quero cumprir os Teus decretos,&lt;br /&gt;
+Pois são perfeitos, belos e retos.&lt;br /&gt;
+Na Tua Lei tenho a fonte do prazer.&lt;br /&gt;
+Ensina-me e aos homens irei dizer&lt;br /&gt;
+Da verdade, do perdão, da cruz&lt;br /&gt;
+Que obtive unicamente em Jesus.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Jesus Cristo" /><category term="Salvação" /><category term="Esperança" /><category term="Perdão" /><category term="Arrependimento" /><category term="Vida Nova" /><summary type="html">A Palavra de Deus nos diz que as nossas “iniqüidades fazem separação” entre nós e o nosso Deus (Isaías 59:2). Sabemos que é pelo pecado que vem todos os transtornos que sofremos, mas o maior deles é a alienação de Deus. É preciso reconhecer nosso erro, clamar por perdão. Só assim podemos ter um coração purificado e regenerado, disposto a servir de forma sincera ao nosso Deus. Só um homem perdoado é capaz de pregar de forma eficaz o Evangelho Eterno.</summary></entry><entry><title type="html">A Lei que Constava de Ordenanças</title><link href="http://localhost:4000/blog/A-Lei-que-Constava-de-Ordenancas" rel="alternate" type="text/html" title="A Lei que Constava de Ordenanças" /><published>2017-01-05T00:00:00-03:00</published><updated>2017-01-05T00:00:00-03:00</updated><id>http://localhost:4000/blog/A-Lei-que-Constava-de-Ordenancas</id><content type="html" xml:base="http://localhost:4000/blog/A-Lei-que-Constava-de-Ordenancas">&lt;blockquote&gt;
+  &lt;p&gt;“… tendo cancelado o escrito de dívida, que era contra nós e que constava de ordenanças, o qual nos era prejudicial, removeu-o inteiramente, encravando-o na cruz”
+&lt;small&gt;&lt;cite title=&quot;Colossenses 2:14&quot;&gt;Colossenses 2:14&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Introdução&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;É trivial em alguns debates teológicos sobre a vigência da Lei/Sábado algum irmão cristão de confissão não adventista do sétimo dia expressar um espírito disposto a criticar e rejeitar o que as Sagradas Escrituras chamam de “Lei de Moisés”. É comum tal desprezo ao ponto que afirmam que “o antigo testamento passou” ou que a “velha aliança se desvaneceu”. Dada essas concepções estereotipadas acerca dos antigos mandamentos, sentem-se na liberdade de rejeitar a observância do dia de Sábado.&lt;/p&gt;
+
+&lt;p&gt;É estranho tal comportamento dos cristãos, embora Cristo tenha guardado o Sábado e tenha recomendado a sua observância mesmo para tempos de perseguição (Mateus 24:20), mas tudo isso decorre de uma má interpretação de textos. Talvez o texto que mais tem causado problemas quando mal interpretado, provocando tal desprezo entre os cristãos, é o de Colossenses 2:14.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A problemática&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando lemos o texto de Colossenses 2:14 percebemos que ele nos fala de uma Lei, chamada “escrito de dívida”, a qual “constava de ordenanças”. Isso é notável quando lemos Efésios 2:15 que nos diz: “… aboliu, na sua carne, a lei dos mandamentos na forma de ordenanças, para que dos dois criasse, em si mesmo, um novo homem, fazendo a paz”. Algo chamado “escrito de dívida”, classificado como “prejudicial” e que “era contra nós” não reproduz uma boa imagem em nossa mente. É então compreensível tal impressão mas é preciso verificar se era isso mesmo que o apóstolo Paulo queria nos dizer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;O que é esse escrito de dívida?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Para compreendermos o que era esse tal escrito de dívida, o próprio texto nos dá uma luz: Cristo “removeu-o inteiramente, encravando-o na cruz”. Logo, a questão é a seguinte: que lei é essa que Cristo cancelou na cruz? Ao compararmos Colossenses 2:14 com Efésios 2:15 vemos que tal lei é composta de “mandamentos na forma de ordenanças” e que “constava de ordenanças”. Analisando a obra do Senhor Jesus Cristo na cruz através da ótica profética de Daniel, vemos que &lt;em&gt;“Ele [Cristo, o Ungido] fará uma aliança com muitos por uma semana; na metade da semana, fará cessar o sacrifício e a oferta de manjares”&lt;/em&gt; (Daniel 9:27). Sendo assim, o que Cristo cancelou na cruz foram os mandamentos referentes a sacrifícios e ofertas, as ordenanças da lei cerimonial. De fato, todo o protestantismo admite que tal lei foi cancelada pelo Senhor Jesus através de Seu sacrifício na cruz, mas o que é a tal lei cerimonial? É todo conjunto de leis e rituais que simbolizavam a obra expiatória de Jesus Cristo. Em outras palavras, tais leis demonstravam o plano da salvação em miniatura. Era um tipo da realidade que se cumpriria plenamente em Cristo Jesus.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A lei cerimonial era algo ruim?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Se a lei cerimonial era uma representação do plano da salvação, um instrumento didático para o povo de Deus, o que temos a dizer é que tal lei não era em nada ruim ou maldita, pelo contrário, ela era uma bênção! Pense no seguinte questionamento: Um Deus de amor iria ordenar Seus filhos a guardarem alguma lei que pudesse causar-lhes algum sofrimento? Isso faz parte do seu misericordioso caráter? Agora pense nesse Deus que no Jardim do Éden proveu um meio para Adão e sua esposa se revestirem da justiça divina, instituindo o primeiro sacrifício. Quem fez tal sacrifício? O próprio Deus de amor! É realmente triste ver animais indefesos sendo sacrificados por nossos erros, mas este era o objetivo: impressionar as nossas mentes para o grande sacrifício do Filho de Deus. Foi o amor de Deus por nós que O motivou a instituir tais leis, mesmo que temporárias. Logo, a lei cerimonial nada tem de ruim, pois como disse Tiago: &lt;em&gt;“Toda boa dádiva e todo dom perfeito são lá do alto, descendo do Pai das luzes, em quem não pode existir variação ou sombra de mudança”&lt;/em&gt; (Tiago 1:17).&lt;/p&gt;
+
+&lt;p&gt;Embora a lei cerimonial não fosse ruim, ela igualmente não compartilhava da mesma função da Lei Moral – A Lei dos Dez Mandamentos. Primeira ilustrava o plano de salvação, a segunda nos revela o pecado. Dessa forma, toda tentativa de tornar o mandamento do Sábado uma lei cerimonial é uma injustiça quanto a sua função moral.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Em que sentido, então, a lei cerimonial era ruim?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A lei cerimonial era o melhor que um Deus de amor poderia nos dar antes da revelação de Seu Filho Unigênito. Mas ela era bastante ineficaz se comparada com a realidade cumprida na vida do Senhor Jesus. Foi exatamente neste contexto que o apóstolo Paulo quis dizer que tal lei cerimonial era como um “escrito de dívida”, “prejudicial” e “contra nós”.&lt;/p&gt;
+
+&lt;p&gt;A melhor explicação bíblica nos é provida pelo próprio Paulo em Hebreus:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Porque a lei, tendo a sombra dos bens futuros, e não a imagem exata das coisas, não pode nunca, pelos mesmos sacrifícios que continuamente se oferecem de ano em ano, aperfeiçoar os que se chegam a Deus. Doutra maneira, não teriam deixado de ser oferecidos? pois tendo sido uma vez purificados os que prestavam o culto, nunca mais teriam consciência de pecado. Mas nesses sacrifícios cada ano se faz recordação dos pecados, porque é impossível que o sangue de touros e de bodes tire pecados. […] Ora, todo sacerdote se apresenta dia após dia, ministrando e oferecendo muitas vezes os mesmos sacrifícios, que nunca podem tirar pecados…”
+&lt;small&gt;&lt;cite title=&quot;Hebreus 10:1-4, 11&quot;&gt;Hebreus 10:1-4, 11&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Do texto acima podemos tirar as razões pelas quais a lei cerimonial era um “escrito de dívida”, “prejudicial” e “contra nós”:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ela não tornava prefeito os ofertantes (v.1);&lt;/li&gt;
+  &lt;li&gt;Não nos livrava da consciência do pecado (v.2);&lt;/li&gt;
+  &lt;li&gt;Os sacrifícios faziam recordações dos pecados (v.3);&lt;/li&gt;
+  &lt;li&gt;Era impossível a tais sacrifícios remover pecados (v.4);&lt;/li&gt;
+  &lt;li&gt;A sua frequência não garantia a remoção de pecados (v. 11).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;O que podemos concluir é que a lei cerimonial não continha poder salvístico. Não havia nada de místico no sangue de bodes e touros, mas este era um símbolo da obra salvadora de Jesus. A questão agora é: Os ofertantes do passado eram perdoados ou não? Sim, mas não pelos sacrifícios em si, mas pela obra posterior de Jesus Cristo. Estes, por antecipação e pela fé, receberam os benefícios do sacrifício expiatório de Jesus Cristo (Apocalipse 13:8; Efésios 1:4, 5; Romanos 16:15). A morte do Senhor Jesus garantiu o perdão dos pecados dos crentes do passado e dos Seus filhos do futuro.&lt;/p&gt;
+
+&lt;p&gt;Com isso, podemos perceber que os sacrifícios em si mesmos não proviam nenhum benefício para os ofertantes, por isso eram contra nós e igualmente prejudiciais. No passado, o Israel apostatado infelizmente converteu a maravilhosa didática divina do plano da salvação em um mero ritualismo formal e sem o compromisso com a verdade. Imaginavam que tais sacrifícios serviam para apaziguar a ira de Deus, como no paganismo. Também fora de seu contexto original tais sacrifícios conduziam o ofertante ao orgulho: &lt;em&gt;“Não confieis em palavras falsas, dizendo: Templo do SENHOR, templo do SENHOR, templo do SENHOR é este”&lt;/em&gt; (Jeremias 7:4). Por isso diversas vezes no Antigo Testamento Deus rejeitou ou ignorou os sacrifícios.&lt;/p&gt;
+
+&lt;p&gt;Era um escrito de dívida, pois não pagava nada, mas garantia que um dia a dívida seria saldada. Era como um recibo, indicando que a dívida estava pendente, exigindo assim um acerto de contas. E Cristo veio acertar as contas! &lt;em&gt;“Quando, pois, Jesus tomou o vinagre, disse: Está consumado! E, inclinando a cabeça, rendeu o espírito”&lt;/em&gt; (João 19:30). Quando Cristo clamou “ESTÁ CONSUMADO!”, Ele realmente estava dizendo: “ESTÁ TUDO PAGO!”. Nossos crimes, isto é, o pecado não mais nos acusa. Não é mais necessário sacrificar para postergar a memória do pecado. Agora está tudo pago. Glórias a Deus!!!!&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Teologia" /><category term="Graça" /><category term="Lei Cerimonial" /><category term="Cruz" /><category term="Jesus Cristo" /><category term="Salvação" /><category term="Antigo Testamento" /><summary type="html">“… tendo cancelado o escrito de dívida, que era contra nós e que constava de ordenanças, o qual nos era prejudicial, removeu-o inteiramente, encravando-o na cruz” Colossenses 2:14</summary></entry></feed>
