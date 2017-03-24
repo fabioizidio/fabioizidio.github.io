@@ -10,7 +10,7 @@ tags: [Perfeição, Santidade, Segunda Vinda]
 image: 
   feature: volta-de-Jesus.jpg
 comments: true
-mathjax: 
+mathjax: true
 chart:
 ---
 
