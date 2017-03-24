@@ -15,6 +15,6 @@ chart:
 ---
 
 >"A maior necessidade do mundo é a de homens — homens que se não comprem nem se vendam; homens que no íntimo da alma sejam verdadeiros e honestos; homens que não temam chamar o pecado pelo seu nome exato; homens, cuja consciência seja tão fiel ao dever como a bússola o é ao pólo; homens que permaneçam firmes pelo que é reto, ainda que caiam os céus."
-><smal><cite title="Ellen G. White">Ellen G. White</cite></smal>
+><small><cite title="Ellen G. White">Ellen G. White</cite></small>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2ud96iyxCw4" frameborder="0" allowfullscreen></iframe>
