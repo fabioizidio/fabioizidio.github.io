@@ -21,7 +21,7 @@ Seus raios penetram além dos galhos
 Desfazendo as gotículas de orvalho.
 
 O seu vivo luzir, em tons rubros, vem envolver
-Toda a Natura - a arte de viver -
+Toda a Natura - a arte de viver - 
 Aquecendo a perfumada flora
 Com os quentes raios da aurora.
 
