@@ -8,7 +8,7 @@ category: Poesia
 tags: [Poesia, Sol, Inspiração]
 image: garota-sol.jpg 
 comments: true
-mathjax: 
+mathjax:false 
 chart:
 ---
 **PRINCESA DO CÉU**
