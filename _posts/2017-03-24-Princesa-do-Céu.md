@@ -6,8 +6,7 @@ headline: Poesia
 modified: 
 category: Poesia 
 tags: [Poesia, Sol, Inspiração]
-image: 
-  feature: garota-sol.jpg
+image: garota-sol.jpg 
 comments: true
 mathjax: 
 chart:
