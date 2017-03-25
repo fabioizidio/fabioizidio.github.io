@@ -15,37 +15,37 @@ chart:
 
 *Por Fábio Izidio*
 
-Surge no horizonte, lépida,
-A mais bela cena da vida.
-Seus raios penetram além dos galhos
+Surge no horizonte, lépida,<br />
+A mais bela cena da vida.<br />
+Seus raios penetram além dos galhos<br />
 Desfazendo as gotículas de orvalho.
 
-O seu vivo luzir, em tons rubros, vem envolver
-Toda a Natura - a arte de viver - 
-Aquecendo a perfumada flora
+O seu vivo luzir, em tons rubros, vem envolver<br />
+Toda a Natura - a arte de viver - <br />
+Aquecendo a perfumada flora<br />
 Com os quentes raios da aurora.
 
-Ó, nobre estrela, princesa celeste,
-Que te elevas aurifulgente!
-Prossiga avante em teu palmilhar
+Ó, nobre estrela, princesa celeste,<br />
+Que te elevas aurifulgente!<br />
+Prossiga avante em teu palmilhar<br />
 Orgulhosa com seu majestoso brilhar.
 
-Vem pressurosa e traga contigo o dia
-Compartilhado tua vívida alegria.
-Bichinhos brincam na tua presença;
+Vem pressurosa e traga contigo o dia<br />
+Compartilhado tua vívida alegria.<br />
+Bichinhos brincam na tua presença;<br />
 Buscam a tua luz sem detença.
 
-Sobranceira, erga-te até o zênite;
-Revela-te, mais uma vez, astro luzente.
-No teu alvor se expõe tua nobreza,
+Sobranceira, erga-te até o zênite;<br />
+Revela-te, mais uma vez, astro luzente.<br />
+No teu alvor se expõe tua nobreza,<br />
 Pois em ti se concentra toda a beleza.
 
-Encantadora, se dirige ao arrebol
-A princesa do céu, meu belo Sol.
-Folgo satisfeito deleitoso o meu olhar,
+Encantadora, se dirige ao arrebol<br />
+A princesa do céu, meu belo Sol.<br />
+Folgo satisfeito deleitoso o meu olhar,<br />
 Vendo no horizonte a estrela mergulhar.
 
-Qual jovem donzela a enamorar
-A estrela desce beijando o mar
-Mansa, suave, tímida e grata;
+Qual jovem donzela a enamorar<br />
+A estrela desce beijando o mar<br />
+Mansa, suave, tímida e grata;<br />
 Deixando apos si rastro cor de prata.
