@@ -6,10 +6,10 @@ headline: Poesia
 modified: 
 category: Poesia 
 tags: [Poesia, Sol, Inspiração]
-imagefeature: garota-sol.jpg 
+imagefeature: 
 comments: true
 mathjax:false 
-chart:
+chart: false
 ---
 **PRINCESA DO CÉU**
 

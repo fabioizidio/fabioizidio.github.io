@@ -1,6 +1,24 @@
 [
   
     {
+      "title"    : "O Cordeiro Pascal",
+      "category" : "Poesia",
+      "tags"     : "Poesias, Jesus Cristo, Cruz, Sacrifício, Páscoa, Salvação",
+      "url"      : "/blog/Cordeiro-Pascal",
+      "date"     : "2017-04-13 00:00:00 -0300",
+			"shortdate": "April 13, 2017"
+    } ,
+  
+    {
+      "title"    : "Santidade, Perfeição e a Segunda Vinda de Cristo",
+      "category" : "Espírito de Profecia",
+      "tags"     : "Perfeição, Santidade, Segunda Vinda",
+      "url"      : "/blog/Santidade,-Perfei%C3%A7%C3%A3o-e-a-Segunda-Vinda-de-Cristo",
+      "date"     : "2017-03-24 00:00:00 -0300",
+			"shortdate": "March 24, 2017"
+    } ,
+  
+    {
       "title"    : "Homens de Caráter",
       "category" : "Espírito de Profecia",
       "tags"     : "",
