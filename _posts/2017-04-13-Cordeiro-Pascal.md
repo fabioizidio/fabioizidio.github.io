@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "O Cordeiro Pascal"
-description: "O Escrito de Dívida de Colossenses 2:14"
+description: "A passagem para uma nova vida"
 headline: Poesia
 category: Poesia
 tags: [Poesias, Jesus Cristo, Cruz, Sacrifício, Páscoa, Salvação]
