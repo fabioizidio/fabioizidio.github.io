@@ -47,4 +47,4 @@ Vendo no horizonte a estrela mergulhar.
 Qual jovem donzela a enamorar<br/>
 A estrela desce beijando o mar<br/>
 Mansa, suave, tímida e grata;<br/>
-Deixando apos si rastro cor de prata.
+Deixando após si rastro cor de prata.
