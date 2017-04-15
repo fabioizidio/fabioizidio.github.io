@@ -14,12 +14,12 @@ chart: false
 # O Número "e" é Irracional
 
 Definamos a função $ \ln:\mathbb{R}^+ \rightarrow \mathbb{R} $
-onde, $ \forall x > 0 $ temos \begin{equation} \ln x = \int_1^x \frac{dt}{t}.\end{equation}
+onde, $ \forall x > 0 $ temos \begin{eqarray} \ln x = \int_1^x \frac{dt}{t}.\end{eqarray}
 
 A função $ \ln $
 subtente a área sob o arco de hipérbole, de modo que $ \ln x $ é a medida da área no intervalo $ [1,x] $ para $ x \geq 1 $ e $ [x,1] $ para $ 0 < x < 1 $. Com isso em mente, podemos definir o número e como sendo o valor assumido por $ x $ quando a área sob o arco da hipérbole é igual a 1.
 
-No Cálculo se demonstra que \\[ \e = \sum_{n=0}^{+\infty} \frac{1}{n!} \qquad \mathrm{(1)}. \\]
+No Cálculo se demonstra que \\[ e = \sum_{n=0}^{+\infty} \frac{1}{n!} \qquad \mathrm{(1)}. \\]
 
 Para provarmos que e
 é irracional, suponhamos por absurdo que e seja racional, isto é, e=pq, onde p,q∈N e (p,q)=1 (p e q são primos entre si). Desenvolvendo (1) temos que pq−(1+11!+12!+⋯+1q!)=+∞∑n=q+11n!(2).
