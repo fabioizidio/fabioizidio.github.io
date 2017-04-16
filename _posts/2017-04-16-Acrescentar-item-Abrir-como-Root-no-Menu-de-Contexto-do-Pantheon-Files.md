@@ -21,7 +21,7 @@ Vá ao terminal pressionando `< WinKey >+< T >` e digite o comando logo abaixo p
 
     $ gksu scratch-text-editor
 
-Em seguida, digite o comando abaixo e depois salve o aquivo no diretório */usr/share/contractor com o nome scratch-openasroot.contract*:
+Em seguida, digite o comando abaixo e depois salve o aquivo no diretório */usr/share/contractor* com o nome *scratch-openasroot.contract*:
 
     [Contractor Entry]
     Name=Abrir arquivo como administrador
