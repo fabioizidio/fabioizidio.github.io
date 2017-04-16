@@ -19,13 +19,13 @@ onde, $ \forall x > 0 $ temos \\[ \ln x = \int_1^x \frac{dt}{t}.\\]
 A função $ \ln $
 subtente a área sob o arco de hipérbole, de modo que $ \ln x $ é a medida da área no intervalo $ [1,x] $ para $ x \geq 1 $ e $ [x,1] $ para $ 0 < x < 1 $. Com isso em mente, podemos definir o número e como sendo o valor assumido por $ x $ quando a área sob o arco da hipérbole é igual a 1.
 
-No Cálculo se demonstra que \\[ e = \sum_{n=0}^{+\infty} \frac{1}{n!} \qquad \mathrm{(1)}. \\]
+No Cálculo se demonstra que \\[ e = \sum_{n=0}^{+\infty} \frac{1}{n!}. \qquad \mathrm{(1)} \\]
 
 Para provarmos que e
 é irracional, suponhamos por absurdo que e seja racional, isto é, $ e=pq $, onde $ p\,q \in \mathbb{N} $ e $ (p,q)=1 $ ($ p $ e $ q $ são primos entre si). Desenvolvendo (1) temos que \\[ \frac{p}{q}−\left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right )= \sum_{n=q+1}^{+\infty}\frac{1}{n!}. \qquad (2) \\]
 
 Analisando o segundo membro de (2)
-temos que +∞∑n=q+11n!=1q!(1(q+1)+1(q+1)(q+2)+⋯)<1q!(1(q+1)+1(q+1)2+⋯)(3).
+temos que \\[ \sum_{n=q+1}^{+\infty}\frac{1}{n!} = \frac{1}{q!}\left ( \frac{1}{(q+1)}+\frac{1}{(q+1)(q+2)}+\cdots \right ) < \frac{1}{q!}\left ( \frac{1}{(q+1)}+\frac{1}{(q+1)^2} + \cdots ). \qquad (3) \\]
 
 Agora podemos observar que a expressão entre parêntesis do último membro de (3)
 é uma série geométrica de razão pertencente ao intervalo (0,1). Logo, a série é convergente e converge para 1q. Portanto, +∞∑n=q+11n!<1q!1q(4).
