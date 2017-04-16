@@ -28,13 +28,13 @@ Analisando o segundo membro de (2)
 temos que \\[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} = \frac{1}{q!}\left ( \frac{1}{(q+1)}+\frac{1}{(q+1)(q+2)}+\cdots \right ) < \frac{1}{q!} \left ( \frac{1}{(q+1)}+\frac{1}{(q+1)^2} + \cdots \right ). \qquad (3) \\]
 
 Agora podemos observar que a expressão entre parêntesis do último membro de (3)
-é uma série geométrica de razão pertencente ao intervalo $ (0,1) $. Logo, a série é convergente e converge para $ \frac{1}{q} $. Portanto, \\[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} < \frac{1}{q!} \cdot \frac{1}{q}. \qquad (4) \\]
+é uma série geométrica de razão pertencente ao intervalo $ (0,1) $. Logo, a série é convergente e converge para $ \frac{1}{q} $. Portanto, \\[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} < \frac{1}{q!} \frac{1}{q}. \qquad (4) \\]
 
 Agora podemos reescrever (2)
-como 0<pq−(1+11!+12!+⋯+1q!)<1q1q! e, consequentemente 0<q!(pq−1−11!−12!−⋯−1q!)<1q(5).
+como \\[ 0 < \frac{p}{q}− \left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right ) < \frac{1}{q}\frac{1}{q!} \\] e, consequentemente \\[ 0 < q!\left( \frac{p}{q}−1−\frac{1}{1!}−\frac{1}{2!}−\cdots−\frac{1}{q!} \right ) < \frac{1}{q}. \qquad (5) \\] 
 
 O membro central da desigualdade (5)
-é um número inteiro, pois q! cancela todos os denominadores. Mas como q∈N, temos que 1q<1, chegamos ao absurdo de que existe um número inteiro entre 0 e 1. Tal absurdo provém da afirmação inicial de que o número e é um racional. Portanto, e
+é um número inteiro, pois $ q! $ cancela todos os denominadores. Mas como $ q \in \mathbb{N} $, temos que $ \frac{1}{q} < 1 $, chegamos ao absurdo de que existe um número inteiro entre 0 e 1. Tal absurdo provém da afirmação inicial de que o número e é um racional. Portanto, e
 
 é um número irracional.
 
