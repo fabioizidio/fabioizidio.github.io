@@ -25,10 +25,10 @@ Para provarmos que e
 é irracional, suponhamos por absurdo que e seja racional, isto é, $ e=pq $, onde $ p\,q \in \mathbb{N} $ e $ (p,q)=1 $ ($ p $ e $ q $ são primos entre si). Desenvolvendo (1) temos que \\[ \frac{p}{q}−\left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right )= \sum_{n=q+1}^{+\infty}\frac{1}{n!}. \qquad (2) \\]
 
 Analisando o segundo membro de (2)
-temos que \\[ \sum_{n=q+1}^{+\infty}\frac{1}{n!} = \frac{1}{q!}\left ( \frac{1}{(q+1)}+\frac{1}{(q+1)(q+2)}+\cdots \right ) < \frac{1}{q!}\left ( \frac{1}{(q+1)}+\frac{1}{(q+1)^2} + \cdots \right ). \qquad (3) \\]
+temos que \\[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} = \frac{1}{q!}\left ( \frac{1}{(q+1)}+\frac{1}{(q+1)(q+2)}+\cdots \right ) < \frac{1}{q!} \left ( \frac{1}{(q+1)}+\frac{1}{(q+1)^2} + \cdots \right ). \qquad (3) \\]
 
 Agora podemos observar que a expressão entre parêntesis do último membro de (3)
-é uma série geométrica de razão pertencente ao intervalo (0,1). Logo, a série é convergente e converge para 1q. Portanto, +∞∑n=q+11n!<1q!1q(4).
+é uma série geométrica de razão pertencente ao intervalo $ (0,1) $. Logo, a série é convergente e converge para $ \frac{1}{q} $. Portanto, \\[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} < \frac{1}{q!} \cdot \frac{1}{q}. \qquad (4) \\]
 
 Agora podemos reescrever (2)
 como 0<pq−(1+11!+12!+⋯+1q!)<1q1q! e, consequentemente 0<q!(pq−1−11!−12!−⋯−1q!)<1q(5).
