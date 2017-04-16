@@ -22,7 +22,7 @@ subtente a área sob o arco de hipérbole, de modo que $ \ln x $ é a medida da 
 No Cálculo se demonstra que \\[ e = \sum_{n=0}^{+\infty} \frac{1}{n!} \qquad \mathrm{(1)}. \\]
 
 Para provarmos que e
-é irracional, suponhamos por absurdo que e seja racional, isto é, e=pq, onde p,q∈N e (p,q)=1 (p e q são primos entre si). Desenvolvendo (1) temos que pq−(1+11!+12!+⋯+1q!)=+∞∑n=q+11n!(2).
+é irracional, suponhamos por absurdo que e seja racional, isto é, $ e=pq $, onde $ p\,q \in \mathbb{N} $ e $ (p,q)=1 $ ($ p $ e $ q $ são primos entre si). Desenvolvendo (1) temos que \\[ \frac{p}{q}−\left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right )= \sum_{n=q+1}^{+\infty}\frac{1}{n!}. \qquad (2) \\]
 
 Analisando o segundo membro de (2)
 temos que +∞∑n=q+11n!=1q!(1(q+1)+1(q+1)(q+2)+⋯)<1q!(1(q+1)+1(q+1)2+⋯)(3).
