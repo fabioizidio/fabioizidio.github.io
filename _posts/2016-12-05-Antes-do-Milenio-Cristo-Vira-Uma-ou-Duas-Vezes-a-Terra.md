@@ -5,7 +5,7 @@ description: Uma breve análise sobre o arrebatamento secreto
 category: Teologia
 headline: Teologia
 tags: [Volta de Cristo, Profecias, Escatologia, Historicismo, Futurismo, Arrebatamento Secreto]
-imagefeature: picture-38.jpg
+imagefeature: volta-de-jesus.jpg
 comments: true
 mathjax: 
 ---

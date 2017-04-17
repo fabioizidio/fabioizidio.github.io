@@ -5,7 +5,7 @@ description: "Uma análise sobre os argumentos da teoria do arrebatamento secret
 headline: Teologia
 category: Teologia
 tags: [Volta de Cristo, Arrebatamento Secreto, Escatologia, Historicismo, Futurismo, Fim dos Tempos]
-imagefeature: picture-26.jpg
+imagefeature: volta-de-jesus.jpg
 comments: 
 mathjax: 
 chart: 
