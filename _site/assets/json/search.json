@@ -1,12 +1,48 @@
 [
   
     {
+      "title"    : "Como Acrescentar item &quot;Abrir como Root&quot; no Menu de Contexto do Pantheon-Files",
+      "category" : "GNU/Linux",
+      "tags"     : "Elementary OS, eOS Loki, GNU/Linux, Sistemas Operacionais, Open Source, Personalização, Script",
+      "url"      : "/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files",
+      "date"     : "2017-04-16 00:00:00 -0300",
+			"shortdate": "April 16, 2017"
+    } ,
+  
+    {
       "title"    : "Acrescentar Item Abrir Como Root No Menu De Contexto",
       "category" : "",
       "tags"     : "",
       "url"      : "/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto",
       "date"     : "2017-04-16 00:00:00 -0300",
 			"shortdate": "April 16, 2017"
+    } ,
+  
+    {
+      "title"    : "Princesa do Céu",
+      "category" : "Poesia",
+      "tags"     : "Poesias, Sol, Natureza, Criação, Beleza",
+      "url"      : "/blog/Princesa-do-Ceu",
+      "date"     : "2017-04-14 00:00:00 -0300",
+			"shortdate": "April 14, 2017"
+    } ,
+  
+    {
+      "title"    : "O Número e é Irracional",
+      "category" : "Matemática",
+      "tags"     : "Matemática, Análise, Números Irracionais, Número Neperiano, Número e, Cálculo, Exponencial, Logaritmo",
+      "url"      : "/blog/O-N%C3%BAmero-e-%C3%A9-Irracional",
+      "date"     : "2017-04-14 00:00:00 -0300",
+			"shortdate": "April 14, 2017"
+    } ,
+  
+    {
+      "title"    : "Eu te Escolhi",
+      "category" : "Poesia",
+      "tags"     : "Poesias, Jesus Cristo, Cruz, Eleição, Graça, Salvação",
+      "url"      : "/blog/Eu-te-Escolhi",
+      "date"     : "2017-04-14 00:00:00 -0300",
+			"shortdate": "April 14, 2017"
     } ,
   
     {
@@ -64,15 +100,6 @@
     } ,
   
     {
-      "title"    : "Cristo Virá de Forma Invisível e Haverá um Arrebatamento Secreto?",
-      "category" : "Teologia",
-      "tags"     : "Volta de Cristo, Arrebatamento Secreto, Escatologia, Historicismo, Futurismo, Fim dos Tempos",
-      "url"      : "/blog/Cristo-Vira-de-Forma-Invis%C3%ADvel-e-Havera-um-Arrebatamento-Secreto",
-      "date"     : "2017-01-26 00:00:00 -0300",
-			"shortdate": "January 26, 2017"
-    } ,
-  
-    {
       "title"    : "Antes do Milênio Cristo Virá Uma ou Duas Vezes à Terra?",
       "category" : "Teologia",
       "tags"     : "Volta de Cristo, Profecias, Escatologia, Historicismo, Futurismo, Arrebatamento Secreto",
@@ -97,6 +124,15 @@
       "url"      : "/blog/A-Lei-que-Constava-de-Ordenancas",
       "date"     : "2017-01-05 00:00:00 -0300",
 			"shortdate": "January 05, 2017"
+    } ,
+  
+    {
+      "title"    : "Antes do Milênio Cristo Virá Uma ou Duas Vezes à Terra?",
+      "category" : "Teologia",
+      "tags"     : "Volta de Cristo, Profecias, Escatologia, Historicismo, Futurismo, Arrebatamento Secreto",
+      "url"      : "/blog/Antes-do-Milenio-Cristo-Vira-Uma-ou-Duas-Vezes-a-Terra",
+      "date"     : "2016-12-05 00:00:00 -0300",
+			"shortdate": "December 05, 2016"
     } 
   
 ]

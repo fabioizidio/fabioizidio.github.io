@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-17T00:21:47-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">Acrescentar Item Abrir Como Root No Menu De Contexto</title><link href="http://localhost:4000/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto" rel="alternate" type="text/html" title="Acrescentar Item Abrir Como Root No Menu De Contexto" /><published>2017-04-16T00:00:00-03:00</published><updated>2017-04-16T00:00:00-03:00</updated><id>http://localhost:4000/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto</id><content type="html" xml:base="http://localhost:4000/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto">&lt;p&gt;Elementary OS Freya: Acrescentar item “Abrir como Root” no Menu de Contexto do Pantheon-Files&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-17T00:33:24-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">Como Acrescentar item “Abrir como Root” no Menu de Contexto do Pantheon-Files</title><link href="http://localhost:4000/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files" rel="alternate" type="text/html" title="Como Acrescentar item &quot;Abrir como Root&quot; no Menu de Contexto do Pantheon-Files" /><published>2017-04-16T00:00:00-03:00</published><updated>2017-04-16T00:00:00-03:00</updated><id>http://localhost:4000/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files</id><content type="html" xml:base="http://localhost:4000/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files">&lt;p&gt;Saudações aos linuxusers de plantão!&lt;/p&gt;
+
+&lt;p&gt;Nossa dica de hoje é acrescentar alguns comandos ao menu de contexto do pantheon-files. Para deixar claro, esses comandos são aqueles aparecem quando você clica com o botão direito do mouse. Quero deixar aqui dois comandos que julgo importantes: “abrir arquivo como root” e “abrir pasta como root”. São importantes porque quando você precisa fazer alguma alteração em um arquivo protegido, não precisa ir ao terminal para lançar algum comando que lhe dê a permissão de administrador. É bem mais prático clicar sobre o arquivo ou pasta e confirmar o comando. Para isso, é preciso criarmos arquivos com a extensão .contract no diretório &lt;em&gt;/usr/share/contractor&lt;/em&gt; em modo administrador. Bem, vamos as dicas!&lt;/p&gt;
+
+&lt;p&gt;1 - Abrir Arquivo como Administrador&lt;/p&gt;
+
+&lt;p&gt;Vá ao terminal pressionando &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt;+&amp;lt; T &amp;gt;&lt;/code&gt; e digite o comando logo abaixo para abrir o editor de texto scratch em modo administrador:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ gksu scratch-text-editor
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Em seguida, digite o comando abaixo e depois salve o aquivo no diretório &lt;em&gt;/usr/share/contractor&lt;/em&gt; com o nome &lt;em&gt;scratch-openasroot.contract&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Contractor Entry]
+Name=Abrir arquivo como administrador
+Icon=scratch-text-editor
+Description=Abre um arquivo em modo root com o scratch
+MimeType=text
+Exec=gksudo scratch-text-editor %U
+Gettext-Domain=scratch-text-editor
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note que estou usando o &lt;em&gt;scratch-text-editor&lt;/em&gt; como o aplicativo padrão. Você pode usar outro editor do seu gosto só fazendo as devidas modifcações no arquivo.&lt;/p&gt;
+
+&lt;p&gt;2 - Abrir Pasta como Administrador&lt;/p&gt;
+
+&lt;p&gt;Este processo é bem semelhante ao anterior. Vá ao terminal e digite o comando logo abaixo para abrir o editor de texto scratch em modo administrador:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ gksu scratch-text-editor
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Em seguida, digite o comando abaixo e depois salve o aquivo no diretório &lt;em&gt;/usr/share/contractor&lt;/em&gt; com o nome &lt;em&gt;pantheon-files-openasroot.contract&lt;/em&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Contractor Entry]
+Name=Abrir pasta como administrador
+Icon=pantheon-files
+Description=Abre uma pasta corrente em modo root no pantheon-files
+MimeType=inode
+Exec=gksudo pantheon-files %U
+Gettext-Domain=pantheon-files
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Então, galera, esta concluída nossa dica facílima. Testem e aproveitem!&lt;/p&gt;
+
+&lt;p&gt;Até a próxima!&lt;/p&gt;
+
+&lt;p&gt;Fábio Izidio&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="GNU/Linux" /><category term="Elementary OS" /><category term="eOS Loki" /><category term="GNU/Linux" /><category term="Sistemas Operacionais" /><category term="Open Source" /><category term="Personalização" /><category term="Script" /><summary type="html">Saudações aos linuxusers de plantão!</summary></entry><entry><title type="html">Acrescentar Item Abrir Como Root No Menu De Contexto</title><link href="http://localhost:4000/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto" rel="alternate" type="text/html" title="Acrescentar Item Abrir Como Root No Menu De Contexto" /><published>2017-04-16T00:00:00-03:00</published><updated>2017-04-16T00:00:00-03:00</updated><id>http://localhost:4000/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto</id><content type="html" xml:base="http://localhost:4000/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto">&lt;p&gt;Elementary OS Freya: Acrescentar item “Abrir como Root” no Menu de Contexto do Pantheon-Files&lt;/p&gt;
 
 &lt;p&gt;Fábio Izidio - 06/12/16&lt;/p&gt;
 
@@ -51,7 +101,155 @@ Gettext-Domain=pantheon-files&lt;/p&gt;
 Tags: Elementary OS, GNU/Linux, Personalização, Script&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/blockquote&gt;
-&lt;/blockquote&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><summary type="html">Elementary OS Freya: Acrescentar item “Abrir como Root” no Menu de Contexto do Pantheon-Files</summary></entry><entry><title type="html">O Cordeiro Pascal</title><link href="http://localhost:4000/blog/Cordeiro-Pascal" rel="alternate" type="text/html" title="O Cordeiro Pascal" /><published>2017-04-13T00:00:00-03:00</published><updated>2017-04-13T00:00:00-03:00</updated><id>http://localhost:4000/blog/Cordeiro-Pascal</id><content type="html" xml:base="http://localhost:4000/blog/Cordeiro-Pascal">&lt;p&gt;Shalom para os meus leitores favoritos! Que a paz de Cristo inunde o coração de vocês. Hoje posto uma poesia de minha autoria cuja cópia está anexa em PDF para download. Podem usar na igreja, nos pequenos grupos, no evangelismo, etc… É para a glória do Senhor Jesus Cristo. Só uma coisa peço: não desmereçam minha autoria. Se forem postar em algum lugar me indiquem como autor. Nada mais justo! Mas deixando de conversa, eis a poesia inspirada no grande sacrifício de Cristo, como o nosso Cordeiro Pascal. Não sou um poeta nato; às vezes gosto de brincar disso (rsrsrsrs), mas apreciem pois foi feito para nutrir o coração com o amor de Deus.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><summary type="html">Elementary OS Freya: Acrescentar item “Abrir como Root” no Menu de Contexto do Pantheon-Files</summary></entry><entry><title type="html">Princesa do Céu</title><link href="http://localhost:4000/blog/Princesa-do-Ceu" rel="alternate" type="text/html" title="Princesa do Céu" /><published>2017-04-14T00:00:00-03:00</published><updated>2017-04-14T00:00:00-03:00</updated><id>http://localhost:4000/blog/Princesa-do-Ceu</id><content type="html" xml:base="http://localhost:4000/blog/Princesa-do-Ceu">&lt;h1 id=&quot;princesa-do-cÉu&quot;&gt;PRINCESA DO CÉU&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Por Fábio Izidio&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Surge no horizonte, lépida,&lt;br /&gt;
+A mais bela cena da vida.&lt;br /&gt;
+Seus raios penetram além dos galhos&lt;br /&gt;
+Desfazendo as gotículas de orvalho.&lt;/p&gt;
+
+&lt;p&gt;O seu vivo luzir, em tons rubros, vem envolver&lt;br /&gt;
+Toda a Natura - a arte de viver -&lt;br /&gt;
+Aquecendo a perfumada flora&lt;br /&gt;
+Com os quentes raios da aurora.&lt;/p&gt;
+
+&lt;p&gt;Ó, nobre estrela, princesa celeste,&lt;br /&gt;
+Que te elevas aurifulgente!&lt;br /&gt;
+Prossiga avante em teu palmilhar&lt;br /&gt;
+Orgulhosa com seu majestoso brilhar.&lt;/p&gt;
+
+&lt;p&gt;Vem pressurosa e traga contigo o dia&lt;br /&gt;
+Compartilhando tua vívida alegria.&lt;br /&gt;
+Bichinhos brincam na tua presença;&lt;br /&gt;
+Buscam a tua luz sem detença.&lt;/p&gt;
+
+&lt;p&gt;Sobranceira, erga-te até o zênite;&lt;br /&gt;
+Revela-te, mais uma vez, astro luzente.&lt;br /&gt;
+No teu alvor se expõe tua nobreza,&lt;br /&gt;
+Pois em ti se concentra toda a beleza.&lt;/p&gt;
+
+&lt;p&gt;Encantadora, se dirige ao arrebol&lt;br /&gt;
+A princesa do céu, meu belo Sol.&lt;br /&gt;
+Folgo satisfeito e deleitoso o meu olhar,&lt;br /&gt;
+Vendo no horizonte a estrela mergulhar.&lt;/p&gt;
+
+&lt;p&gt;Qual jovem donzela a enamorar&lt;br /&gt;
+A estrela desce beijando o mar&lt;br /&gt;
+Mansa, suave, tímida e grata;&lt;br /&gt;
+Deixando após si rastro cor de prata.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Sol" /><category term="Natureza" /><category term="Criação" /><category term="Beleza" /><summary type="html">PRINCESA DO CÉU</summary></entry><entry><title type="html">O Número e é Irracional</title><link href="http://localhost:4000/blog/O-N%C3%BAmero-e-%C3%A9-Irracional" rel="alternate" type="text/html" title="O Número e é Irracional" /><published>2017-04-14T00:00:00-03:00</published><updated>2017-04-14T00:00:00-03:00</updated><id>http://localhost:4000/blog/O-N%C3%BAmero-e-%C3%A9-Irracional</id><content type="html" xml:base="http://localhost:4000/blog/O-N%C3%BAmero-e-%C3%A9-Irracional">&lt;h1 id=&quot;o-número-e-é-irracional&quot;&gt;O Número “e” é Irracional&lt;/h1&gt;
+
+&lt;p&gt;Definamos a função $ \ln:\mathbb{R}^+ \rightarrow \mathbb{R} $
+onde, $ \forall x &amp;gt; 0 $ temos \[ \ln x = \int_1^x \frac{dt}{t}.\]&lt;/p&gt;
+
+&lt;p&gt;A função $ \ln $
+subtente a área sob o arco de hipérbole, de modo que $ \ln x $ é a medida da área no intervalo $ [1,x] $ para $ x \geq 1 $ e $ [x,1] $ para $ 0 &amp;lt; x &amp;lt; 1 $. Com isso em mente, podemos definir o número e como sendo o valor assumido por $ x $ quando a área sob o arco da hipérbole é igual a 1.&lt;/p&gt;
+
+&lt;p&gt;No Cálculo se demonstra que \[ e = \sum_{n=0}^{+\infty} \frac{1}{n!}. \qquad \mathrm{(1)} \]&lt;/p&gt;
+
+&lt;p&gt;Para provarmos que e
+é irracional, suponhamos por absurdo que e seja racional, isto é, $ e=pq $, onde $ p\,q \in \mathbb{N} $ e $ (p,q)=1 $ ($ p $ e $ q $ são primos entre si). Desenvolvendo (1) temos que \[ \frac{p}{q}−\left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right )= \sum_{n=q+1}^{+\infty}\frac{1}{n!}. \qquad (2) \]&lt;/p&gt;
+
+&lt;p&gt;Analisando o segundo membro de (2)
+temos que \[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} = \frac{1}{q!}\left ( \frac{1}{(q+1)}+\frac{1}{(q+1)(q+2)}+\cdots \right ) &amp;lt; \frac{1}{q!} \left ( \frac{1}{(q+1)}+\frac{1}{(q+1)^2} + \cdots \right ). \qquad (3) \]&lt;/p&gt;
+
+&lt;p&gt;Agora podemos observar que a expressão entre parêntesis do último membro de (3)
+é uma série geométrica de razão pertencente ao intervalo $ (0,1) $. Logo, a série é convergente e converge para $ \frac{1}{q} $. Portanto, \[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} &amp;lt; \frac{1}{q!} \frac{1}{q}. \qquad (4) \]&lt;/p&gt;
+
+&lt;p&gt;Agora podemos reescrever (2)
+como \[ 0 &amp;lt; \frac{p}{q}− \left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right ) &amp;lt; \frac{1}{q}\frac{1}{q!} \] e, consequentemente \[ 0 &amp;lt; q!\left( \frac{p}{q}−1−\frac{1}{1!}−\frac{1}{2!}−\cdots−\frac{1}{q!} \right ) &amp;lt; \frac{1}{q}. \qquad (5) \]&lt;/p&gt;
+
+&lt;p&gt;O membro central da desigualdade (5)
+é um número inteiro, pois $ q! $ cancela todos os denominadores. Mas como $ q \in \mathbb{N} $, temos que $ \frac{1}{q} &amp;lt; 1 $, chegamos ao absurdo de que existe um número inteiro entre 0 e 1. Tal absurdo provém da afirmação inicial de que o número e é um racional. Portanto, e&lt;/p&gt;
+
+&lt;p&gt;é um número irracional.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Referência:&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;FIGUEREDO, Djairo Guedes de, Números Irracionais e Transcendentes, Sociedade Brasileira de Matemática (SBM), 2002.&lt;/li&gt;
+  &lt;li&gt;LIMA, Elon Lages, Análise Real, Volume 1, Coleção Matemática Universitária, Instituto Nacional de Matemática Pura e Aplicada (IMPA), 2014.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tags: Número e, Iracional, Análise, Cálculo, Exponencal, Logarítmo&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Matemática" /><category term="Matemática" /><category term="Análise" /><category term="Números Irracionais" /><category term="Número Neperiano" /><category term="Número e" /><category term="Cálculo" /><category term="Exponencial" /><category term="Logaritmo" /><summary type="html">O Número “e” é Irracional</summary></entry><entry><title type="html">Eu te Escolhi</title><link href="http://localhost:4000/blog/Eu-te-Escolhi" rel="alternate" type="text/html" title="Eu te Escolhi" /><published>2017-04-14T00:00:00-03:00</published><updated>2017-04-14T00:00:00-03:00</updated><id>http://localhost:4000/blog/Eu-te-Escolhi</id><content type="html" xml:base="http://localhost:4000/blog/Eu-te-Escolhi">&lt;h1 id=&quot;eu-te-escolhi&quot;&gt;Eu Te Escolhi&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Por Fábio Izidio&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando eu era substância informe
+&lt;br /&gt;
+No momento em que eu nasci
+&lt;br /&gt;
+Um decreto do amor, que é enorme,
+&lt;br /&gt;
+Disse a mim: “Eu te escolhi”.&lt;/p&gt;
+
+&lt;p&gt;Fizeste-me à Tua imagem,
+&lt;br /&gt;
+Moldaste-me à Tua semelhança.
+&lt;br /&gt;
+“E te escolhi” foi Tua ordem
+&lt;br /&gt;
+Desde quando eu era uma criança.&lt;/p&gt;
+
+&lt;p&gt;Mesmo em face ao pecado feroz
+&lt;br /&gt;
+Que me tortura qual frio algoz
+&lt;br /&gt;
+“Eu te escolhi” ressoa pelo ar
+&lt;br /&gt;
+Voz do amor, poder para salvar.&lt;/p&gt;
+
+&lt;p&gt;“Eu te escolhi para a Minha glória
+&lt;br /&gt;
+E transformei essa tua história.
+&lt;br /&gt;
+De ti jamais me esquecerei,
+&lt;br /&gt;
+Pois te elegi filho do Rei.”&lt;/p&gt;
+
+&lt;p&gt;Fui chamado servo do Senhor
+&lt;br /&gt;
+Para render-Lhe vivo louvor.
+&lt;br /&gt;
+“Eu te escolhi”, diz o meu Deus
+&lt;br /&gt;
+Pra pertencer ao povo Seu.&lt;/p&gt;
+
+&lt;p&gt;“Não temas, tu, porque Eu Sou contigo,
+&lt;br /&gt;
+Não te assombres, porque Sou teu Deus.
+&lt;br /&gt;
+Triunfarás sobre o vil inimigo.
+&lt;br /&gt;
+Eu te escolhi junto aos filhos Meus.”&lt;/p&gt;
+
+&lt;p&gt;Muitas foram as dores que colhi
+&lt;br /&gt;
+Mas o Mestre mansamente diz:
+&lt;br /&gt;
+“Vem, segue-Me, porque Eu te escolhi.”
+&lt;br /&gt;
+Eu sigo-O, por isso sou feliz.&lt;/p&gt;
+
+&lt;p&gt;“Sim, tu és a Minha testemunha;
+&lt;br /&gt;
+O Meu servo a quem Eu escolhi.
+&lt;br /&gt;
+Pregue a Palavra como Eu expunha;
+&lt;br /&gt;
+Resgate outros como te acolhi.”&lt;/p&gt;
+
+&lt;p&gt;Pronto quero estar pra Sua vinda
+&lt;br /&gt;
+Em que terei alegria infinda
+&lt;br /&gt;
+E ouvir Jesus dizer ao sorrir:
+&lt;br /&gt;
+“Entre no Reino; Eu te escolhi.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Baseado em: Salmo 139:16; Gênesis 1:26; Jeremias 1:5; Isaías 43:7; 49:15;
+Deuteronômio 7:6; Isaías 41:10; Mateus 9:9; Isaías 43:10 e Mateus 25:34&lt;/em&gt;&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Jesus Cristo" /><category term="Cruz" /><category term="Eleição" /><category term="Graça" /><category term="Salvação" /><summary type="html">Eu Te Escolhi Por Fábio Izidio</summary></entry><entry><title type="html">O Cordeiro Pascal</title><link href="http://localhost:4000/blog/Cordeiro-Pascal" rel="alternate" type="text/html" title="O Cordeiro Pascal" /><published>2017-04-13T00:00:00-03:00</published><updated>2017-04-13T00:00:00-03:00</updated><id>http://localhost:4000/blog/Cordeiro-Pascal</id><content type="html" xml:base="http://localhost:4000/blog/Cordeiro-Pascal">&lt;p&gt;Shalom para os meus leitores favoritos! Que a paz de Cristo inunde o coração de vocês. Hoje posto uma poesia de minha autoria cuja cópia está anexa em PDF para download. Podem usar na igreja, nos pequenos grupos, no evangelismo, etc… É para a glória do Senhor Jesus Cristo. Só uma coisa peço: não desmereçam minha autoria. Se forem postar em algum lugar me indiquem como autor. Nada mais justo! Mas deixando de conversa, eis a poesia inspirada no grande sacrifício de Cristo, como o nosso Cordeiro Pascal. Não sou um poeta nato; às vezes gosto de brincar disso (rsrsrsrs), mas apreciem pois foi feito para nutrir o coração com o amor de Deus.&lt;/p&gt;
 
 &lt;h1 id=&quot;o-cordeiro-pascal&quot;&gt;O CORDEIRO PASCAL&lt;/h1&gt;
 
@@ -193,303 +391,4 @@ $ sudo apt-get dist-upgrade
 
 &lt;p&gt;Esta paz é promovida unicamente pela presença do Santo Espírito no coração do crente. Tal experiência não é o mesmo que sentimentalismo ou êxtase temporário é um estilo de vida. O Espírito Santo habitando em nós torna-nos agências de bênçãos para este mundo moribundo. Você se tornará &lt;em&gt;“uma fonte a jorrar para a vida eterna”&lt;/em&gt; (João 4:14). Assim diz as Escrituras: &lt;em&gt;“Quem crer em Mim, como diz a Escritura, do seu interior fluirão rios de água viva. E isso disse com respeito ao Espírito que haviam de receber os que Nele cressem”&lt;/em&gt; (João 7:38 e 39). &lt;em&gt;“Porque derramarei água sobre o sedento e torrentes sobre a terra seca; derramarei o Meu Espírito sobre a tua posteridade e a Minha bênção, sobre os teus descendentes”&lt;/em&gt; (Isaías 44:3). Tudo que estiver ao seu redor terá uma nova vida; tudo será revestido de uma atmosfera de paz e contentamento; haverá novo vigor para sua vida.&lt;/p&gt;
 
-&lt;p&gt;Este é o apelo divino a você que já se cansou de uma vida sufocada pelas imposições do mundo: &lt;em&gt;“Porei em vós o Meu Espírito, e vivereis, e vos estabelecerei na vossa própria terra. Então sabereis que eu, o SENHOR, disse isto e o fiz, diz o SENHOR”&lt;/em&gt; (Ezequiel 37:14).&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Devocional" /><category term="Graça" /><category term="Paz" /><category term="Salvação" /><category term="Espírito Santo" /><category term="Jesus Cristo" /><category term="Restauração" /><category term="Fé" /><summary type="html">“Veio sobre mim a mão do SENHOR; Ele me levou pelo Espírito do SENHOR e me deixou no meio de um vale que estava cheio de ossos, e me fez andar ao redor deles; eram mui numerosos na superfície do vale e estavam sequíssimos. Então, me perguntou: Filho do homem, acaso, poderão reviver estes ossos? Respondi: SENHOR Deus, Tu o sabes.” Ezequiel 37:1-3</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /></entry><entry><title type="html">Jesus Cristo Está Voltando</title><link href="http://localhost:4000/blog/Jesus-Cristo-Esta-Voltando" rel="alternate" type="text/html" title="Jesus Cristo Está Voltando" /><published>2017-02-01T00:00:00-03:00</published><updated>2017-02-01T00:00:00-03:00</updated><id>http://localhost:4000/blog/Jesus-Cristo-Esta-Voltando</id><content type="html" xml:base="http://localhost:4000/blog/Jesus-Cristo-Esta-Voltando">&lt;p&gt;Jesus Cristo Está Voltando&lt;/p&gt;
-
-&lt;p&gt;Ao observar o mundo ao redor&lt;br /&gt;
-Vejo tristezas e falta de amor.&lt;br /&gt;
-Fico reflexivo me perguntando&lt;br /&gt;
-Se Jesus Cristo está voltando.&lt;/p&gt;
-
-&lt;p&gt;Ouço falar de guerras e revoluções&lt;br /&gt;
-Afligindo feridos corações.&lt;br /&gt;
-Esses eventos estão anunciando&lt;br /&gt;
-Que Jesus Cristo está voltando?&lt;/p&gt;
-
-&lt;p&gt;As enfermidades e pragas incontidas&lt;br /&gt;
-Com sua foice, ceifando vidas,&lt;br /&gt;
-Percorrem o mundo, profetizando&lt;br /&gt;
-Que Jesus Cristo está voltando.&lt;/p&gt;
-
-&lt;p&gt;Da natura os elementos em convulsão&lt;br /&gt;
-Trás sobre este mundo nefasta destruição.&lt;br /&gt;
-Tais cataclismos estão nos alertando&lt;br /&gt;
-Que Jesus Cristo está voltando.&lt;/p&gt;
-
-&lt;p&gt;Mas o fim virá, a Bíblia diz, e será em glória,&lt;br /&gt;
-Pois Deus possui em mãos o timão da História.&lt;br /&gt;
-Portanto, irmão, continue orando e vigiando,&lt;br /&gt;
-Pois Jesus Cristo está voltando.&lt;br /&gt;&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Volta de Cristo" /><category term="Jesus Cristo" /><category term="Bíblia" /><category term="Esperança" /><summary type="html">Jesus Cristo Está Voltando</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /></entry><entry><title type="html">Cristo Virá de Forma Invisível e Haverá um Arrebatamento Secreto?</title><link href="http://localhost:4000/blog/Cristo-Vira-de-Forma-Invis%C3%ADvel-e-Havera-um-Arrebatamento-Secreto" rel="alternate" type="text/html" title="Cristo Virá de Forma Invisível e Haverá um Arrebatamento Secreto?" /><published>2017-01-26T00:00:00-03:00</published><updated>2017-01-26T00:00:00-03:00</updated><id>http://localhost:4000/blog/Cristo-Vira-de-Forma-Invis%C3%ADvel-e-Havera-um-Arrebatamento-Secreto</id><content type="html" xml:base="http://localhost:4000/blog/Cristo-Vira-de-Forma-Invis%C3%ADvel-e-Havera-um-Arrebatamento-Secreto">&lt;p&gt;Os estudantes de orientação futurista em meio as suas hipóteses sustentam a teoria do arrebatamento secreto e, por conseqüência, concluem que para que seja secreto Cristo deve vir de forma invisível, secretamente, “como um ladrão”, sabendo que tal arrebatamento só se dará na vinda de Cristo para a Igreja. Para manter a crença no rapto secreto utilizam-se dos textos de Mateus 24:40-42 e Lucas 17:34-36. Estes textos nos falam realmente de um arrebatamento secreto e de uma vinda furtiva? Vejamos:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Então, dois estarão no campo, um será tomado, e deixado o outro; duas estarão trabalhando num moinho, uma será tomada e deixada a outra. Portanto, vigiai, porque não sabeis em que dia vem o vosso Senhor.”&lt;sup&gt;[1]&lt;/sup&gt;
-&lt;small&gt;&lt;cite title=&quot;Mateus 24:40-42&quot;&gt;Mateus 24:40-42&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Se lermos este texto sob a ótica futurista nós poderíamos concluir que como dois estão trabalhando e que “um é tomado e deixado o outro” o arrebatamento é secreto, visto que o que foi deixado continua as suas atividades normalmente como se nada tivesse ocorrido. Assim acabamos de “provar” que o arrebatamento é secreto e, por conseqüência, a vinda invisível de Cristo.&lt;/p&gt;
-
-&lt;p&gt;É aqui onde está à fraqueza do argumento; o futurismo está provando demais, o que acaba de fato não provando nada. Aonde é que o texto diz que os que não foram arrebatados continuaram com “suas atividades normalmente”? E onde está escrito que os que ficaram não perceberam nada, procedendo “como se nada tivesse ocorrido”. O texto de Mateus é bastante claro; ele simplesmente diz que “um será tomado e deixado o outro”.&lt;/p&gt;
-
-&lt;p&gt;Para os doutores que ensinam que haverão duas vindas separadas pela “grande tribulação”, o rapto secreto de Mateus 24:40-42 (que implica também numa vinda – invisível – para a igreja) é diferente da vinda gloriosa (com seu arrebatamento não secreto) descrita em Mateus 24:30 e 31. Eles apóiam esta teoria no fato de que o texto de Mateus 24 não está em ordem cronológica. De fato, este capítulo não apresenta os eventos em ordem cronológica, mas é correto sustentar esta teoria com base neste argumento? Provaremos que não.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;No Monte das Oliveiras&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Quando os discípulos estão junto do Mestre no Monte das Oliveiras, perguntaram a Ele: &lt;em&gt;“Dize-nos quando sucederão estas coisas e que sinal haverá da Tua vinda e da consumação do século”&lt;/em&gt; (Mateus 24:3).&lt;/p&gt;
-
-&lt;p&gt;Os discípulos queriam entender como ocorreria à destruição do Templo e associaram este evento com a vinda de Cristo e a consumação dos séculos. Não é difícil de entender que esta vinda e a consumação dos séculos estão relacionadas, o que nos leva a concluir que esta é a vinda gloriosa de que os antigos profetas anunciaram.&lt;/p&gt;
-
-&lt;p&gt;O Senhor Jesus continua o Seu sermão falando-lhes dos sinais que ocorreriam antes de Sua vinda. Em um dado momento Ele diz:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“E será pregado este evangelho do reino por todo mundo, para testemunho a todas as nações. Então vira o fim.”
-&lt;small&gt;&lt;cite title=&quot;Mateus 24:14&quot;&gt;Mateus 24:14&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Veja como o Senhor conclui Sua fala: “E então virá o fim”. Isto é o mesmo que a “consumação do século” citada no verso 3. Assim esta vinda é ainda a vinda gloriosa do Senhor. Avançando um pouco mais em Sua exposição sobre os eventos finais, Cristo nos adverte:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Portanto, se vos disserem: Eis que Ele está no deserto!, não saiais. Ou: Ei-Lo no interior da casa!, não acrediteis. Porque, assim como um relâmpago sai do oriente e se mostra até no ocidente, assim há de ser a vinda do Filho do Homem.”
-&lt;small&gt;&lt;cite title=&quot;Mateus 24:26 e 27&quot;&gt;Mateus 24:26 e 27&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Esta é uma advertência feita à Igreja no tempo em que existem muitas especulações acerca da maravilhosa vinda de Cristo, a nossa “bendita esperança” (Tito 2:13). Cristo nos fala que não nos ocupemos em imaginar como ou aonde Ele virá, mas nos diz que Sua vinda será como relâmpago, que surge no oriente e é visto no ocidente. Em outras palavras, Ele se manifestará de forma visível e todos O perceberão como se percebe um relâmpago. Este texto não nos provê o mínimo indício de que a vinda de Cristo será secreta. Aqui nos é declarada mais uma vez a vinda gloriosa de nosso Senhor.
-Mas o Mestre continua o Seu sermão:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Logo em seguida à tribulação daqueles dias,… Então aparecerá no céu o sinal do Filho do Homem; todos os povos da Terra se lamentarão e verão o Filho do Homem vindo sobre as nuvens do céu, com poder e muita glória.”
-&lt;small&gt;&lt;cite title=&quot;Mateus 24:29 e 30&quot;&gt;Mateus 24:29 e 30&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Esta é por definição a vinda gloriosa. Tanto os estudantes futuristas como os historicistas crêem assim. Até aqui não nos foi dado nenhum rastro de que o capítulo de Mateus 24 nos apresente um arrebatamento secreto e uma vinda furtiva, invisível. Agora só falta discutirmos a última declaração no capítulo que nos fala acerca sobre a vinda de Cristo: Mateus 24:40-42.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Onde se Encontra a Vinda Secreta?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Como vimos antes, usar o texto de Mateus 24:40-42 para fundamentar a teoria do arrebatamento secreto só é baseada em especulações; não existe um verdadeiro “assim diz o Senhor” que a aprove. Apresentarei mais uma prova bíblica que define de uma vez por todas que o texto mencionado não tem nada haver com uma vinda secreta, invisível. Observe os seguintes pontos:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Embora Mateus 24 não seja ordenado cronologicamente, até o verso 30 ele nos fala de uma real “vinda gloriosa”.&lt;/li&gt;
-  &lt;li&gt;Depois da parábola da figueira Cristo diz no verso 36 que ninguém conhece o Dia da vinda, senão o Pai.&lt;/li&gt;
-  &lt;li&gt;Logicamente este Dia é o da “volta gloriosa”, pois até então não nos foi mencionada outra volta em paralelo.&lt;/li&gt;
-  &lt;li&gt;Após a descrição de que “um é tomado e deixado o outro” em Mateus 24:40 e 41, o verso 42 nos diz que não sabemos o Dia em que o Senhor virá.&lt;/li&gt;
-  &lt;li&gt;Visto que nos versos 40 a 42 sequer houve uma pequena sugestão de uma “vinda secreta”, então o Dia que nos fala o verso 42 é exatamente o da “vinda gloriosa”.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Agora não restam dúvidas: mesmo com a ausência de ordem cronológica, não existe suporte para a teoria de que existem duas vindas, uma “secreta”, “invisível”, e outra “gloriosa”. Provamos que Mateus 24 só nos fala de uma única espécie de vinda que é a “gloriosa”.&lt;/p&gt;
-
-&lt;p&gt;Quanto ao texto de Mateus 24:40-42 a cena do arrebatamento que nos é aparece é exatamente a que nos é apresentada no verso 31 do mesmo capítulo: Os anjos reunindo os escolhidos para o encontro com o Senhor nos ares. É desta forma que “um é tomado e deixado o outro”.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Jesus Virá como um Ladrão&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Mas alguém ainda há de retrucar: “O Senhor Jesus não disse que viria como um ladrão? Ora, um ladrão não vem secretamente? Então Cristo virá de forma secreta!”. Pois bem, para este sincero estudante das Escrituras temos uma resposta sincera à sua pergunta. É verdade que um ladrão vem secretamente, mas esta conclusão não está de acordo com o texto de Mateus 24: 43 e 44. Vejamos o texto na íntegra:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Mas considerai isto: se o pai de família soubesse a que hora viria o ladrão, vigiaria e não deixaria que fosse arrombada a sua casa. Por isso, ficai também vós apercebidos; porque, à hora em que não cuidais, o Filho do Homem virá.”
-&lt;small&gt;&lt;cite title=&quot;Mateus 24:43 e 44&quot;&gt;Mateus 24:43 e 44&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Depois de lermos esta impressionante parábola façamos a seguinte ilustração: Se você (não sei como) conseguisse descobrir o dia e à hora em que viria um determinado ladrão, você ainda vigiaria mesmo sabendo que em determinado momento não existiria a mínima possibilidade de o ladrão arrombar a sua casa? Logicamente não. Antes, você só chegaria alguns momentos antes para surpreender o bandido e assim ele fugir ou ser aprisionado. Da mesma forma é com a volta de Cristo: se conhecêssemos o “dia e a hora” de Sua vinda, faríamos tudo o que nos trouxesse prazeres e pecados. Mas quando chegássemos próximos à data marcada “miraculosamente” teríamos uma conversão para sermos salvos. Afinal de contas, quem não desejaria o Céu e a vida eterna?&lt;/p&gt;
-
-&lt;p&gt;Ora, como a sabedoria de Deus é suprema (Romanos 11:33), Ele nos obscureceu o conhecimento do “dia e hora”, pois sabe qual é a natureza humana. Sabia que todos desejariam a vida eterna, mas de forma egoísta, sem amor a Deus e sem o compromisso de obedece-Lhe os mandamentos. Mas agora, se soubéssemos que o ladrão viria, mas sem o conhecimento do dia e da hora de seu assalto, vigiaríamos, pois a qualquer momento ele poderá aparecer.&lt;/p&gt;
-
-&lt;p&gt;Aqui nos é dada uma solene mensagem. Vigiai! Este é o estandarte que o cristão deve erguer neste tempo de depravações e trevas morais. Cristo nos diz: “Embora vocês não conheçam o dia e a hora de Minha vinda, vocês tem o privilégio de vigiar, aguardando a Minha chegada”. É exatamente a vigilância que faz a linha divisória entre os verdadeiros seguidores de Cristo e os insubordinados que desejam viver uma vida dissoluta, entregue as suas vis paixões.&lt;/p&gt;
-
-&lt;p&gt;O Senhor Jesus na mesma parábola nos aconselha: “… ficai também vós apercebidos”. Em outras palavras: “Prestem bastante atenção! Percebam os fenômenos que ocorrem em vosso redor; tenham cuidado por vós mesmos para que de forma alguma venham a perder a vida eterna”.&lt;/p&gt;
-
-&lt;p&gt;São através das experiências destes dois grupos, a Igreja de Jesus Cristo e os ímpios, que a Bíblia nos apresenta dois quadros distintos da vinda de Cristo; um referente a cada grupo. Assim nos diz o quadro pintado pelo grupo dos santos:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Naquele dia se dirá: Eis que este é o nosso Deus, em quem esperávamos, e Ele nos salvará; este é o SENHOR, a quem aguardávamos; na Sua salvação exultaremos e nos alegraremos.”
-&lt;small&gt;&lt;cite title=&quot;Isaías 25:9&quot;&gt;Isaías 25:9&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Agora veja o mesmo quadro, mas rasurado pela experiência dos ímpios:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Como se um homem fugisse de diante de um leão, e se encontrasse com ele o urso; ou como se, entrando em casa, encostando a mão à parede, fosse mordido de uma cobra. Não será, pois, o Dia do SENHOR trevas e não luz? Não será completa escuridão, sem nenhuma claridade?”
-&lt;small&gt;&lt;cite title=&quot;Amós 5:19 e 20&quot;&gt;Amós 5:19 e 20&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;O evento é o mesmo, mas as experiências são diferentes. Para uns é um perfume de vida, para a vida; para outros é um perfume de morte, para a morte. A nota tônica da parábola do Mestre é “vigiai”. Faça disso o seu estilo de vida!
-Com respeito à vinda do Rei Jesus Cristo o apóstolo Paulo nos escreve:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“… aguardando a bendita esperança e a manifestação da glória do nosso Deus e Salvador Cristo Jesus…”
-&lt;small&gt;&lt;cite title=&quot;Tito 2:13&quot;&gt;Tito 2:13&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Para nós, a Igreja do Deus vivo, coluna e baluarte da Verdade (1ª Timóteo 3:15), a vinda de Cristo é a bendita esperança nossa. Mas, se temos esperança é porque esperamos algo, e sendo assim vigiamos.&lt;/p&gt;
-
-&lt;p&gt;Logo, para nós, povo do grande Rei, a vinda de Cristo não vai ser “secreta”, mas esperada; não seremos pegues de surpresa. Para os ímpios, porém, inesperada, pois eles não têm tomado a atitude de vigiar, aguardando a vinda de Cristo. Portanto, para eles a vinda não será secreta, pois vira sobre eles repentina destruição (1ª Tessalonicenses 5:1-3). Em resumo: Cristo virá como ladrão, não de forma secreta, mas sim inesperada para aqueles que não vigiam.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Novamente o Arrebatamento Secreto&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Agora para tirar toda sombra de dúvidas com respeito ao tema do arrebatamento secreto e da suposta vinda invisível de Cristo examinaremos o texto paralelo a Mateus 24:38-42: Lucas 17:26-37.&lt;/p&gt;
-
-&lt;p&gt;Neste mesmo texto nos é apresentada a mesma cena do rapto secreto discutida anteriormente, a que “um será tomado, e o outro, deixado” (Lucas 17:36). Antes desta descrição, Cristo nos fala de dois acontecimentos do passado: o Dilúvio e a destruição de Sodoma e Gomorra. Além do mais, Cristo nos diz que as condições morais que existiam naquelas épocas seriam as mesmas no tempo de Sua gloriosa vinda.&lt;/p&gt;
-
-&lt;p&gt;Agora vejamos os pontos em comum às eras do Dilúvio e Sodoma e Gomorra:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Eram épocas de crises morais.&lt;/li&gt;
-  &lt;li&gt;Existiam dois grupos distintos:
- a. O povo de Deus.
- b. Os ímpios liderados por Satanás.&lt;/li&gt;
-  &lt;li&gt;O povo de Deus apregoava os juízos de Deus.&lt;/li&gt;
-  &lt;li&gt;Os ímpios continuavam em suas vidas desregradas.&lt;/li&gt;
-  &lt;li&gt;A salvação veio para o povo de Deus.&lt;/li&gt;
-  &lt;li&gt;A destruição veio para os ímpios.&lt;/li&gt;
-  &lt;li&gt;Os juízos de Deus foram manifestados por eventos cataclísmicos.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Será desta mesma forma quando Cristo regressar. “Um será tomado, e o outro, deixado” da mesma forma que Noé, Ló e suas famílias o foram. Eles receberam a vida e os ímpios a morte. Da mesma forma que o Dilúvio inundou a Terra e o “fogo do céu” com enxofre desceu sobre as cidades impertinentes, trazendo destruição por completo, assim será quando o Senhor regressar; Ele virá trazendo destruição sobre os ímpios e esta Terra corrupta. Assim Ele prometeu:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Pois assim diz o SENHOR dos Exércitos: Ainda uma vez, dentro em pouco, farei abalar o céu, a terra, o mar e a terra seca…”
-&lt;small&gt;&lt;cite title=&quot;Ageu 2:6&quot;&gt;Ageu 2:6&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Com todo este cenário armado para que se apresente o Grande Protagonista do drama universal, com todos os efeitos especiais dignos de um Oscar, não existe espaço no script da História da redenção em que se encaixe a desestimulante cena de um arrebatamento secreto junto a uma vinda invisível de Cristo. Antes, o maravilhoso Diretor sabe qual a cena que o Universo expectante necessita para compreender o plano da salvação e Sua justiça. É exatamente a vinda gloriosa de Cristo – o Super-Herói amado por todo o Universo – o clímax do filme da História universal. Esta cena é única; não existirá um segundo volume do filme; este é o filme mais esperado de todos os tempos; e baterá todos os recordes de bilheteria neste imenso Universo. E o que você vai fazer: “comprar” o seu ingresso para a vida eterna, ou ficar do lado de fora onde haverá “choro e ranger de dentes”? (Mateus 24:51).&lt;/p&gt;
-
-&lt;p&gt;Agora podemos observar claramente que o arrebatamento secreto junto a uma vinda invisível de Cristo não tem apoio nas Escrituras Sagradas. A vinda gloriosa de Cristo, única e surpreendente, é a revelada nas Escrituras e a que matem coerência com a razão, por que:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Não seria melhor, depois da humilhação e escárnio, o Senhor Jesus que veio antes como o “Homem de dores” agora se manifestar como o “Rei dos reis e Senhor dos Senhores” demonstrando toda a Sua glória e majestade diante daqueles que o traspassaram?&lt;/li&gt;
-  &lt;li&gt;Não seria mais empolgante e exultante para o povo de Deus ver a salvação de Deus em todo o Seu esplendor trazendo a justiça eterna para eles?&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Então meu querido irmão, minha estimada irmã, agora vocês conhecem a verdade acerca da vinda de Cristo. Ele virá só mais uma vez, a segunda, trazendo “a vida eterna” para o Seu povo e a “vergonha e horror eterno” para os que O rejeitam (Daniel 12:1 e 2). Eis as verdadeiras recompensas.&lt;/p&gt;
-
-&lt;p&gt;Mas Cristo nos deixou uma advertência: “Lembrai-vos da mulher de Ló”. Estamos em risco de abandonar a vigilância e de nos apaixonarmos novamente pelas coisas que deixamos para trás. Esforcemo-nos para alcançarmos a nossa alta vocação. Não rebaixemos a norma. Busquemos diariamente o batismo do Espírito Santo. Induzamos o nosso coração a guardar a Lei de Deus (Salmos 119:112). E vivamos pela fé no Filho de Deus, pois Ele diz:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Certamente, venho sem demora. Amem! Vem, Senhor Jesus!”
-&lt;small&gt;&lt;cite title=&quot;Apocalipse 22:20&quot;&gt;Apocalipse 22:20&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Referências:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;[1]&lt;/sup&gt; Salvo indicações, o texto bíblico utilizado é o de João Ferreira de Almeida, Revista e Atualizada no Brasil (ARA), 2ª Edição. Sociedade Bíblica do Brasil (SBB).&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Teologia" /><category term="Volta de Cristo" /><category term="Arrebatamento Secreto" /><category term="Escatologia" /><category term="Historicismo" /><category term="Futurismo" /><category term="Fim dos Tempos" /><summary type="html">Os estudantes de orientação futurista em meio as suas hipóteses sustentam a teoria do arrebatamento secreto e, por conseqüência, concluem que para que seja secreto Cristo deve vir de forma invisível, secretamente, “como um ladrão”, sabendo que tal arrebatamento só se dará na vinda de Cristo para a Igreja. Para manter a crença no rapto secreto utilizam-se dos textos de Mateus 24:40-42 e Lucas 17:34-36. Estes textos nos falam realmente de um arrebatamento secreto e de uma vinda furtiva? Vejamos:</summary></entry><entry><title type="html">Antes do Milênio Cristo Virá Uma ou Duas Vezes à Terra?</title><link href="http://localhost:4000/blog/Antes-do-Milenio-Cristo-Vira-Uma-ou-Duas-Vezes-a-Terra" rel="alternate" type="text/html" title="Antes do Milênio Cristo Virá Uma ou Duas Vezes à Terra?" /><published>2017-01-19T00:00:00-03:00</published><updated>2017-01-19T00:00:00-03:00</updated><id>http://localhost:4000/blog/Antes-do-Milenio-Cristo-Vira-Uma-ou-Duas-Vezes-a-Terra</id><content type="html" xml:base="http://localhost:4000/blog/Antes-do-Milenio-Cristo-Vira-Uma-ou-Duas-Vezes-a-Terra">&lt;p&gt;Existe uma teoria em que sustenta a crença em um anticristo que reinará por sete anos. É dito que a Igreja, a Noiva de Cristo, será resgatada antes da “grande tribulação” imposta pelo anticristo. Em outras palavras: Jesus virá e irá arrebatar (secretamente) a Igreja. Depois Cristo virá outra vez com a Igreja para resgatar os santos da “tribulação”.&lt;/p&gt;
-
-&lt;p&gt;A ausência de provas de que um anticristo irá firmar uma aliança com os judeus e que irá reinar por sete anos é evidente; mas as teorias dos sete anos e do arrebatamento secreto formam a “espinha dorsal” do futurismo moderno, no qual muitos são desviados de contemplar o real panorama dos eventos futuros sob o pano de fundo da coerência bíblica.&lt;/p&gt;
-
-&lt;p&gt;Os estudantes da linha futurista para provar o ensino do arrebatamento secreto usam textos fora do contexto, por exemplo, Mateus 24:40 e 41. Outro texto utilizado por eles é o de 1ª Tessalonicenses 4:16 e 17, no qual é mencionada a palavra arrebatamento. Tal palavra numa tradução latina é rapio, que significa literalmente “arrancar com força”. Por este raciocínio é fácil deduzir que a força com que os crentes serão arrancados é tão grande (pois esta pertence ao Senhor Jesus) que será tudo muito rápido, dando a impressão de que foi secreta. Obviamente, para que o arrebatamento seja “secreto” é necessário que a vinda do Senhor Jesus seja invisível. Agora vejamos os elementos existentes neste texto que é utilizado para sustentar a teoria futurista do rapto secreto:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Porquanto o Senhor mesmo, dada a Sua palavra de ordem, ouvida a voz do Arcanjo, e ressoada a trombeta de Deus, descerá dos Céus, e os mortos em Cristo ressuscitarão primeiro; depois, nós, os vivos, os que ficarmos, seremos arrebatados juntamente com eles, entre as nuvens, para o encontro do Senhor nos ares, e, assim, estaremos para sempre com o Senhor.”&lt;sup&gt;[1]&lt;/sup&gt;
-&lt;small&gt;&lt;cite title=&quot;1ª Tessalonicenses 4:16 e 17&quot;&gt;1ª Tessalonicenses 4:16 e 17&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Este texto é bastante claro em afirmar que o arrebatamento só se dará após a ressurreição dos mortos em Cristo, para que estes se unam aos crentes vivos e subam juntos para com o Senhor. A ressurreição será a chave utilizada aqui para determinarmos quantas vezes o Senhor irá voltar antes do milênio. Antes, os estudantes futuristas chamam a vinda de Cristo para a Igreja de “vinda secreta” e a vinda para o resgate de Israel e dos santos da tribulação de “vinda gloriosa”.&lt;/p&gt;
-
-&lt;p&gt;Agora trabalhemos sob a hipótese de que a linha de interpretação futurista seja a correta.&lt;/p&gt;
-
-&lt;p&gt;Como vimos, para que ocorra o arrebatamento é necessário que aconteça a ressurreição dos justos primeiro. Com respeito à ressurreição, qual era a esperança do apóstolo Paulo, o escritor da carta aos tessalonicenses? Falando de sua justificação, procedente de Deus, mediante a sua fé em Cristo Jesus, ele diz:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“… para O conhecer, e o poder da Sua ressurreição, e a comunhão dos Seus sofrimentos, conformando-me com Ele na Sua morte; para, de algum modo, alcançar a ressurreição dentre os mortos.”
-&lt;small&gt;&lt;cite title=&quot;Filipenses 3:10 e 11&quot;&gt;Filipenses 3:10 e 11&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Paulo, o grande apóstolo, mostra com transparência que a sua esperança é “alcançar a ressurreição dos mortos”. Esta era a sua convicção, pois, como ele próprio diz: “Se a nossa esperança em Cristo se limita apenas a esta vida, somos os mais infelizes de todos os homens” (1ª Coríntios 15:19). Mas quando esta bendita esperança se cumprirá? O próprio Paulo nos responde:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Já agora a coroa da justiça me está guardada, a qual o Senhor, reto Juiz, me dará naquele dia; e não somente a mim, mas também a todos quantos amam a Sua vinda.”
-&lt;small&gt;&lt;cite title=&quot;2ª Timóteo 4:8&quot;&gt;2ª Timóteo 4:8&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;O Apóstolo Paulo nos diz que ele receberá a recompensa “naquele dia”, o dia da vinda de Cristo. E tais palavras se harmonizam com as do Senhor Jesus Cristo:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“… e serás bem-aventurado, pelo fato de não terem eles com que recompensar-te; a tua recompensa, porém, tu a receberás na ressurreição dos justos.”
-&lt;small&gt;&lt;cite title=&quot;Lucas 14:14&quot;&gt;Lucas 14:14&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“E eis que venho sem demora, e comigo está o galardão que tenho para retribuir a cada um segundo as suas obras.”
-&lt;small&gt;&lt;cite title=&quot;Apocalipse 22:12&quot;&gt;Apocalipse 22:12&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Assim podemos concluir que o apóstolo Paulo tinha certeza de que só receberia a sua recompensa quando ressuscitasse no dia da vinda de Cristo. Agora podemos avançar no raciocínio, lembrando que, por enquanto, assumimos como verídicas a teoria das duas vindas de Cristo, separadas pela “grande tribulação”.&lt;/p&gt;
-
-&lt;p&gt;O apóstolo Paulo em mais uma exposição sobre a volta de Cristo declara:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Irmãos, no que diz respeito à vinda de nosso Senhor Jesus Cristo e à nossa reunião com Ele, nós vos exortamos…”2ª Tessalonicenses 2:1
-&lt;small&gt;&lt;cite title=&quot;2ª Tessalonicenses 2:1&quot;&gt;2ª Tessalonicenses 2:1&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;É muito curioso o modo como o apóstolo utiliza a expressão “nossa reunião com Ele”. Ele se inclui no grupo que se reunirá com o Senhor Jesus. Esta reunião ocorrerá na vinda de Cristo, o dia da recompensa dos justos, inclusive os mortos em Cristo. E é óbvio que o Senhor trará a recompensa ao apóstolo através da ressurreição. Logo, podemos concluir que esta vinda citada em 2ª Tessalonicenses 2:1 é a mesma citada em 1ª Tessalonicenses 4:16 e 17, a vinda para a Igreja, antes da “tribulação” promovida pelo satânico anticristo, conforme a interpretação futurista.&lt;/p&gt;
-
-&lt;p&gt;Mas o servo do Senhor ainda dá continuidade a sua exposição acerca da volta de Cristo, e prossegue assim:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Ninguém, de nenhum modo, vos engane, porque isto [a vinda de Cristo, citada no verso 1] não acontecerá sem que primeiro venha a apostasia e seja revelado o homem da iniqüidade, o filho da perdição,…”
-&lt;small&gt;&lt;cite title=&quot;2ª Tessalonicenses 2:3&quot;&gt;2ª Tessalonicenses 2:3&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Este filho da perdição, o “homem da iniqüidade”, e reconhecido tanto pelos expositores futuristas como pelos historicistas, como o terrível anticristo. Isto é um fato unânime.&lt;/p&gt;
-
-&lt;p&gt;O apóstolo Paulo nos ensina que esta vinda só ocorrerá após a apostasia e o reinado do anticristo. Mas pela nossa hipótese inicial tal vinda só se daria antes do domínio do anticristo! Temos uma contradição diante de nós, o que não é bom, pois “a Escritura não pode falhar” (João 10:35). Assim, só podemos concluir que esta contradição vem da falsa suposição de existirem duas vindas; uma para a igreja, para livrá-la da “tribulação” promovida pelo anticristo, e outra para salvar os judeus que foram perseguidos por ele.&lt;/p&gt;
-
-&lt;p&gt;Um fato a ser notado: além de existir uma única vinda para dar a recompensa, está só ocorrerá após o surgimento do anticristo.&lt;/p&gt;
-
-&lt;p&gt;Antes de concluir, faço a seguinte observação: A palavra grega para a vinda em 2ª Tessalonicenses 2:1 é parousia, a mesma usada em 1ª Tessalonicenses 4:15, dando-nos maior peso de evidência de que os dois textos falam de uma mesma vinda.&lt;/p&gt;
-
-&lt;p&gt;Que agora seja firmada a verdade na mente e no coração do caro leitor! Que só existirá mais uma vinda antes do período milenar, a segunda (pois a primeira deu-se no nascimento de Cristo, na “plenitude dos tempos”). É nesta vinda que Ele trará a recompensa aos santos, os que estarão vivos por ocasião da Sua vinda (logo após a “grande tribulação”), inclusive os judeus que O aceitarem como seu Salvador pessoal (como qualquer ser humano). Também os que morreram em Cristo (inclusive os judeus que creram em Cristo, como Paulo, os apóstolos, as santas mulheres, os patriarcas, os profetas, etc.). Ele os levará consigo para as mansões celestiais para habitar com Ele mil anos, até que se restaure a sua possessão: a Terra.&lt;/p&gt;
-
-&lt;p&gt;Leia este maravilhoso texto e medite:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“E, assim como aos homens está ordenado morrerem uma só vez, vindo, depois disto, o juízo, assim também Cristo, tendo-Se oferecido uma vez para sempre para tirar os pecados de muitos, aparecerá segunda vez, sem pecado, aos que O aguardam para a salvação.”
-&lt;small&gt;&lt;cite title=&quot;Hebreus 9:27 e 28&quot;&gt;Hebreus 9:27 e 28&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Referências:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;sup&gt;[1]&lt;/sup&gt; Salvo indicações, o texto bíblico utilizado é o de João Ferreira de Almeida, Revista e Atualizada no Brasil (ARA), 2ª Edição. Sociedade Bíblica do Brasil (SBB).&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Teologia" /><category term="Volta de Cristo" /><category term="Profecias" /><category term="Escatologia" /><category term="Historicismo" /><category term="Futurismo" /><category term="Arrebatamento Secreto" /><summary type="html">Existe uma teoria em que sustenta a crença em um anticristo que reinará por sete anos. É dito que a Igreja, a Noiva de Cristo, será resgatada antes da “grande tribulação” imposta pelo anticristo. Em outras palavras: Jesus virá e irá arrebatar (secretamente) a Igreja. Depois Cristo virá outra vez com a Igreja para resgatar os santos da “tribulação”.</summary></entry><entry><title type="html">Amargura de Alma</title><link href="http://localhost:4000/blog/Amargura-de-Alma" rel="alternate" type="text/html" title="Amargura de Alma" /><published>2017-01-12T00:00:00-03:00</published><updated>2017-01-12T00:00:00-03:00</updated><id>http://localhost:4000/blog/Amargura-de-Alma</id><content type="html" xml:base="http://localhost:4000/blog/Amargura-de-Alma">&lt;p&gt;A Palavra de Deus nos diz que as nossas “iniqüidades fazem separação” entre nós e o nosso Deus (Isaías 59:2). Sabemos que é pelo pecado que vem todos os transtornos que sofremos, mas o maior deles é a alienação de Deus. É preciso reconhecer nosso erro, clamar por perdão. Só assim podemos ter um coração purificado e regenerado, disposto a servir de forma sincera ao nosso Deus. Só um homem perdoado é capaz de pregar de forma eficaz o Evangelho Eterno.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;AMARGURA DE ALMA&lt;/strong&gt;&lt;br /&gt;
-&lt;small&gt;&lt;strong&gt;Autor:&lt;/strong&gt; Fábio Izidio&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;Senhor Jesus, majestoso em poder,&lt;br /&gt;
-Perdoa-me, Pai, por não ser fiel ao dever.&lt;br /&gt;
-Reconheço minhas falhas&lt;br /&gt;
-E mendigo meras migalhas;&lt;br /&gt;
-Sei que grande é o meu pecado,&lt;br /&gt;
-Indigno sou de andar ao Teu lado.&lt;br /&gt;
-Não sou merecedor de Tua Graça,&lt;br /&gt;
-Pois sou de coração torto e malígna raça.&lt;br /&gt;
-Mas permita-me, Senhor, mas uma vez&lt;br /&gt;
-Ter renovada a alegria – um sorriso talvez…&lt;/p&gt;
-
-&lt;p&gt;Quero entrar em Tua presença;&lt;br /&gt;
-Livrar-me do pecado e da descrença.&lt;br /&gt;
-Meu farisaísmo quero renegar&lt;br /&gt;
-E de coração sincero meu Senhor louvar,&lt;br /&gt;
-Mas me sinto fraco, desmotivado,&lt;br /&gt;
-Pois reconheço o meu pecado.&lt;br /&gt;
-Sou depravado, …&lt;br /&gt;
-Descarado, …&lt;br /&gt;
-Rebelado, …&lt;br /&gt;
-De Deus afastado.&lt;/p&gt;
-
-&lt;p&gt;Mas, Senhor, mesmo sem dignidade,&lt;br /&gt;
-Quando penso no Teu amor – de verdade –&lt;br /&gt;
-Surge uma expectativa, uma esperança,&lt;br /&gt;
-De ter coração puro como de criança.&lt;br /&gt;
-Por isso, Pai, Te imploro por perdão;&lt;br /&gt;
-Purifica-me o impuro coração.&lt;br /&gt;
-Faça-o vivo, orgão regenerado;&lt;br /&gt;
-Torna-me novamente Teu filho amado.&lt;br /&gt;
-Transformar minha vida em bela canção&lt;br /&gt;
-É o que clamo a Ti nesta oração.&lt;/p&gt;
-
-&lt;p&gt;Somente assim terei felicidade,&lt;br /&gt;
-Pois andarei na senda da verdade.&lt;br /&gt;
-Tendo coração reto Te darei louvor,&lt;br /&gt;
-Te adorarei, devotar-Te-ei o meu amor.&lt;br /&gt;
-Quero cumprir os Teus decretos,&lt;br /&gt;
-Pois são perfeitos, belos e retos.&lt;br /&gt;
-Na Tua Lei tenho a fonte do prazer.&lt;br /&gt;
-Ensina-me e aos homens irei dizer&lt;br /&gt;
-Da verdade, do perdão, da cruz&lt;br /&gt;
-Que obtive unicamente em Jesus.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Jesus Cristo" /><category term="Salvação" /><category term="Esperança" /><category term="Perdão" /><category term="Arrependimento" /><category term="Vida Nova" /><summary type="html">A Palavra de Deus nos diz que as nossas “iniqüidades fazem separação” entre nós e o nosso Deus (Isaías 59:2). Sabemos que é pelo pecado que vem todos os transtornos que sofremos, mas o maior deles é a alienação de Deus. É preciso reconhecer nosso erro, clamar por perdão. Só assim podemos ter um coração purificado e regenerado, disposto a servir de forma sincera ao nosso Deus. Só um homem perdoado é capaz de pregar de forma eficaz o Evangelho Eterno.</summary></entry></feed>
+&lt;p&gt;Este é o apelo divino a você que já se cansou de uma vida sufocada pelas imposições do mundo: &lt;em&gt;“Porei em vós o Meu Espírito, e vivereis, e vos estabelecerei na vossa própria terra. Então sabereis que eu, o SENHOR, disse isto e o fiz, diz o SENHOR”&lt;/em&gt; (Ezequiel 37:14).&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Devocional" /><category term="Graça" /><category term="Paz" /><category term="Salvação" /><category term="Espírito Santo" /><category term="Jesus Cristo" /><category term="Restauração" /><category term="Fé" /><summary type="html">“Veio sobre mim a mão do SENHOR; Ele me levou pelo Espírito do SENHOR e me deixou no meio de um vale que estava cheio de ossos, e me fez andar ao redor deles; eram mui numerosos na superfície do vale e estavam sequíssimos. Então, me perguntou: Filho do homem, acaso, poderão reviver estes ossos? Respondi: SENHOR Deus, Tu o sabes.” Ezequiel 37:1-3</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /></entry></feed>
