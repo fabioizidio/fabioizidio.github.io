@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-13T18:00:39-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">O Cordeiro Pascal</title><link href="http://localhost:4000/blog/Cordeiro-Pascal" rel="alternate" type="text/html" title="O Cordeiro Pascal" /><published>2017-04-13T00:00:00-03:00</published><updated>2017-04-13T00:00:00-03:00</updated><id>http://localhost:4000/blog/Cordeiro-Pascal</id><content type="html" xml:base="http://localhost:4000/blog/Cordeiro-Pascal">&lt;p&gt;Shalom para os meus leitores favoritos! Que a paz de Cristo inunde o coração de vocês. Hoje posto uma poesia de minha autoria cuja cópia está anexa em PDF para download. Podem usar na igreja, nos pequenos grupos, no evangelismo, etc… É para a glória do Senhor Jesus Cristo. Só uma coisa peço: não desmereçam minha autoria. Se forem postar em algum lugar me indiquem como autor. Nada mais justo! Mas deixando de conversa, eis a poesia inspirada no grande sacrifício de Cristo, como o nosso Cordeiro Pascal. Não sou um poeta nato; às vezes gosto de brincar disso (rsrsrsrs), mas apreciem pois foi feito para nutrir o coração com o amor de Deus.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-17T00:21:47-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">Acrescentar Item Abrir Como Root No Menu De Contexto</title><link href="http://localhost:4000/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto" rel="alternate" type="text/html" title="Acrescentar Item Abrir Como Root No Menu De Contexto" /><published>2017-04-16T00:00:00-03:00</published><updated>2017-04-16T00:00:00-03:00</updated><id>http://localhost:4000/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto</id><content type="html" xml:base="http://localhost:4000/blog/Acrescentar-Item-Abrir-como-Root-no-Menu-de-Contexto">&lt;p&gt;Elementary OS Freya: Acrescentar item “Abrir como Root” no Menu de Contexto do Pantheon-Files&lt;/p&gt;
+
+&lt;p&gt;Fábio Izidio - 06/12/16&lt;/p&gt;
+
+&lt;p&gt;Saudações aos linuxusers de plantão!&lt;/p&gt;
+
+&lt;p&gt;Nossa dica de hoje é acrescentar alguns comandos ao menu de contexto do pantheon-files. Para deixar claro, esses comandos são aqueles aparecem quando você clica com o botão direito do mouse. Quero deixar aqui dois comandos que julgo importantes: “abrir arquivo como root” e “abrir pasta como root”. São importantes porque quando você precisa fazer alguma alteração em um arquivo protegido, não precisa ir ao terminal para lançar algum comando que lhe dê a permissão de administrador. É bem mais prático clicar sobre o arquivo ou pasta e confirmar o comando. Para isso, é preciso criarmos arquivos com a extensão .contract no diretório /usr/share/contractor em modo administrador. Bem, vamos as dicas!&lt;/p&gt;
+
+&lt;p&gt;1 - Abrir Arquivo como Administrador&lt;/p&gt;
+
+&lt;p&gt;Vá ao terminal pressionando &amp;lt; WinKey &amp;gt;+&amp;lt; T &amp;gt; e digite o comando logo abaixo para abrir o editor de texto scratch em modo administrador:&lt;/p&gt;
+
+&lt;p&gt;$ gksu scratch-text-editor&lt;/p&gt;
+
+&lt;p&gt;Em seguida, digite o comando abaixo e depois salve o aquivo no diretório /usr/share/contractor com o nome scratch-openasroot.contract:&lt;/p&gt;
+
+&lt;p&gt;[Contractor Entry]
+Name=Abrir arquivo como administrador
+Icon=scratch-text-editor
+Description=Abre um arquivo em modo root com o scratch
+MimeType=text
+Exec=gksudo scratch-text-editor %U
+Gettext-Domain=scratch-text-editor&lt;/p&gt;
+
+&lt;p&gt;Note que estou usando o scratch-text-editor como o aplicativo padrão. Você pode usar outro editor do seu gosto só fazendo as devidas modifcações no arquivo.&lt;/p&gt;
+
+&lt;p&gt;2 - Abrir Pasta como Administrador&lt;/p&gt;
+
+&lt;p&gt;Este processo é bem semelhante ao anterior. Vá ao terminal e digite o comando logo abaixo para abrir o editor de texto scratch em modo administrador:&lt;/p&gt;
+
+&lt;p&gt;$ gksu scratch-text-editor&lt;/p&gt;
+
+&lt;p&gt;Em seguida, digite o comando abaixo e depois salve o aquivo no diretório /usr/share/contractor com o nome pantheon-files-openasroot.contract:&lt;/p&gt;
+
+&lt;p&gt;[Contractor Entry]
+Name=Abrir pasta como administrador
+Icon=pantheon-files
+Description=Abre uma pasta corrente em modo root no pantheon-files
+MimeType=inode
+Exec=gksudo pantheon-files %U
+Gettext-Domain=pantheon-files&lt;/p&gt;
+
+&lt;p&gt;Então, galera, esta concluída nossa dica facílima. Testem e aproveitem!&lt;/p&gt;
+
+&lt;p&gt;Até a próxima!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;blockquote&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;Fábio Izidio
+Tags: Elementary OS, GNU/Linux, Personalização, Script&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/blockquote&gt;
+&lt;/blockquote&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><summary type="html">Elementary OS Freya: Acrescentar item “Abrir como Root” no Menu de Contexto do Pantheon-Files</summary></entry><entry><title type="html">O Cordeiro Pascal</title><link href="http://localhost:4000/blog/Cordeiro-Pascal" rel="alternate" type="text/html" title="O Cordeiro Pascal" /><published>2017-04-13T00:00:00-03:00</published><updated>2017-04-13T00:00:00-03:00</updated><id>http://localhost:4000/blog/Cordeiro-Pascal</id><content type="html" xml:base="http://localhost:4000/blog/Cordeiro-Pascal">&lt;p&gt;Shalom para os meus leitores favoritos! Que a paz de Cristo inunde o coração de vocês. Hoje posto uma poesia de minha autoria cuja cópia está anexa em PDF para download. Podem usar na igreja, nos pequenos grupos, no evangelismo, etc… É para a glória do Senhor Jesus Cristo. Só uma coisa peço: não desmereçam minha autoria. Se forem postar em algum lugar me indiquem como autor. Nada mais justo! Mas deixando de conversa, eis a poesia inspirada no grande sacrifício de Cristo, como o nosso Cordeiro Pascal. Não sou um poeta nato; às vezes gosto de brincar disso (rsrsrsrs), mas apreciem pois foi feito para nutrir o coração com o amor de Deus.&lt;/p&gt;
 
 &lt;h1 id=&quot;o-cordeiro-pascal&quot;&gt;O CORDEIRO PASCAL&lt;/h1&gt;
 
@@ -439,54 +492,4 @@ Pois são perfeitos, belos e retos.&lt;br /&gt;
 Na Tua Lei tenho a fonte do prazer.&lt;br /&gt;
 Ensina-me e aos homens irei dizer&lt;br /&gt;
 Da verdade, do perdão, da cruz&lt;br /&gt;
-Que obtive unicamente em Jesus.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Jesus Cristo" /><category term="Salvação" /><category term="Esperança" /><category term="Perdão" /><category term="Arrependimento" /><category term="Vida Nova" /><summary type="html">A Palavra de Deus nos diz que as nossas “iniqüidades fazem separação” entre nós e o nosso Deus (Isaías 59:2). Sabemos que é pelo pecado que vem todos os transtornos que sofremos, mas o maior deles é a alienação de Deus. É preciso reconhecer nosso erro, clamar por perdão. Só assim podemos ter um coração purificado e regenerado, disposto a servir de forma sincera ao nosso Deus. Só um homem perdoado é capaz de pregar de forma eficaz o Evangelho Eterno.</summary></entry><entry><title type="html">A Lei que Constava de Ordenanças</title><link href="http://localhost:4000/blog/A-Lei-que-Constava-de-Ordenancas" rel="alternate" type="text/html" title="A Lei que Constava de Ordenanças" /><published>2017-01-05T00:00:00-03:00</published><updated>2017-01-05T00:00:00-03:00</updated><id>http://localhost:4000/blog/A-Lei-que-Constava-de-Ordenancas</id><content type="html" xml:base="http://localhost:4000/blog/A-Lei-que-Constava-de-Ordenancas">&lt;blockquote&gt;
-  &lt;p&gt;“… tendo cancelado o escrito de dívida, que era contra nós e que constava de ordenanças, o qual nos era prejudicial, removeu-o inteiramente, encravando-o na cruz”
-&lt;small&gt;&lt;cite title=&quot;Colossenses 2:14&quot;&gt;Colossenses 2:14&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;Introdução&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;É trivial em alguns debates teológicos sobre a vigência da Lei/Sábado algum irmão cristão de confissão não adventista do sétimo dia expressar um espírito disposto a criticar e rejeitar o que as Sagradas Escrituras chamam de “Lei de Moisés”. É comum tal desprezo ao ponto que afirmam que “o antigo testamento passou” ou que a “velha aliança se desvaneceu”. Dada essas concepções estereotipadas acerca dos antigos mandamentos, sentem-se na liberdade de rejeitar a observância do dia de Sábado.&lt;/p&gt;
-
-&lt;p&gt;É estranho tal comportamento dos cristãos, embora Cristo tenha guardado o Sábado e tenha recomendado a sua observância mesmo para tempos de perseguição (Mateus 24:20), mas tudo isso decorre de uma má interpretação de textos. Talvez o texto que mais tem causado problemas quando mal interpretado, provocando tal desprezo entre os cristãos, é o de Colossenses 2:14.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A problemática&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Quando lemos o texto de Colossenses 2:14 percebemos que ele nos fala de uma Lei, chamada “escrito de dívida”, a qual “constava de ordenanças”. Isso é notável quando lemos Efésios 2:15 que nos diz: “… aboliu, na sua carne, a lei dos mandamentos na forma de ordenanças, para que dos dois criasse, em si mesmo, um novo homem, fazendo a paz”. Algo chamado “escrito de dívida”, classificado como “prejudicial” e que “era contra nós” não reproduz uma boa imagem em nossa mente. É então compreensível tal impressão mas é preciso verificar se era isso mesmo que o apóstolo Paulo queria nos dizer.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;O que é esse escrito de dívida?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Para compreendermos o que era esse tal escrito de dívida, o próprio texto nos dá uma luz: Cristo “removeu-o inteiramente, encravando-o na cruz”. Logo, a questão é a seguinte: que lei é essa que Cristo cancelou na cruz? Ao compararmos Colossenses 2:14 com Efésios 2:15 vemos que tal lei é composta de “mandamentos na forma de ordenanças” e que “constava de ordenanças”. Analisando a obra do Senhor Jesus Cristo na cruz através da ótica profética de Daniel, vemos que &lt;em&gt;“Ele [Cristo, o Ungido] fará uma aliança com muitos por uma semana; na metade da semana, fará cessar o sacrifício e a oferta de manjares”&lt;/em&gt; (Daniel 9:27). Sendo assim, o que Cristo cancelou na cruz foram os mandamentos referentes a sacrifícios e ofertas, as ordenanças da lei cerimonial. De fato, todo o protestantismo admite que tal lei foi cancelada pelo Senhor Jesus através de Seu sacrifício na cruz, mas o que é a tal lei cerimonial? É todo conjunto de leis e rituais que simbolizavam a obra expiatória de Jesus Cristo. Em outras palavras, tais leis demonstravam o plano da salvação em miniatura. Era um tipo da realidade que se cumpriria plenamente em Cristo Jesus.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;A lei cerimonial era algo ruim?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Se a lei cerimonial era uma representação do plano da salvação, um instrumento didático para o povo de Deus, o que temos a dizer é que tal lei não era em nada ruim ou maldita, pelo contrário, ela era uma bênção! Pense no seguinte questionamento: Um Deus de amor iria ordenar Seus filhos a guardarem alguma lei que pudesse causar-lhes algum sofrimento? Isso faz parte do seu misericordioso caráter? Agora pense nesse Deus que no Jardim do Éden proveu um meio para Adão e sua esposa se revestirem da justiça divina, instituindo o primeiro sacrifício. Quem fez tal sacrifício? O próprio Deus de amor! É realmente triste ver animais indefesos sendo sacrificados por nossos erros, mas este era o objetivo: impressionar as nossas mentes para o grande sacrifício do Filho de Deus. Foi o amor de Deus por nós que O motivou a instituir tais leis, mesmo que temporárias. Logo, a lei cerimonial nada tem de ruim, pois como disse Tiago: &lt;em&gt;“Toda boa dádiva e todo dom perfeito são lá do alto, descendo do Pai das luzes, em quem não pode existir variação ou sombra de mudança”&lt;/em&gt; (Tiago 1:17).&lt;/p&gt;
-
-&lt;p&gt;Embora a lei cerimonial não fosse ruim, ela igualmente não compartilhava da mesma função da Lei Moral – A Lei dos Dez Mandamentos. Primeira ilustrava o plano de salvação, a segunda nos revela o pecado. Dessa forma, toda tentativa de tornar o mandamento do Sábado uma lei cerimonial é uma injustiça quanto a sua função moral.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Em que sentido, então, a lei cerimonial era ruim?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A lei cerimonial era o melhor que um Deus de amor poderia nos dar antes da revelação de Seu Filho Unigênito. Mas ela era bastante ineficaz se comparada com a realidade cumprida na vida do Senhor Jesus. Foi exatamente neste contexto que o apóstolo Paulo quis dizer que tal lei cerimonial era como um “escrito de dívida”, “prejudicial” e “contra nós”.&lt;/p&gt;
-
-&lt;p&gt;A melhor explicação bíblica nos é provida pelo próprio Paulo em Hebreus:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Porque a lei, tendo a sombra dos bens futuros, e não a imagem exata das coisas, não pode nunca, pelos mesmos sacrifícios que continuamente se oferecem de ano em ano, aperfeiçoar os que se chegam a Deus. Doutra maneira, não teriam deixado de ser oferecidos? pois tendo sido uma vez purificados os que prestavam o culto, nunca mais teriam consciência de pecado. Mas nesses sacrifícios cada ano se faz recordação dos pecados, porque é impossível que o sangue de touros e de bodes tire pecados. […] Ora, todo sacerdote se apresenta dia após dia, ministrando e oferecendo muitas vezes os mesmos sacrifícios, que nunca podem tirar pecados…”
-&lt;small&gt;&lt;cite title=&quot;Hebreus 10:1-4, 11&quot;&gt;Hebreus 10:1-4, 11&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Do texto acima podemos tirar as razões pelas quais a lei cerimonial era um “escrito de dívida”, “prejudicial” e “contra nós”:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Ela não tornava prefeito os ofertantes (v.1);&lt;/li&gt;
-  &lt;li&gt;Não nos livrava da consciência do pecado (v.2);&lt;/li&gt;
-  &lt;li&gt;Os sacrifícios faziam recordações dos pecados (v.3);&lt;/li&gt;
-  &lt;li&gt;Era impossível a tais sacrifícios remover pecados (v.4);&lt;/li&gt;
-  &lt;li&gt;A sua frequência não garantia a remoção de pecados (v. 11).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;O que podemos concluir é que a lei cerimonial não continha poder salvístico. Não havia nada de místico no sangue de bodes e touros, mas este era um símbolo da obra salvadora de Jesus. A questão agora é: Os ofertantes do passado eram perdoados ou não? Sim, mas não pelos sacrifícios em si, mas pela obra posterior de Jesus Cristo. Estes, por antecipação e pela fé, receberam os benefícios do sacrifício expiatório de Jesus Cristo (Apocalipse 13:8; Efésios 1:4, 5; Romanos 16:15). A morte do Senhor Jesus garantiu o perdão dos pecados dos crentes do passado e dos Seus filhos do futuro.&lt;/p&gt;
-
-&lt;p&gt;Com isso, podemos perceber que os sacrifícios em si mesmos não proviam nenhum benefício para os ofertantes, por isso eram contra nós e igualmente prejudiciais. No passado, o Israel apostatado infelizmente converteu a maravilhosa didática divina do plano da salvação em um mero ritualismo formal e sem o compromisso com a verdade. Imaginavam que tais sacrifícios serviam para apaziguar a ira de Deus, como no paganismo. Também fora de seu contexto original tais sacrifícios conduziam o ofertante ao orgulho: &lt;em&gt;“Não confieis em palavras falsas, dizendo: Templo do SENHOR, templo do SENHOR, templo do SENHOR é este”&lt;/em&gt; (Jeremias 7:4). Por isso diversas vezes no Antigo Testamento Deus rejeitou ou ignorou os sacrifícios.&lt;/p&gt;
-
-&lt;p&gt;Era um escrito de dívida, pois não pagava nada, mas garantia que um dia a dívida seria saldada. Era como um recibo, indicando que a dívida estava pendente, exigindo assim um acerto de contas. E Cristo veio acertar as contas! &lt;em&gt;“Quando, pois, Jesus tomou o vinagre, disse: Está consumado! E, inclinando a cabeça, rendeu o espírito”&lt;/em&gt; (João 19:30). Quando Cristo clamou “ESTÁ CONSUMADO!”, Ele realmente estava dizendo: “ESTÁ TUDO PAGO!”. Nossos crimes, isto é, o pecado não mais nos acusa. Não é mais necessário sacrificar para postergar a memória do pecado. Agora está tudo pago. Glórias a Deus!!!!&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Teologia" /><category term="Graça" /><category term="Lei Cerimonial" /><category term="Cruz" /><category term="Jesus Cristo" /><category term="Salvação" /><category term="Antigo Testamento" /><summary type="html">“… tendo cancelado o escrito de dívida, que era contra nós e que constava de ordenanças, o qual nos era prejudicial, removeu-o inteiramente, encravando-o na cruz” Colossenses 2:14</summary></entry></feed>
+Que obtive unicamente em Jesus.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Jesus Cristo" /><category term="Salvação" /><category term="Esperança" /><category term="Perdão" /><category term="Arrependimento" /><category term="Vida Nova" /><summary type="html">A Palavra de Deus nos diz que as nossas “iniqüidades fazem separação” entre nós e o nosso Deus (Isaías 59:2). Sabemos que é pelo pecado que vem todos os transtornos que sofremos, mas o maior deles é a alienação de Deus. É preciso reconhecer nosso erro, clamar por perdão. Só assim podemos ter um coração purificado e regenerado, disposto a servir de forma sincera ao nosso Deus. Só um homem perdoado é capaz de pregar de forma eficaz o Evangelho Eterno.</summary></entry></feed>
