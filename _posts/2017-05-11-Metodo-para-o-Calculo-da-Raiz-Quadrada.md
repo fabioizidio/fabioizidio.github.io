@@ -18,3 +18,15 @@ A operação de raiz quadrada é uma das mais fundamentais da Matemática e apar
 O conhecido Binômio de Newton é definido por: 
 
 $$ (x+y)^n = \sum_{k=0}^n \binom{x}{k}x^{k}y^{n-k} \quad \forall x,\,y \in \mathbb{R}\,\mathrm{e}\,x \in \mathbb{N} $$
+
+Expandindo o binômio temos que:
+
+$$ (x+y)^n = \binom{n}{0}x^{0}y^{n} + \binom{n}{1}x^{1}y^{n-1} + \binom{n}{2}x^{2}y^{n-2} + \cdots + \binom{n}{n}x^{n}y^{0} $$
+
+Se eliminarmos do 2o membro todos os termos à partir do 3o termo construímos a seguinte desigualdade: 
+
+$$ (x+y)^n \geq y^n + nxy^{n-1} $$
+
+Fazendo $ y = 1 $ e $ x = h $ construímos a chamada Desigualdade de Bernoulli:
+
+$$ (1+h)^n \geq 1 + n\cdot h $$
