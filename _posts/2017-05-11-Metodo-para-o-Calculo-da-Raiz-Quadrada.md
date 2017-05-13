@@ -17,4 +17,4 @@ A operação de raiz quadrada é uma das mais fundamentais da Matemática e apar
 
 O conhecido Binômio de Newton é definido por: 
 
-$ \( (x+y)^n = \sum_{k=0}^n \binom(n,k)x^{k}y^{n-k} \) $
+$$ (x+y)^n = \sum_{k=0}^n \binom(n,k)x^{k}y^{n-k} $$
