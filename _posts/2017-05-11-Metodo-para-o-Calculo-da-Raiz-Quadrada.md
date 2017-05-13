@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Metodo para o Calculo da Raiz Quadrada
-description: Uma breve demonstração da irracionalidade do número neperiano
+title: Metodo para o Cálculo da Raiz Quadrada
+description: Uma breve demonstração do método numérico para o cálculo aproximado da raiz quadrada
 category: Matemática
 headline: Matemática
-tags: [Matemática, Análise, Números Irracionais, Número Neperiano, Número e, Cálculo, Exponencial, Logaritmo]
+tags: [Matemática, Análise, Números Irracionais, Raiz Quadrada]
 imagefeature: math.jpg
 comments: true
 mathjax: true 
@@ -17,4 +17,4 @@ A operação de raiz quadrada é uma das mais fundamentais da Matemática e apar
 
 O conhecido Binômio de Newton é definido por: 
 
-$$ (x+y)^n = \sum_{k=0}^n \binom{x}{k}x^{k}y^{n-k} $$
+$$ (x+y)^n = \sum_{k=0}^n \binom{x}{k}x^{k}y^{n-k} \quad \forall x,\,y \in \mathbb{R}\,\mathrm{e}\,x \in \mathbb{N} $$
