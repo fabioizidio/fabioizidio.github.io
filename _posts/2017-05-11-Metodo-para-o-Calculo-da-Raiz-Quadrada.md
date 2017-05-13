@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Metodo para o Cálculo da Raiz Quadrada
+title: Método para o Cálculo da Raiz Quadrada
 description: Uma breve demonstração do método numérico para o cálculo aproximado da raiz quadrada
 category: Matemática
 headline: Matemática
@@ -29,4 +29,11 @@ $$ (x+y)^n \geq y^n + nxy^{n-1} $$
 
 Fazendo $ y = 1 $ e $ x = h $ construímos a chamada Desigualdade de Bernoulli:
 
-$$ (1+h)^n \geq 1 + n\cdot h $$
+$$ (1+h)^n \geq 1 + nh $$
+
+## A raiz quadrada aproximada
+
+Para o caso de $ n = 2 $ a desigualdade acima fica $ (1+h)^2 \geq 1+2h $. À partir desta última equação, façamos a substituição $ r = 2h $ e teremos $ (1+r/2)^2 \geq 1+r $. Por fim, obteremos:
+
+$$ \sqrt{1+r} \leq 1+r/2. $$
+
