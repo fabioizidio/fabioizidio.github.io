@@ -56,3 +56,5 @@ $$ \sqrt{x} \approx \frac{x-a^2}{2a}. $$
 Como queríamos demonstrar. 
 
 ## Aplicação
+
+Vejamos agora o uso da nossa fórmula, que torna o cálculo aproximado da raiz quadrada acessível quando não dispomos de calculadoras. 
