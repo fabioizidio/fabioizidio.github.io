@@ -89,7 +89,7 @@ Observa-se que os resultados são mais próximos do valor real quando a distânc
 ### Em tempo
 A fórmula que acabamos de demonstrar é útil quando $$ x \geq 1 $$. Para $$ 0 < x < 1 $$ utilize a fórmula $$ \sqrt{x} = \sqrt{1+r} \approx 1 + r/2 $$.
 
-**Exemplo:** $$ \sqrt{1,32} = \sqrt{1+0,32} \approx 1+0,32/2 = 1+0,16=1,16 $$.
+**Exemplo:** $$ \sqrt{0,32} = \sqrt{1+(-0,68)} \approx 1-0,68/2 = 1-0,34=0,66 $$.
 
 Encerramos por hoje e até a próxima dica.
 
