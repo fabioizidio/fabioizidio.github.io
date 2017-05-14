@@ -57,7 +57,7 @@ Como queríamos demonstrar.
 
 ## Aplicação
 
-Vejamos agora o uso da nossa fórmula, que torna o cálculo aproximado da raiz quadrada acessível quando não dispomos de calculadoras. 
+Vejamos agora o uso da nossa fórmula, que torna o cálculo aproximado da raiz quadrada acessível quando não dispomos de calculadoras. Em todo caso, $$ a $$ é o **maior quadrado perfeito menor que $$ x $$**.
 
 **Exemplos:**
 - $$ \sqrt{7} $$:
