@@ -33,7 +33,7 @@ $$ (1+h)^n \geq 1 + nh $$
 
 ## A raiz quadrada aproximada
 
-Para o caso de $ n = 2 $ a desigualdade acima fica $ (1+h)^2 \geq 1+2h $. À partir desta última equação, façamos a substituição $ r = 2h $ e teremos $ (1+r/2)^2 \geq 1+r $. Por fim, obteremos:
+Para o caso de $$ n = 2 $$ a desigualdade acima fica $$ (1+h)^2 \geq 1+2h $$. À partir desta última equação, façamos a substituição $$ r = 2h $$ e teremos $$ (1+r/2)^2 \geq 1+r $$. Por fim, obteremos:
 
 $$ \sqrt{1+r} \leq 1+r/2. $$
 
