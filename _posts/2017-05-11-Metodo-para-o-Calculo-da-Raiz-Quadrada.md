@@ -87,7 +87,9 @@ Na calculadora $$ \sqrt{123} \approx 11,09053 $$.
 Observa-se que os resultados são mais próximos do valor real quando a distância entre $$ x $$ e $$ a^2 $$ é a menor possível. 
 
 ### Em tempo
-A fórmula que acabamos de demonstrar é útil quando $$ x \geq 1 $$. Para $$ 0 < x < 1 $$ utilize a fórmula $$ \sqrt{x} = \sqrt{1+r} \leq 1 + r/2 $$.
+A fórmula que acabamos de demonstrar é útil quando $$ x \geq 1 $$. Para $$ 0 < x < 1 $$ utilize a fórmula $$ \sqrt{x} = \sqrt{1+r} \approx 1 + r/2 $$.
+
+**Exemplo:** $$ \sqrt{1,32} = \sqrt{1+0,32} \approx 1+0,32/2 = 1+0,16=1,16 $$.
 
 Encerramos por hoje e até a próxima dica.
 
