@@ -17,7 +17,7 @@ A operação de raiz quadrada é uma das mais fundamentais da Matemática e apar
 
 O conhecido Binômio de Newton é definido por: 
 
-$$ (x+y)^n = \sum_{k=0}^n \binom{x}{k}x^{k}y^{n-k} \quad \forall x,\,y \in \mathbb{R}\,\mathrm{e}\,x \in \mathbb{N} $$
+$$ (x+y)^n = \sum_{k=0}^n \binom{x}{k}x^{k}y^{n-k} \quad \forall x,\,y \in \mathbb{R}\,\mathrm{e}\,n \in \mathbb{N} $$
 
 Expandindo o binômio temos que:
 
@@ -37,15 +37,15 @@ Para o caso de $$ n = 2 $$ a desigualdade acima fica $$ (1+h)^2 \geq 1+2h $$. À
 
 $$ \sqrt{1+r} \leq 1+r/2. $$
 
-Sejam $$ x \in \mathbb{R} $$ e $$ a,\, b \in \mathbb{N} $$ consecutivos de modo que $$ a^2 \leq x \leq b^2 $$ e $$ x = a^2 + r $$, com $$ |r| < 1 $$. Assim temos que:
+Sejam $$ x \in \mathbb{R} $$ e $$ a,\, b \in \mathbb{N} $$ consecutivos de modo que $$ a^2 \leq x \leq b^2 $$ e $$ x = a^2 + r $$, com $$ |r| < 1 $$. Assim temos que
 
 $$ \sqrt{x} = \sqrt{a^2+r} = \sqrt{a^2\left (1 + \frac{r}{a^2}\right )} = a\sqrt{1 + \frac{r}{a^2}}. $$
 
-Assim, temos que:
+Logo, temos que
 
 $$ \sqrt{x} = a\sqrt{1 + \frac{r}{a^2}} \leq a\left ( 1 + \frac{r}{2a^2} \right) = a\left ( \frac{2a^2+r}{2a^2} \right). $$
 
-Sabendo que $$ r = x - a^2 $$ notamos que:
+Sabendo que $$ r = x - a^2 $$ notamos que
 
 $$ a\frac{2a^2-r}{2a^2} = a\frac{2a^2+(x-a^2)}{2a^2} = \frac{x+a^2}{2a}. $$
 
