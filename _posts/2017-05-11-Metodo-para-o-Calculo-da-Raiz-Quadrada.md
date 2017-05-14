@@ -37,7 +37,7 @@ Para o caso de $$ n = 2 $$ a desigualdade acima fica $$ (1+h)^2 \geq 1+2h $$. À
 
 $$ \sqrt{1+r} \leq 1+r/2. $$
 
-Sejam $$ x \in \mathbb{R} $$ e $$ a,\, b \in \mathbb{N} $$ consecutivos de modo que $$ a^2 \leq x \leq b^2 $$ e $$ x = a^2 + r $$, com $$ \lvert r \rvert < 1 $$. Assim temos que
+Sejam $$ x \in \mathbb{R} $$ e $$ a,\, b \in \mathbb{N} $$ consecutivos de modo que $$ a^2 \leq x \leq b^2 $$, $$ a^2 \geq 1 $$ e $$ x = a^2 + r $$, com $$ \lvert r \rvert < 1 $$. Assim temos que
 
 $$ \sqrt{x} = \sqrt{a^2+r} = \sqrt{a^2\left (1 + \frac{r}{a^2}\right )} = a\sqrt{1 + \frac{r}{a^2}}. $$
 
@@ -85,6 +85,9 @@ $$ \sqrt{123} \approx \frac{123+121}{2\cdot11} = \frac{244}{22} = 11,091 $$
 Na calculadora $$ \sqrt{123} \approx 11,09053 $$.
 
 Observa-se que os resultados são mais próximos do valor real quando a distância entre $$ x $$ e $$ a^2 $$ é a menor possível. 
+
+### Em tempo
+A fórmula que acabamos de demonstrar é útil quando $$ x \geq 1 $$. Para $$ 0 < x < 1 $$ utilize a fórmula $$ \sqrt{x} = \sqrt{1+r} \leq 1 + r/2 $$.
 
 Encerramos por hoje e até a próxima dica.
 
