@@ -86,5 +86,5 @@ Na calculadora $$ \sqrt{123} \approx 11,09053 $$.
 
 Observa-se que os resultados são mais próximos do valor real quando a distância entre $$ x $$ e $$ a^2 $$ é a menor possível. 
 
-Encerramos por hoje e até a próxima dica. 
+Encerramos por hoje e até a próxima dica.
 
