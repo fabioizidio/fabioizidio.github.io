@@ -23,7 +23,7 @@ Expandindo o binômio temos que:
 
 $$ (x+y)^n = \binom{n}{0}x^{0}y^{n} + \binom{n}{1}x^{1}y^{n-1} + \binom{n}{2}x^{2}y^{n-2} + \cdots + \binom{n}{n}x^{n}y^{0} $$
 
-Se eliminarmos do 2o membro todos os termos à partir do 3o termo construímos a seguinte desigualdade: 
+Se eliminarmos do 2o membro todos os termos à partir do 3o termo construiremos a seguinte desigualdade: 
 
 $$ (x+y)^n \geq y^n + nxy^{n-1} $$
 
@@ -37,7 +37,7 @@ Para o caso de $$ n = 2 $$ a desigualdade acima fica $$ (1+h)^2 \geq 1+2h $$. À
 
 $$ \sqrt{1+r} \leq 1+r/2. $$
 
-Sejam $$ x \in \mathbb{R} $$ e $$ a,\, b \in \mathbb{N} $$ consecutivos de modo que $$ a^2 \leq x \leq b^2 $$ e $$ x = a^2 + r $$, com $$ |r| < 1 $$. Assim temos que
+Sejam $$ x \in \mathbb{R} $$ e $$ a,\, b \in \mathbb{N} $$ consecutivos de modo que $$ a^2 \leq x \leq b^2 $$ e $$ x = a^2 + r $$, com $$ \abs{x} < 1 $$. Assim temos que
 
 $$ \sqrt{x} = \sqrt{a^2+r} = \sqrt{a^2\left (1 + \frac{r}{a^2}\right )} = a\sqrt{1 + \frac{r}{a^2}}. $$
 
