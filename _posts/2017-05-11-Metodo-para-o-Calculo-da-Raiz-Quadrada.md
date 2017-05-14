@@ -27,7 +27,7 @@ Se eliminarmos do 2o membro todos os termos à partir do 3o termo construiremos 
 
 $$ (x+y)^n \geq y^n + nxy^{n-1} $$
 
-Fazendo $$ y = 1 $$ e $$ x = h $$ construímos a chamada Desigualdade de Bernoulli:
+Fazendo $$ y = 1 $$ e $$ x = h $$ construiremos a chamada Desigualdade de Bernoulli:
 
 $$ (1+h)^n \geq 1 + nh $$
 
@@ -37,7 +37,7 @@ Para o caso de $$ n = 2 $$ a desigualdade acima fica $$ (1+h)^2 \geq 1+2h $$. À
 
 $$ \sqrt{1+r} \leq 1+r/2. $$
 
-Sejam $$ x \in \mathbb{R} $$ e $$ a,\, b \in \mathbb{N} $$ consecutivos de modo que $$ a^2 \leq x \leq b^2 $$ e $$ x = a^2 + r $$, com $$ \abs{x} < 1 $$. Assim temos que
+Sejam $$ x \in \mathbb{R} $$ e $$ a,\, b \in \mathbb{N} $$ consecutivos de modo que $$ a^2 \leq x \leq b^2 $$ e $$ x = a^2 + r $$, com $$ |r| < 1 $$. Assim temos que
 
 $$ \sqrt{x} = \sqrt{a^2+r} = \sqrt{a^2\left (1 + \frac{r}{a^2}\right )} = a\sqrt{1 + \frac{r}{a^2}}. $$
 
