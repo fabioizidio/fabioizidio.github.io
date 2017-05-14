@@ -43,6 +43,16 @@ $$ \sqrt{x} = \sqrt{a^2+r} = \sqrt{a^2\left (1 + \frac{r}{a^2}\right )} = a\sqrt
 
 Assim, temos que:
 
-$$ \sqrt{x} = a\sqrt{1 + \frac{r}{a^2}} \leq a\left ( 1 + \frac{r}{2a^2} \right) = a\left ( \frac{2a^2-r}{2a^2} \right). $$
+$$ \sqrt{x} = a\sqrt{1 + \frac{r}{a^2}} \leq a\left ( 1 + \frac{r}{2a^2} \right) = a\left ( \frac{2a^2+r}{2a^2} \right). $$
 
+Sabendo que $$ r = x - a^2 $$ notamos que:
 
+$$ a\frac{2a^2-r}{2a^2} = a\frac{2a^2+(x-a^2}{2a^2} = \frac{x-a^2}{2a}. $$
+
+Portanto, concluímos que 
+
+$$ \sqrt{x} \approx \frac{x-a^2}{2a}. $$
+
+Como queríamos demonstrar. 
+
+## Aplicação
