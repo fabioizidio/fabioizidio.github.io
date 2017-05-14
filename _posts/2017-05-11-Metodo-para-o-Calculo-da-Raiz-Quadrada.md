@@ -47,14 +47,38 @@ $$ \sqrt{x} = a\sqrt{1 + \frac{r}{a^2}} \leq a\left ( 1 + \frac{r}{2a^2} \right)
 
 Sabendo que $$ r = x - a^2 $$ notamos que:
 
-$$ a\frac{2a^2-r}{2a^2} = a\frac{2a^2+(x-a^2}{2a^2} = \frac{x-a^2}{2a}. $$
+$$ a\frac{2a^2-r}{2a^2} = a\frac{2a^2+(x-a^2)}{2a^2} = \frac{x+a^2}{2a}. $$
 
 Portanto, concluímos que 
 
-$$ \sqrt{x} \approx \frac{x-a^2}{2a}. $$
+$$ \sqrt{x} \approx \frac{x+a^2}{2a}. $$
 
 Como queríamos demonstrar. 
 
 ## Aplicação
 
 Vejamos agora o uso da nossa fórmula, que torna o cálculo aproximado da raiz quadrada acessível quando não dispomos de calculadoras. 
+
+*Exemplos:*
+1. $$ \sqrt{7} $$
+Temos que $$ x = 7 $$ e $$ a^2 = 4 \rightarrow a = 2 $$. Logo, 
+$$ \sqrt{7} \approx \frac{7+4}{2\cdot2} = \frac{11}{4} = 2,75 $$
+
+Na calculadora $$ \sqrt{7} \approx 2,64575 $$.
+
+2. $$ \sqrt{23} $$
+Temos que $$ x = 23 $$ e $$ a^2 = 16 \rightarrow a = 4 $$. Logo, 
+$$ \sqrt{23} \approx \frac{23+16}{2\cdot4} = \frac{39}{8} = 4,875 $$
+
+Na calculadora $$ \sqrt{23} \approx 4,79583 $$.
+
+3. $$ \sqrt{123} $$
+Temos que $$ x = 123 $$ e $$ a^2 = 121 \rightarrow a = 11 $$. Logo, 
+$$ \sqrt{123} \approx \frac{123+121}{2\cdot11} = \frac{244}{22} = 11,091 $$
+
+Na calculadora $$ \sqrt{123} \approx 11,09053 $$.
+
+Observa-se que os resultados são mais próximos do valor real quando a distância entre $$ x $$ e $$ a^2 $$ é a menor possível. 
+
+Encerramos por hoje e até a próxima dica. 
+
