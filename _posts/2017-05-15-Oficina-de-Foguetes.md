@@ -1,6 +1,6 @@
 ---
 layout: post
-type: status
+type: 
 title: Oficina de Foguetes
 description: Manual para a construção de foguetes com garrafas PET
 category: Astronomia e Astronáutica
