@@ -17,7 +17,7 @@ A ausência de provas de que um anticristo irá firmar uma aliança com os judeu
 Os estudantes da linha futurista para provar o ensino do arrebatamento secreto usam textos fora do contexto, por exemplo, Mateus 24:40 e 41. Outro texto utilizado por eles é o de 1ª Tessalonicenses 4:16 e 17, no qual é mencionada a palavra arrebatamento. Tal palavra numa tradução latina é rapio, que significa literalmente “arrancar com força”. Por este raciocínio é fácil deduzir que a força com que os crentes serão arrancados é tão grande (pois esta pertence ao Senhor Jesus) que será tudo muito rápido, dando a impressão de que foi secreta. Obviamente, para que o arrebatamento seja “secreto” é necessário que a vinda do Senhor Jesus seja invisível. Agora vejamos os elementos existentes neste texto que é utilizado para sustentar a teoria futurista do rapto secreto:
 
 >“Porquanto o Senhor mesmo, dada a Sua palavra de ordem, ouvida a voz do Arcanjo, e ressoada a trombeta de Deus, descerá dos Céus, e os mortos em Cristo ressuscitarão primeiro; depois, nós, os vivos, os que ficarmos, seremos arrebatados juntamente com eles, entre as nuvens, para o encontro do Senhor nos ares, e, assim, estaremos para sempre com o Senhor.”<sup>[1]</sup>
-><small><cite title="1ª Tessalonicenses 4:16 e 17">1ª Tessalonicenses 4:16 e 17</cite></small>>
+><small><cite title="1ª Tessalonicenses 4:16 e 17">1ª Tessalonicenses 4:16 e 17</cite></small>
 
 Este texto é bastante claro em afirmar que o arrebatamento só se dará após a ressurreição dos mortos em Cristo, para que estes se unam aos crentes vivos e subam juntos para com o Senhor. A ressurreição será a chave utilizada aqui para determinarmos quantas vezes o Senhor irá voltar antes do milênio. Antes, os estudantes futuristas chamam a vinda de Cristo para a Igreja de “vinda secreta” e a vinda para o resgate de Israel e dos santos da tribulação de “vinda gloriosa”.
 
@@ -45,7 +45,7 @@ Assim podemos concluir que o apóstolo Paulo tinha certeza de que só receberia 
 
 O apóstolo Paulo em mais uma exposição sobre a volta de Cristo declara:
 
->“Irmãos, no que diz respeito à vinda de nosso Senhor Jesus Cristo e à nossa reunião com Ele, nós vos exortamos...”2ª Tessalonicenses 2:1
+>“Irmãos, no que diz respeito à vinda de nosso Senhor Jesus Cristo e à nossa reunião com Ele, nós vos exortamos...”
 ><small><cite title="2ª Tessalonicenses 2:1">2ª Tessalonicenses 2:1</cite></small>
 
 É muito curioso o modo como o apóstolo utiliza a expressão “nossa reunião com Ele”. Ele se inclui no grupo que se reunirá com o Senhor Jesus. Esta reunião ocorrerá na vinda de Cristo, o dia da recompensa dos justos, inclusive os mortos em Cristo. E é óbvio que o Senhor trará a recompensa ao apóstolo através da ressurreição. Logo, podemos concluir que esta vinda citada em 2ª Tessalonicenses 2:1 é a mesma citada em 1ª Tessalonicenses 4:16 e 17, a vinda para a Igreja, antes da “tribulação” promovida pelo satânico anticristo, conforme a interpretação futurista.
