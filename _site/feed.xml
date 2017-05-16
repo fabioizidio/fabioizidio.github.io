@@ -1,21 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-15T16:29:31-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html"></title><link href="http://localhost:4000/blog/2017-05-09-Sobre-Um-Jasmim" rel="alternate" type="text/html" title="" /><published>2017-05-15T16:29:31-03:00</published><updated>2017-05-15T16:29:31-03:00</updated><id>http://localhost:4000/blog/2017-05-09-Sobre-Um-Jasmim</id><content type="html" xml:base="http://localhost:4000/blog/2017-05-09-Sobre-Um-Jasmim">&lt;h1 id=&quot;sobre-um-jasmim&quot;&gt;Sobre um Jasmim&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-16T00:10:50-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">Oficina de Foguetes</title><link href="http://localhost:4000/blog/Oficina-de-Foguetes" rel="alternate" type="text/html" title="Oficina de Foguetes" /><published>2017-05-15T00:00:00-03:00</published><updated>2017-05-15T00:00:00-03:00</updated><id>http://localhost:4000/blog/Oficina-de-Foguetes</id><content type="html" xml:base="http://localhost:4000/blog/Oficina-de-Foguetes">&lt;p&gt;Meus queridos alunos, acessem o material produzido pelos organizadores da OBA. Ele contém os passos para a construção do nosso foguete. Acessem o PDF através do link: &lt;a href=&quot;http://www.oba.org.br/sisglob/sisglob_arquivos/INSTRUCOES%20GERAIS%20de%202015.pdf&quot;&gt;www.oba.org.br&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Por Fábio Izidio&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Não esqueçam de por suas dúvidas no campo de comentário logo abaixo.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Astronomia e Astronáutica" /><category term="Astronáutica" /><category term="Foguete" /><category term="Física" /><summary type="html">Meus queridos alunos, acessem o material produzido pelos organizadores da OBA. Ele contém os passos para a construção do nosso foguete. Acessem o PDF através do link: www.oba.org.br.</summary></entry><entry><title type="html">Método para o Cálculo da Raiz Quadrada</title><link href="http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada" rel="alternate" type="text/html" title="Método para o Cálculo da Raiz Quadrada" /><published>2017-05-11T00:00:00-03:00</published><updated>2017-05-11T00:00:00-03:00</updated><id>http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada</id><content type="html" xml:base="http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada">&lt;p&gt;A operação de raiz quadrada é uma das mais fundamentais da Matemática e aparece em inúmeras situações, mas infelizmente, ao contrário das operações de adição, subtração, multiplicação, divisão e potenciação, calculá-la às vezes não é óbvia para uma pessoa comum. Apesar de existirem alguns métodos numéricos para fazerem tal operação quero trazer uma demonstração de um método que, durante minhas brincadeiras, desenvolvi. Confesso que não sei se alguém já o demonstrou desta maneira (não lembro de tê-lo visto) mas é meu desejo deixar esta contribuição. Então, mãos à obra!&lt;/p&gt;
 
-&lt;p&gt;Nesta quente manhã radiosa 
-Impera, imponente e gloriosa, 
-A sublime e delicada flor 
-Banhada sob o solar calor.&lt;/p&gt;
+&lt;h2 id=&quot;o-binômio-de-newton-e-a-desigualdade-de-bernoulli&quot;&gt;O Binômio de Newton e a Desigualdade de Bernoulli&lt;/h2&gt;
 
-&lt;p&gt;A mais preciosa de todo o jardim 
-És tu, ó lindo e encantador jasmim! 
-Abra, em teu desabrochar, as pétalas 
-E exiba o matiz mais belo entre aquarelas.&lt;/p&gt;
+&lt;p&gt;O conhecido Binômio de Newton é definido por:&lt;/p&gt;
 
-&lt;p&gt;Que o Jardineiro ao te regar mansamente 
-Aspire o teu doce recender contente.
-Exalar o teu perfume - viva magia - 
-Pois és o belo jasmim, linda fantasia.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author></entry><entry><title type="html">Como Acrescentar item “Abrir como Root” no Menu de Contexto do Pantheon-Files</title><link href="http://localhost:4000/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files" rel="alternate" type="text/html" title="Como Acrescentar item &quot;Abrir como Root&quot; no Menu de Contexto do Pantheon-Files" /><published>2017-04-16T00:00:00-03:00</published><updated>2017-04-16T00:00:00-03:00</updated><id>http://localhost:4000/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files</id><content type="html" xml:base="http://localhost:4000/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files">&lt;p&gt;Saudações aos linuxusers de plantão!&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(x+y)^n = \sum_{k=0}^n \binom{x}{k}x^{k}y^{n-k} \quad \forall x,\,y \in \mathbb{R}\,\mathrm{e}\,n \in \mathbb{N}&lt;/script&gt;
+
+&lt;p&gt;Expandindo o binômio temos que:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(x+y)^n = \binom{n}{0}x^{0}y^{n} + \binom{n}{1}x^{1}y^{n-1} + \binom{n}{2}x^{2}y^{n-2} + \cdots + \binom{n}{n}x^{n}y^{0}&lt;/script&gt;
+
+&lt;p&gt;Se eliminarmos do 2o membro todos os termos à partir do 3o termo construiremos a seguinte desigualdade:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(x+y)^n \geq y^n + nxy^{n-1}&lt;/script&gt;
+
+&lt;p&gt;Fazendo &lt;script type=&quot;math/tex&quot;&gt;y = 1&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;x = h&lt;/script&gt; construiremos a chamada Desigualdade de Bernoulli:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;(1+h)^n \geq 1 + nh&lt;/script&gt;
+
+&lt;h2 id=&quot;a-raiz-quadrada-aproximada&quot;&gt;A raiz quadrada aproximada&lt;/h2&gt;
+
+&lt;p&gt;Para o caso de &lt;script type=&quot;math/tex&quot;&gt;n = 2&lt;/script&gt; a desigualdade acima fica &lt;script type=&quot;math/tex&quot;&gt;(1+h)^2 \geq 1+2h&lt;/script&gt;. À partir desta última equação, façamos a substituição &lt;script type=&quot;math/tex&quot;&gt;r = 2h&lt;/script&gt; e teremos &lt;script type=&quot;math/tex&quot;&gt;(1+r/2)^2 \geq 1+r&lt;/script&gt;. Por fim, obteremos:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{1+r} \leq 1+r/2.&lt;/script&gt;
+
+&lt;p&gt;Sejam &lt;script type=&quot;math/tex&quot;&gt;x \in \mathbb{R}&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;a,\, b \in \mathbb{N}&lt;/script&gt; consecutivos de modo que &lt;script type=&quot;math/tex&quot;&gt;a^2 \leq x \leq b^2&lt;/script&gt;, &lt;script type=&quot;math/tex&quot;&gt;a^2 \geq 1&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;x = a^2 + r&lt;/script&gt;, com &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+\lvert r \rvert &lt; 1 %]]&gt;&lt;/script&gt;. Assim temos que&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{x} = \sqrt{a^2+r} = \sqrt{a^2\left (1 + \frac{r}{a^2}\right )} = a\sqrt{1 + \frac{r}{a^2}}.&lt;/script&gt;
+
+&lt;p&gt;Logo, temos que&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{x} = a\sqrt{1 + \frac{r}{a^2}} \leq a\left ( 1 + \frac{r}{2a^2} \right) = a\left ( \frac{2a^2+r}{2a^2} \right).&lt;/script&gt;
+
+&lt;p&gt;Sabendo que &lt;script type=&quot;math/tex&quot;&gt;r = x - a^2&lt;/script&gt; notamos que&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;a\frac{2a^2-r}{2a^2} = a\frac{2a^2+(x-a^2)}{2a^2} = \frac{x+a^2}{2a}.&lt;/script&gt;
+
+&lt;p&gt;Portanto, concluímos que&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{x} \approx \frac{x+a^2}{2a}.&lt;/script&gt;
+
+&lt;p&gt;Como queríamos demonstrar.&lt;/p&gt;
+
+&lt;h2 id=&quot;aplicação&quot;&gt;Aplicação&lt;/h2&gt;
+
+&lt;p&gt;Vejamos agora o uso da nossa fórmula, que torna o cálculo aproximado da raiz quadrada acessível quando não dispomos de calculadoras. Em todo caso, &lt;script type=&quot;math/tex&quot;&gt;a&lt;/script&gt; é o &lt;strong&gt;maior quadrado perfeito menor que &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exemplos:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqrt{7}&lt;/script&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Temos que &lt;script type=&quot;math/tex&quot;&gt;x = 7&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;a^2 = 4 \rightarrow a = 2&lt;/script&gt;. Logo&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{7} \approx \frac{7+4}{2\cdot2} = \frac{11}{4} = 2,75&lt;/script&gt;
+
+&lt;p&gt;Na calculadora, &lt;script type=&quot;math/tex&quot;&gt;\sqrt{7} \approx 2,64575&lt;/script&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqrt{23}&lt;/script&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Temos que &lt;script type=&quot;math/tex&quot;&gt;x = 23&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;a^2 = 16 \rightarrow a = 4&lt;/script&gt;. Logo&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{23} \approx \frac{23+16}{2\cdot4} = \frac{39}{8} = 4,875&lt;/script&gt;
+
+&lt;p&gt;Na calculadora, &lt;script type=&quot;math/tex&quot;&gt;\sqrt{23} \approx 4,79583&lt;/script&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;script type=&quot;math/tex&quot;&gt;\sqrt{123}&lt;/script&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Temos que &lt;script type=&quot;math/tex&quot;&gt;x = 123&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;a^2 = 121 \rightarrow a = 11&lt;/script&gt;. Logo&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\sqrt{123} \approx \frac{123+121}{2\cdot11} = \frac{244}{22} = 11,091&lt;/script&gt;
+
+&lt;p&gt;Na calculadora &lt;script type=&quot;math/tex&quot;&gt;\sqrt{123} \approx 11,09053&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Observa-se que os resultados são mais próximos do valor real quando a distância entre &lt;script type=&quot;math/tex&quot;&gt;x&lt;/script&gt; e &lt;script type=&quot;math/tex&quot;&gt;a^2&lt;/script&gt; é a menor possível.&lt;/p&gt;
+
+&lt;h3 id=&quot;em-tempo&quot;&gt;Em tempo&lt;/h3&gt;
+&lt;p&gt;A fórmula que acabamos de demonstrar é útil quando &lt;script type=&quot;math/tex&quot;&gt;x \geq 1&lt;/script&gt;. Para &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+0 &lt; x &lt; 1 %]]&gt;&lt;/script&gt; utilize a fórmula &lt;script type=&quot;math/tex&quot;&gt;\sqrt{x} = \sqrt{1+r} \approx 1 + r/2&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exemplo:&lt;/strong&gt; &lt;script type=&quot;math/tex&quot;&gt;\sqrt{0,32} = \sqrt{1+(-0,68)} \approx 1-0,68/2 = 1-0,34=0,66&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Encerramos por hoje e até a próxima dica.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Matemática" /><category term="Matemática" /><category term="Análise" /><category term="Números Irracionais" /><category term="Raiz Quadrada" /><summary type="html">A operação de raiz quadrada é uma das mais fundamentais da Matemática e aparece em inúmeras situações, mas infelizmente, ao contrário das operações de adição, subtração, multiplicação, divisão e potenciação, calculá-la às vezes não é óbvia para uma pessoa comum. Apesar de existirem alguns métodos numéricos para fazerem tal operação quero trazer uma demonstração de um método que, durante minhas brincadeiras, desenvolvi. Confesso que não sei se alguém já o demonstrou desta maneira (não lembro de tê-lo visto) mas é meu desejo deixar esta contribuição. Então, mãos à obra!</summary></entry><entry><title type="html">Como Acrescentar item “Abrir como Root” no Menu de Contexto do Pantheon-Files</title><link href="http://localhost:4000/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files" rel="alternate" type="text/html" title="Como Acrescentar item &quot;Abrir como Root&quot; no Menu de Contexto do Pantheon-Files" /><published>2017-04-16T00:00:00-03:00</published><updated>2017-04-16T00:00:00-03:00</updated><id>http://localhost:4000/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files</id><content type="html" xml:base="http://localhost:4000/blog/Acrescentar-item-Abrir-como-Root-no-Menu-de-Contexto-do-Pantheon-Files">&lt;p&gt;Saudações aos linuxusers de plantão!&lt;/p&gt;
 
 &lt;p&gt;Nossa dica de hoje é acrescentar alguns comandos ao menu de contexto do pantheon-files. Para deixar claro, esses comandos são aqueles aparecem quando você clica com o botão direito do mouse. Quero deixar aqui dois comandos que julgo importantes: “abrir arquivo como root” e “abrir pasta como root”. São importantes porque quando você precisa fazer alguma alteração em um arquivo protegido, não precisa ir ao terminal para lançar algum comando que lhe dê a permissão de administrador. É bem mais prático clicar sobre o arquivo ou pasta e confirmar o comando. Para isso, é preciso criarmos arquivos com a extensão .contract no diretório &lt;em&gt;/usr/share/contractor&lt;/em&gt; em modo administrador. Bem, vamos as dicas!&lt;/p&gt;
 
@@ -165,8 +238,8 @@ subtente a área sob o arco de hipérbole, de modo que $ \ln x $ é a medida da 
 
 &lt;p&gt;No Cálculo se demonstra que \[ e = \sum_{n=0}^{+\infty} \frac{1}{n!}. \qquad \mathrm{(1)} \]&lt;/p&gt;
 
-&lt;p&gt;Para provarmos que e
-é irracional, suponhamos por absurdo que e seja racional, isto é, $ e=pq $, onde $ p\,q \in \mathbb{N} $ e $ (p,q)=1 $ ($ p $ e $ q $ são primos entre si). Desenvolvendo (1) temos que \[ \frac{p}{q}−\left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right )= \sum_{n=q+1}^{+\infty}\frac{1}{n!}. \qquad (2) \]&lt;/p&gt;
+&lt;p&gt;Para provarmos que $ e $
+é irracional, suponhamos por absurdo que $ e $ seja racional, isto é, $ e=\frac{p}{q} $, onde $ p\,q \in \mathbb{N} $ e $ (p,q)=1 $ ($ p $ e $ q $ são primos entre si). Desenvolvendo (1) temos que \[ \frac{p}{q}−\left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right )= \sum_{n=q+1}^{+\infty}\frac{1}{n!}. \qquad (2) \]&lt;/p&gt;
 
 &lt;p&gt;Analisando o segundo membro de (2)
 temos que \[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} = \frac{1}{q!}\left ( \frac{1}{(q+1)}+\frac{1}{(q+1)(q+2)}+\cdots \right ) &amp;lt; \frac{1}{q!} \left ( \frac{1}{(q+1)}+\frac{1}{(q+1)^2} + \cdots \right ). \qquad (3) \]&lt;/p&gt;
@@ -327,45 +400,4 @@ Unicamente no sacrifício de Jesus.&lt;/p&gt;
 &lt;small&gt;&lt;cite title=&quot;Ellen G. White&quot;&gt;Ellen G. White&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2ud96iyxCw4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Espírito de Profecia" /><summary type="html">“A maior necessidade do mundo é a de homens — homens que se não comprem nem se vendam; homens que no íntimo da alma sejam verdadeiros e honestos; homens que não temam chamar o pecado pelo seu nome exato; homens, cuja consciência seja tão fiel ao dever como a bússola o é ao pólo; homens que permaneçam firmes pelo que é reto, ainda que caiam os céus.” Ellen G. White</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /></entry><entry><title type="html">Como Ativar o Comando “Ver Área de Trabalho” no Elementary OS Freya</title><link href="http://localhost:4000/blog/Como-Ativar-o-Comando-Ver-Area-de-Trabalho-no-Elementary-OS-Freya" rel="alternate" type="text/html" title="Como Ativar o Comando &quot;Ver Área de Trabalho&quot; no Elementary OS Freya" /><published>2017-02-15T00:00:00-03:00</published><updated>2017-02-15T00:00:00-03:00</updated><id>http://localhost:4000/blog/Como-Ativar-o-Comando-Ver-Area-de-Trabalho-no-Elementary-OS-Freya</id><content type="html" xml:base="http://localhost:4000/blog/Como-Ativar-o-Comando-Ver-Area-de-Trabalho-no-Elementary-OS-Freya">&lt;p&gt;Saudações, linuxusers! Nossa dica de hoje será como ativar o comando “mostrar área de trabalho” no Elementary OS Freya, isto é, como minimizar todas as janelas ativas com um único comando no teclado. Confesso que a falta desse comando no eOS foi terrível para mim que estava migrando recentemente do Windows. Pressionar &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt; + &amp;lt; D &amp;gt;&lt;/code&gt; sempre tornou meu trabalho produtivo (&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt;&lt;/code&gt; é a famosa “tecla do Windows”). Espero ajudá-los nas próximas linhas.&lt;/p&gt;
-
-&lt;p&gt;Antes de tudo, é preciso que o sistema esteja atualizado. Para isso, pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt; + &amp;lt; T &amp;gt;&lt;/code&gt; para acessar o terminal e em seguida digite os seguintes comandos:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt-get update
-$ sudo apt-get dist-upgrade
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Após encerrar o processo de atualização do sistema, vamos instalar o comando &lt;strong&gt;wmctrl&lt;/strong&gt;. Ele serve para fazer o controle de janelas. É nele que reside a mágica para mostrar a área de trabalho de nosso sistema. Para instalá-lo, digite o comando abaixo:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt-get install wmctrl
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Pronto! Temos tudo o que precisamos para que o nosso comando funcione. A próxima etapa é criar um script que encapsule nosso comando. Abra o gerenciador de arquivos do Elementary OS em modo root (administrador) no diretório &lt;em&gt;/usr/local/bin&lt;/em&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo su
-# pantheon-files /usr/local/bin
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Agora crie um arquivo chamado &lt;strong&gt;show-desktop&lt;/strong&gt; e edite-o usando um editor de texto do seu gosto (o &lt;em&gt;scratch&lt;/em&gt; por exemplo) inserindo o seguinte código de script:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/sh&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;wmctrl -m | grep &lt;span class=&quot;s1&quot;&gt;'mode: ON'&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
-    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;wmctrl -k off
-&lt;span class=&quot;k&quot;&gt;else
-    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;wmctrl -k on
-&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Salve o arquivo. Em seguida, no terminal, insira o comando à seguir para tornar o script &lt;strong&gt;show-desktop&lt;/strong&gt; executável:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo chmod +x /usr/local/bin/show-desktop
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Feito tudo isso, vá para &lt;strong&gt;Configurações do Sistema –&amp;gt; Teclado –&amp;gt; Atalhos –&amp;gt; Custom&lt;/strong&gt; e adicione o script &lt;strong&gt;show-desktop&lt;/strong&gt; e como tecla aceleradora pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt; + &amp;lt; D &amp;gt;&lt;/code&gt;. Pronto! Agora é só encerrar a sessão e efetuar novamente login para usufruir do comando &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt; WinKey &amp;gt; + &amp;lt; D &amp;gt;&lt;/code&gt; para visualizar a sua área de trabalho.&lt;/p&gt;
-
-&lt;p&gt;Até a próxima dica!!!&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="GNU/Linux" /><category term="Elementary OS" /><category term="GNU/Linux" /><category term="Personalização" /><category term="Script" /><summary type="html">Saudações, linuxusers! Nossa dica de hoje será como ativar o comando “mostrar área de trabalho” no Elementary OS Freya, isto é, como minimizar todas as janelas ativas com um único comando no teclado. Confesso que a falta desse comando no eOS foi terrível para mim que estava migrando recentemente do Windows. Pressionar &amp;lt; WinKey &amp;gt; + &amp;lt; D &amp;gt; sempre tornou meu trabalho produtivo (&amp;lt; WinKey &amp;gt; é a famosa “tecla do Windows”). Espero ajudá-los nas próximas linhas.</summary></entry></feed>
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2ud96iyxCw4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Espírito de Profecia" /><summary type="html">“A maior necessidade do mundo é a de homens — homens que se não comprem nem se vendam; homens que no íntimo da alma sejam verdadeiros e honestos; homens que não temam chamar o pecado pelo seu nome exato; homens, cuja consciência seja tão fiel ao dever como a bússola o é ao pólo; homens que permaneçam firmes pelo que é reto, ainda que caiam os céus.” Ellen G. White</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /></entry></feed>

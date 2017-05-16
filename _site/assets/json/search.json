@@ -1,12 +1,21 @@
 [
   
     {
-      "title"    : "",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/blog/2017-05-09-Sobre-Um-Jasmim",
-      "date"     : "2017-05-15 16:29:31 -0300",
+      "title"    : "Oficina de Foguetes",
+      "category" : "Astronomia e Astronáutica",
+      "tags"     : "Astronáutica, Foguete, Física",
+      "url"      : "/blog/Oficina-de-Foguetes",
+      "date"     : "2017-05-15 00:00:00 -0300",
 			"shortdate": "May 15, 2017"
+    } ,
+  
+    {
+      "title"    : "Método para o Cálculo da Raiz Quadrada",
+      "category" : "Matemática",
+      "tags"     : "Matemática, Análise, Números Irracionais, Raiz Quadrada",
+      "url"      : "/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada",
+      "date"     : "2017-05-11 00:00:00 -0300",
+			"shortdate": "May 11, 2017"
     } ,
   
     {

@@ -5,29 +5,29 @@
     <meta charset="utf-8"> 
 
 
-<meta name="keywords" content="Matemática, Análise, Números Irracionais, Número Neperiano, Número e, Cálculo, Exponencial, Logaritmo">
+<meta name="keywords" content="Matemática, Análise, Números Irracionais, Raiz Quadrada">
 
 
 <!-- Begin Jekyll SEO tag v2.1.0 -->
-<title>O Número e é Irracional - Fábio Izidio</title>
-<meta property="og:title" content="O Número e é Irracional" />
-<meta name="description" content="Uma breve demonstração da irracionalidade do número neperiano" />
-<meta property="og:description" content="Uma breve demonstração da irracionalidade do número neperiano" />
-<link rel="canonical" href="http://localhost:4000/blog/O-N%C3%BAmero-e-%C3%A9-Irracional" />
-<meta property="og:url" content="http://localhost:4000/blog/O-N%C3%BAmero-e-%C3%A9-Irracional" />
+<title>Método para o Cálculo da Raiz Quadrada - Fábio Izidio</title>
+<meta property="og:title" content="Método para o Cálculo da Raiz Quadrada" />
+<meta name="description" content="Uma breve demonstração do método numérico para o cálculo aproximado da raiz quadrada" />
+<meta property="og:description" content="Uma breve demonstração do método numérico para o cálculo aproximado da raiz quadrada" />
+<link rel="canonical" href="http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada" />
+<meta property="og:url" content="http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada" />
 <meta property="og:site_name" content="Fábio Izidio" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2017-04-14T00:00:00-03:00" />
+<meta property="article:published_time" content="2017-05-11T00:00:00-03:00" />
 <script type="application/ld+json">
 {"@context": "http://schema.org",
 "@type": "BlogPosting",
-"headline": "O Número e é Irracional",
-"datePublished": "2017-04-14T00:00:00-03:00",
-"description": "Uma breve demonstração da irracionalidade do número neperiano",
+"headline": "Método para o Cálculo da Raiz Quadrada",
+"datePublished": "2017-05-11T00:00:00-03:00",
+"description": "Uma breve demonstração do método numérico para o cálculo aproximado da raiz quadrada",
 "publisher": {"@type": "Organization",
 "logo": {"@type": "ImageObject",
 "url": "http://localhost:4000/omikron.png"}},
-"url": "http://localhost:4000/blog/O-N%C3%BAmero-e-%C3%A9-Irracional"}</script>
+"url": "http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -198,18 +198,18 @@
                         
 
                         
-                            O Número e é Irracional
+                            Método para o Cálculo da Raiz Quadrada
                         </h1>
                     
 
-                        <div class="cursive" style="color: #000; font-style:italic;">Uma breve demonstração da irracionalidade do número neperiano</div>
+                        <div class="cursive" style="color: #000; font-style:italic;">Uma breve demonstração do método numérico para o cálculo aproximado da raiz quadrada</div>
 
                             <div class="post-info text-center small">
                             
                                 <span class="entry-date date published updated">
                             
                             
-                                    <time datetime="2017-04-14T00:00:00-03:00" class="post-time" itemprop="datePublished">14 Apr 2017</time>
+                                    <time datetime="2017-05-11T00:00:00-03:00" class="post-time" itemprop="datePublished">11 May 2017</time>
                                 </span>
                             
 
@@ -227,7 +227,7 @@
                             
 
                             
-                                    <span class="time">2.1444444444444444</span> minutes read
+                                    <span class="time">1.65</span> minutes read
                             
                                 
                             
@@ -241,41 +241,95 @@
                     <div class="post-body bordered-bottom" itemprop="description">
                     
 
-                        <h1 id="o-número-e-é-irracional">O Número “e” é Irracional</h1>
+                        <p>A operação de raiz quadrada é uma das mais fundamentais da Matemática e aparece em inúmeras situações, mas infelizmente, ao contrário das operações de adição, subtração, multiplicação, divisão e potenciação, calculá-la às vezes não é óbvia para uma pessoa comum. Apesar de existirem alguns métodos numéricos para fazerem tal operação quero trazer uma demonstração de um método que, durante minhas brincadeiras, desenvolvi. Confesso que não sei se alguém já o demonstrou desta maneira (não lembro de tê-lo visto) mas é meu desejo deixar esta contribuição. Então, mãos à obra!</p>
 
-<p>Definamos a função $ \ln:\mathbb{R}^+ \rightarrow \mathbb{R} $
-onde, $ \forall x &gt; 0 $ temos \[ \ln x = \int_1^x \frac{dt}{t}.\]</p>
+<h2 id="o-binômio-de-newton-e-a-desigualdade-de-bernoulli">O Binômio de Newton e a Desigualdade de Bernoulli</h2>
 
-<p>A função $ \ln $
-subtente a área sob o arco de hipérbole, de modo que $ \ln x $ é a medida da área no intervalo $ [1,x] $ para $ x \geq 1 $ e $ [x,1] $ para $ 0 &lt; x &lt; 1 $. Com isso em mente, podemos definir o número e como sendo o valor assumido por $ x $ quando a área sob o arco da hipérbole é igual a 1.</p>
+<p>O conhecido Binômio de Newton é definido por:</p>
 
-<p>No Cálculo se demonstra que \[ e = \sum_{n=0}^{+\infty} \frac{1}{n!}. \qquad \mathrm{(1)} \]</p>
+<script type="math/tex; mode=display">(x+y)^n = \sum_{k=0}^n \binom{x}{k}x^{k}y^{n-k} \quad \forall x,\,y \in \mathbb{R}\,\mathrm{e}\,n \in \mathbb{N}</script>
 
-<p>Para provarmos que $ e $
-é irracional, suponhamos por absurdo que $ e $ seja racional, isto é, $ e=\frac{p}{q} $, onde $ p\,q \in \mathbb{N} $ e $ (p,q)=1 $ ($ p $ e $ q $ são primos entre si). Desenvolvendo (1) temos que \[ \frac{p}{q}−\left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right )= \sum_{n=q+1}^{+\infty}\frac{1}{n!}. \qquad (2) \]</p>
+<p>Expandindo o binômio temos que:</p>
 
-<p>Analisando o segundo membro de (2)
-temos que \[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} = \frac{1}{q!}\left ( \frac{1}{(q+1)}+\frac{1}{(q+1)(q+2)}+\cdots \right ) &lt; \frac{1}{q!} \left ( \frac{1}{(q+1)}+\frac{1}{(q+1)^2} + \cdots \right ). \qquad (3) \]</p>
+<script type="math/tex; mode=display">(x+y)^n = \binom{n}{0}x^{0}y^{n} + \binom{n}{1}x^{1}y^{n-1} + \binom{n}{2}x^{2}y^{n-2} + \cdots + \binom{n}{n}x^{n}y^{0}</script>
 
-<p>Agora podemos observar que a expressão entre parêntesis do último membro de (3)
-é uma série geométrica de razão pertencente ao intervalo $ (0,1) $. Logo, a série é convergente e converge para $ \frac{1}{q} $. Portanto, \[ \sum_{n=q+1}^{+\infty} \frac{1}{n!} &lt; \frac{1}{q!} \frac{1}{q}. \qquad (4) \]</p>
+<p>Se eliminarmos do 2o membro todos os termos à partir do 3o termo construiremos a seguinte desigualdade:</p>
 
-<p>Agora podemos reescrever (2)
-como \[ 0 &lt; \frac{p}{q}− \left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}{q!} \right ) &lt; \frac{1}{q}\frac{1}{q!} \] e, consequentemente \[ 0 &lt; q!\left( \frac{p}{q}−1−\frac{1}{1!}−\frac{1}{2!}−\cdots−\frac{1}{q!} \right ) &lt; \frac{1}{q}. \qquad (5) \]</p>
+<script type="math/tex; mode=display">(x+y)^n \geq y^n + nxy^{n-1}</script>
 
-<p>O membro central da desigualdade (5)
-é um número inteiro, pois $ q! $ cancela todos os denominadores. Mas como $ q \in \mathbb{N} $, temos que $ \frac{1}{q} &lt; 1 $, chegamos ao absurdo de que existe um número inteiro entre 0 e 1. Tal absurdo provém da afirmação inicial de que o número e é um racional. Portanto, e</p>
+<p>Fazendo <script type="math/tex">y = 1</script> e <script type="math/tex">x = h</script> construiremos a chamada Desigualdade de Bernoulli:</p>
 
-<p>é um número irracional.</p>
+<script type="math/tex; mode=display">(1+h)^n \geq 1 + nh</script>
 
-<p><em>Referência:</em></p>
+<h2 id="a-raiz-quadrada-aproximada">A raiz quadrada aproximada</h2>
 
+<p>Para o caso de <script type="math/tex">n = 2</script> a desigualdade acima fica <script type="math/tex">(1+h)^2 \geq 1+2h</script>. À partir desta última equação, façamos a substituição <script type="math/tex">r = 2h</script> e teremos <script type="math/tex">(1+r/2)^2 \geq 1+r</script>. Por fim, obteremos:</p>
+
+<script type="math/tex; mode=display">\sqrt{1+r} \leq 1+r/2.</script>
+
+<p>Sejam <script type="math/tex">x \in \mathbb{R}</script> e <script type="math/tex">a,\, b \in \mathbb{N}</script> consecutivos de modo que <script type="math/tex">a^2 \leq x \leq b^2</script>, <script type="math/tex">a^2 \geq 1</script> e <script type="math/tex">x = a^2 + r</script>, com <script type="math/tex">% <![CDATA[
+\lvert r \rvert < 1 %]]></script>. Assim temos que</p>
+
+<script type="math/tex; mode=display">\sqrt{x} = \sqrt{a^2+r} = \sqrt{a^2\left (1 + \frac{r}{a^2}\right )} = a\sqrt{1 + \frac{r}{a^2}}.</script>
+
+<p>Logo, temos que</p>
+
+<script type="math/tex; mode=display">\sqrt{x} = a\sqrt{1 + \frac{r}{a^2}} \leq a\left ( 1 + \frac{r}{2a^2} \right) = a\left ( \frac{2a^2+r}{2a^2} \right).</script>
+
+<p>Sabendo que <script type="math/tex">r = x - a^2</script> notamos que</p>
+
+<script type="math/tex; mode=display">a\frac{2a^2-r}{2a^2} = a\frac{2a^2+(x-a^2)}{2a^2} = \frac{x+a^2}{2a}.</script>
+
+<p>Portanto, concluímos que</p>
+
+<script type="math/tex; mode=display">\sqrt{x} \approx \frac{x+a^2}{2a}.</script>
+
+<p>Como queríamos demonstrar.</p>
+
+<h2 id="aplicação">Aplicação</h2>
+
+<p>Vejamos agora o uso da nossa fórmula, que torna o cálculo aproximado da raiz quadrada acessível quando não dispomos de calculadoras. Em todo caso, <script type="math/tex">a</script> é o <strong>maior quadrado perfeito menor que <script type="math/tex">x</script></strong>.</p>
+
+<p><strong>Exemplos:</strong></p>
 <ul>
-  <li>FIGUEREDO, Djairo Guedes de, Números Irracionais e Transcendentes, Sociedade Brasileira de Matemática (SBM), 2002.</li>
-  <li>LIMA, Elon Lages, Análise Real, Volume 1, Coleção Matemática Universitária, Instituto Nacional de Matemática Pura e Aplicada (IMPA), 2014.</li>
+  <li><script type="math/tex">\sqrt{7}</script>:</li>
 </ul>
 
-<p>Tags: Número e, Iracional, Análise, Cálculo, Exponencal, Logarítmo</p>
+<p>Temos que <script type="math/tex">x = 7</script> e <script type="math/tex">a^2 = 4 \rightarrow a = 2</script>. Logo</p>
+
+<script type="math/tex; mode=display">\sqrt{7} \approx \frac{7+4}{2\cdot2} = \frac{11}{4} = 2,75</script>
+
+<p>Na calculadora, <script type="math/tex">\sqrt{7} \approx 2,64575</script>.</p>
+
+<ul>
+  <li><script type="math/tex">\sqrt{23}</script>:</li>
+</ul>
+
+<p>Temos que <script type="math/tex">x = 23</script> e <script type="math/tex">a^2 = 16 \rightarrow a = 4</script>. Logo</p>
+
+<script type="math/tex; mode=display">\sqrt{23} \approx \frac{23+16}{2\cdot4} = \frac{39}{8} = 4,875</script>
+
+<p>Na calculadora, <script type="math/tex">\sqrt{23} \approx 4,79583</script>.</p>
+
+<ul>
+  <li><script type="math/tex">\sqrt{123}</script>:</li>
+</ul>
+
+<p>Temos que <script type="math/tex">x = 123</script> e <script type="math/tex">a^2 = 121 \rightarrow a = 11</script>. Logo</p>
+
+<script type="math/tex; mode=display">\sqrt{123} \approx \frac{123+121}{2\cdot11} = \frac{244}{22} = 11,091</script>
+
+<p>Na calculadora <script type="math/tex">\sqrt{123} \approx 11,09053</script>.</p>
+
+<p>Observa-se que os resultados são mais próximos do valor real quando a distância entre <script type="math/tex">x</script> e <script type="math/tex">a^2</script> é a menor possível.</p>
+
+<h3 id="em-tempo">Em tempo</h3>
+<p>A fórmula que acabamos de demonstrar é útil quando <script type="math/tex">x \geq 1</script>. Para <script type="math/tex">% <![CDATA[
+0 < x < 1 %]]></script> utilize a fórmula <script type="math/tex">\sqrt{x} = \sqrt{1+r} \approx 1 + r/2</script>.</p>
+
+<p><strong>Exemplo:</strong> <script type="math/tex">\sqrt{0,32} = \sqrt{1+(-0,68)} \approx 1-0,68/2 = 1-0,34=0,66</script>.</p>
+
+<p>Encerramos por hoje e até a próxima dica.</p>
 
 
 
@@ -305,31 +359,7 @@ como \[ 0 &lt; \frac{p}{q}− \left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}
                                 &nbsp;&bull;&nbsp;
                                 
                             
-                                <a href="http://localhost:4000/tags/index.html#Número Neperiano" data-toggle="tooltip" title="Posts tagged with Número Neperiano" rel="tag">Número Neperiano</a>
-
-                                
-                                &nbsp;&bull;&nbsp;
-                                
-                            
-                                <a href="http://localhost:4000/tags/index.html#Número e" data-toggle="tooltip" title="Posts tagged with Número e" rel="tag">Número e</a>
-
-                                
-                                &nbsp;&bull;&nbsp;
-                                
-                            
-                                <a href="http://localhost:4000/tags/index.html#Cálculo" data-toggle="tooltip" title="Posts tagged with Cálculo" rel="tag">Cálculo</a>
-
-                                
-                                &nbsp;&bull;&nbsp;
-                                
-                            
-                                <a href="http://localhost:4000/tags/index.html#Exponencial" data-toggle="tooltip" title="Posts tagged with Exponencial" rel="tag">Exponencial</a>
-
-                                
-                                &nbsp;&bull;&nbsp;
-                                
-                            
-                                <a href="http://localhost:4000/tags/index.html#Logaritmo" data-toggle="tooltip" title="Posts tagged with Logaritmo" rel="tag">Logaritmo</a>
+                                <a href="http://localhost:4000/tags/index.html#Raiz Quadrada" data-toggle="tooltip" title="Posts tagged with Raiz Quadrada" rel="tag">Raiz Quadrada</a>
 
                                 
                             
@@ -345,20 +375,20 @@ como \[ 0 &lt; \frac{p}{q}− \left (1+\frac{1}{1!}+\frac{1}{2!}+\cdots+\frac{1}
     </p>
     <ul class="social-mini">
         <li>
-            <a href="https://twitter.com/intent/tweet?text=O+N%C3%BAmero+e+%C3%A9+Irracional%20http://localhost:4000/blog/O-N%C3%BAmero-e-%C3%A9-Irracional%20via%20&#64;Fabio_Izidio"
+            <a href="https://twitter.com/intent/tweet?text=M%C3%A9todo+para+o+C%C3%A1lculo+da+Raiz+Quadrada%20http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada%20via%20&#64;Fabio_Izidio"
                 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" data-toggle="tooltip"
                 title="Share on Twitter" itemprop="Twitter">
                 <i class="fa fa-twitter"></i>
             </a>
         </li>
         <li>
-            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/O-N%C3%BAmero-e-%C3%A9-Irracional" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"
                 data-toggle="tooltip" title="Share on Facebook" itemprop="Facebook">
                 <i class="fa fa-facebook"></i>
             </a>
         </li>
         <li>
-            <a href="https://plus.google.com/share?url=http://localhost:4000/blog/O-N%C3%BAmero-e-%C3%A9-Irracional" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"
+            <a href="https://plus.google.com/share?url=http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"
                 data-toggle="tooltip" title="Share on Google plus" itemprop="GooglePlus">
                 <i class="fa fa-google-plus"></i>
             </a>
