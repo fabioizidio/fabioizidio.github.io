@@ -1,4 +1,259 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-16T07:56:22-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">Oficina de Foguetes</title><link href="http://localhost:4000/blog/Oficina-de-Foguetes" rel="alternate" type="text/html" title="Oficina de Foguetes" /><published>2017-05-15T00:00:00-03:00</published><updated>2017-05-15T00:00:00-03:00</updated><id>http://localhost:4000/blog/Oficina-de-Foguetes</id><content type="html" xml:base="http://localhost:4000/blog/Oficina-de-Foguetes">&lt;p&gt;Meus queridos alunos, acessem o material produzido pelos organizadores da OBA. Ele contém os passos para a construção do nosso foguete. Acessem o PDF através do link: &lt;a href=&quot;http://www.oba.org.br/sisglob/sisglob_arquivos/INSTRUCOES%20GERAIS%20de%202015.pdf&quot;&gt;www.oba.org.br&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-16T23:48:02-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">A Fé dos Grandes Cientistas</title><link href="http://localhost:4000/blog/a-fe-dos-grandes-cientistas" rel="alternate" type="text/html" title="A Fé dos Grandes Cientistas" /><published>2017-05-16T00:00:00-03:00</published><updated>2017-05-16T00:00:00-03:00</updated><id>http://localhost:4000/blog/a-fe-dos-grandes-cientistas</id><content type="html" xml:base="http://localhost:4000/blog/a-fe-dos-grandes-cientistas">&lt;blockquote&gt;
+  &lt;p&gt;“Penso que os cientistas assim como outras pessoas, precisam aprender de Cristo, e acho que os cristãos cujas mentes dedicam-se à ciência são chamados a estudá-la para que sua visão da glória de Deus possa ser tão extensa quanto possível.”
+&lt;cite&gt;&lt;small title=&quot;James Clerk Maxwell&quot;&gt;James Clerk Maxwell (1831-1879), físico e matemático&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Juntamente com a Assembléia de Westminster e todos que a precederam eu creio que ‘o fim principal do homem é glorificar a Deus e apreciá-lo para sempre.’”
+&lt;cite&gt;&lt;small title=&quot;James Clerk Maxwell&quot;&gt;James Clerk Maxwell (1831-1879), físico e matemático&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Deus não introduziu o homem na escola do mundo para a apreciação da sua multiforme sabedoria? … De qualquer maneira, nisto se reconhece o propósito tanto do mundo criado como dos homens nele colocados.”
+&lt;cite&gt;&lt;small title=&quot;Jan Amos Comenius&quot;&gt;Jan Amos Comenius (1592-1670), teólogo, pedagogo, cientista, pai da pedagogia moderna&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Devemos crer em um Deus e não ter outros deuses além dele. Ele é eterno, onipresente, onisciente, onipotente, criador de todas as coisas, sábio, justo, bom e santo. Devemos amá-lo, temê-lo, honrá-lo e confiar nele, orar a ele, dar-lhe graças, louvá-lo e santificar seu nome, cumprir seus mandamentos e dispor de tempo para honrá-lo em culto.”
+&lt;cite&gt;&lt;small title=&quot;Isaac Newton&quot;&gt;Isaac Newton (1643-1727), matemático e físico&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A verdadeira felicidade consiste no amor a Deus, porém num amor sem preconceitos, cujo fogo arde na luz do conhecimento. Este tipo de amor gera a alegria com boas ações, que dá apoio à virtude e, tendo Deus como centro, eleva o humano ao divino.”
+&lt;cite&gt;&lt;small title=&quot;Gottfried Wilhelm Leibniz&quot;&gt;Gottfried Wilhelm Leibniz (1646-1716), matemático, engenheiro, filósofo e diplomata&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A verdadeira felicidade pode ser encontrada somente em Deus, todos os outros prazeres nada mais são do que uma máscara vazia e são capazes de produzir apenas uma satisfação momentânea.”
+&lt;cite&gt;&lt;small title=&quot;Leonhard Euler&quot;&gt;Leonhard Euler (1707-1783), matemático e físico&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Submeti as verdades fundamentais da fé a um estudo minucioso. Li as obras dos apologetas e de seus adversários, avaliei as razões a favor e contra e assim obtive argumentos relevantes que tornam a religião (bíblica) tão digna de confiança ao espírito científico que uma alma com pensamentos nobres ainda não pervertida por pecado e paixão não pode senão abraçá-la e afeiçoar-se a ela. Peço a Deus que minha profissão de fé, que me foi solicitada e que eu forneço com alegria, escrita de próprio punho e por mim assinada, possa ser apresentada a todos, pois não me envergonho do Evangelho.”
+&lt;cite&gt;&lt;small title=&quot;Alessandro Volta&quot;&gt;Alessandro Volta (1745-1827), físico&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Os mistérios de Deus não são compreendidos; são adorados.”
+&lt;cite&gt;&lt;small title=&quot;Wilhelm von Humboldt&quot;&gt;Wilhelm von Humboldt (1767-1835), linguista, cofundador da primeira universidade de Berlim&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Existem questões a cuja resposta eu daria um valor infinitamente maior do que às matemáticas, por exemplo questões sobre ética, sobre nosso relacionamento com Deus, sobre nosso destino e nosso futuro. Para a alma existe uma satisfação de espécie superior, para a qual dispenso o que é material”
+&lt;cite&gt;&lt;small title=&quot;Karl Friedrich Gauss&quot;&gt;Karl Friedrich Gauss (1777-1855), matemático e físico&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Fé é uma necessidade do coração. Ausência de fé não preenche lacunas. Onde se lançou fora a fé proliferará a superstição.”
+&lt;cite&gt;&lt;small title=&quot;Friedrich Rückert&quot;&gt;Friedrich Rückert (1788-1866), filólogo, pioneiro da orientalística na Alemanha&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Sou um cristão, isto significa: creio na divindade de Jesus Cristo juntamente com Tycho Brahe, Copérnico, Descartes, Newton, Fermat, Leibniz, Pascal, Grimaldi, Euler, Guldin, Boscowitsch, Gerdil, com todos os grandes astrônomos, todos os grandes pesquisadores das ciências naturais, todos os grandes matemáticos dos séculos passados. E se porventura me perguntarem pela razão, terei prazer em explicá-la. Verão que minha convicção é resultado de estudo cuidadoso e não de preconceitos.”
+&lt;cite&gt;&lt;small title=&quot;Augustin Louis Cauchy&quot;&gt;Augustin Louis Cauchy (1789-1857), matemático e físico&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Eu confio em certezas. Eu sei que meu Redentor vive, e porque Ele vive eu também viverei.”
+&lt;cite&gt;&lt;small title=&quot;Michael Faraday&quot;&gt;Michael Faraday (1791-1867), físico e químico&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“O bondoso Criador colocou quatro desejos no homem, pelos quais podemos dizer que este é segundo a imagem de Deus: a fé, a consciência, o desejo de saber, o sentido pela estética.” (citação resumida)
+&lt;cite&gt;&lt;small title=&quot;Karl Ernst von Baer&quot;&gt;Karl Ernst von Baer (1792 - 1876), biólogo, pai da embriologia&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“O conhecimento da natureza é o caminho para a admiração do Criador.”
+&lt;cite&gt;&lt;small title=&quot;Justus von Liebig&quot;&gt;Justus von Liebig (1803 - 1873), químico, patrono da Universidade de Giessen, Alemanha&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“O povo, se quiser ser livre, há de ter convicções religiosas. Em não tendo fé, servirá.”
+&lt;cite&gt;&lt;small title=&quot;Alexis de Tocqueville&quot;&gt;Alexis de Tocqueville (1805 - 1859), cientista político e historiador&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Após conhecer e obedecer à vontade de Deus, o próximo alvo deve ser conhecer algo dos Seus atributos de sabedoria, poder e bondade evidenciados nas obras de Suas mãos.”
+&lt;cite&gt;&lt;small title=&quot;James Prescott Joule&quot;&gt;James Prescott Joule (1818-1889), físico&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Quanto mais eu estudo a natureza mais fico impressionado com a obra do Criador. Nas menores de suas criaturas Deus colocou propriedades extraordinárias…”
+&lt;cite&gt;&lt;small title=&quot;Louis Pasteur&quot;&gt;Louis Pasteur (1822-1895), microbiólogo e químico&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Proclamo Jesus como filho de Deus em nome da ciência. Meu espírito científico, que dá grande valor à relação entre causa e efeito, compromete-me a reconhecer que, se ele não o fosse, eu não mais saberia quem ele é. Mas ele é o filho de Deus. Suas palavras são divinas, sua vida é divina, e foi dito com razão que existem equações morais assim como existem equações matemáticas.”
+&lt;cite&gt;&lt;small title=&quot;Louis Pasteur&quot;&gt;Louis Pasteur (1822-1895), microbiólogo e químico&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Muitas pessoas excelentes temem a ciência como tendendo ao materialismo. Não é surpreendente que tal apreensão exista, pois, infelizmente, há escritores, falando em nome da ciência, que se fixaram a fomentá-la. É verdade que entre os homens de ciência, como em outros ramos, pontos de vista pouco refletidos podem ser encontrados a respeito das coisas mais profundas da natureza; mas que as crenças a que Newton, Faraday e Maxwell aderiram toda uma vida seriam incompatíveis com o hábito científico da mente é, sem dúvida, uma proposição que eu não preciso me delongar em refutar.”
+&lt;cite&gt;&lt;small title=&quot;John William Strutt&quot;&gt;John William Strutt, Lord Rayleigh (1842-1919), ganhador do Prêmio Nobel de Física de 1904&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Nunca senti pelas vilanias humanas mais enjoos e pela sorte de nossa terra mais desânimo. Felizmente a fé em Deus se me vai acendendo, à medida que se me apaga a confiança nos homens. No meio de tantos desconfortos e iniquidade tenho-me entregado estes dias exclusivamente à leitura do Evangelho, a eterna consolação dos malferidos nos grandes naufrágios.”
+&lt;cite&gt;&lt;small title=&quot;Ruy Barbosa de Oliveira&quot;&gt;Ruy Barbosa de Oliveira (1849-1923), filólogo e cientista político&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Nem o ateísmo reflexivo dos filósofos, nem o inconsciente ateísmo dos indiferentes são compatíveis com as qualidades de ação, resistência e disciplina essenciais aos povos livres. Os descrentes, em geral, são fracos e pessimistas, resignados ou rebeldes, agitados ou agitadores. Mas ainda não basta crer: é preciso crer definida e ativamente em Deus, isto é, confessá-lo com firmeza, e praticá-lo com perseverança.”
+&lt;cite&gt;&lt;small title=&quot;Ruy Barbosa de Oliveira&quot;&gt;Ruy Barbosa de Oliveira (1849-1923), filólogo e cientista político&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“À medida que conquistamos pico após pico vemos diante de nós regiões cheias de interesse e beleza, mas não vemos o nosso objetivo, não vemos o horizonte; à distância erguem-se picos ainda mais altos, que irão render aos que os ascenderem perspectivas ainda mais amplas, e um sentimento mais profundo, a verdade do qual é enfatizada por cada avanço na ciência, de que ‘Grandes são as obras do Senhor.’”
+&lt;cite&gt;&lt;small title=&quot;Joseph John Thomson&quot;&gt;Joseph John Thomson (1856-1940), ganhador do Prêmio Nobel de Física de 1906&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“… desde a infância a fé firme e inabalável no Todo Poderoso e Todo Bondoso tem profundas raízes em mim. Decerto Seus caminhos não são nossos caminhos; mas a confiança Nele nos ajuda a vencer as provações mais difíceis.”
+&lt;cite&gt;&lt;small title=&quot;Max Planck&quot;&gt;Max Planck (1858-1947), ganhador do Prêmio Nobel de Física de 1919&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Religião e ciência natural combatem unidos numa batalha incessante contra o ceticismo e o dogmatismo, contra a descrença e a superstição. E a palavra de ordem nesta luta sempre foi e para todo sempre será: em direção a Deus!”
+&lt;cite&gt;&lt;small title=&quot;Max Planck&quot;&gt;Max Planck (1858-1947), ganhador do Prêmio Nobel de Física de 1919&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A prova mais imediata da compatibilidade entre religião e ciência natural, mesmo sob análise detalhada e crítica, é o fato histórico de que justamente os maiores cientistas de todos os tempos, homens como Kepler, Newton, Leibniz, estavam imbuídos de profunda religiosidade.”
+&lt;cite&gt;&lt;small title=&quot;Max Planck&quot;&gt;&lt;/small&gt;Max Planck (1858-1947), ganhador do Prêmio Nobel de Física de 1919&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Eu sempre vi nas minhas descobertas uma dádiva de Deus. E como, além disso, sempre trabalhei para o bem da humanidade, tentando provar, ao mesmo tempo, que a religião não é incompatível com a ciência, folgo em ver hoje realizado na prática utilitária, aquilo que foi meu sonho de muitos dias, muitos meses, muitos anos.”
+&lt;cite&gt;&lt;small title=&quot;Roberto Landell de Moura&quot;&gt;Roberto Landell de Moura (1861- 1928), teólogo, inventor, pioneiro do rádio&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Quando eu trabalhava em projetos que atendiam a uma real necessidade humana, forças trabalhavam através de mim que me surpreendiam. Frequentemente eu adormecia com um problema aparentemente insolúvel. Ao acordar, a resposta estava lá. Por que, então, devemos nós crentes em Cristo nos surpreender com aquilo que Deus pode fazer com um homem de boa vontade em um laboratório?”
+&lt;cite&gt;&lt;small title=&quot;George Washington Carver&quot;&gt;George Washington Carver (1864-1943), botânico, agrônomo&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Como historiador preciso admitir que este pobre pregador da Galileia inevitavelmente é o centro da história.”
+&lt;cite&gt;&lt;small title=&quot;Herbert George Wells&quot;&gt;Herbert George Wells (1866-1946), historiador e escritor&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Jesus conhece nosso mundo. Ele não desdenha de nós como o deus de Aristóteles. Podemos falar com Ele e Ele nos responde. Embora Ele seja uma pessoa como nós, Ele é Deus e transcende todas as coisas.”
+&lt;cite&gt;&lt;small title=&quot;Alexis Carrel&quot;&gt;Alexis Carrel (1873-1944), ganhador do Prêmio Nobel de Fisiologia ou Medicina de 1912&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Nossa visão espiritual e não apenas puramente racional do homem…, nós a devemos à tradição judaica, que teve no Evangelho um desdobramento tão grandioso. Os profetas de Israel, aqueles brilhantes e devotos líderes do seu povo, plantaram no nosso espírito a sede de justiça que caracteriza socialmente o Ocidente.”
+&lt;cite&gt;&lt;small title=&quot;André Siegfried&quot;&gt;André Siegfried (1875-1959), educador e cientista político&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A todo cientista minucioso deve ser natural algum tipo de sentimento religioso, pois não consegue supor que as dependências extremamente sutis por ele vislumbradas tenham sido pensadas pela primeira vez por ele. No universo incompreensível revela-se uma razão ilimitada. A opinião corrente de que sou ateu baseia-se num grande engano. Quem julga deduzi-la de minhas teorias científicas, mal as compreendeu. Entendeu-me de forma equivocada e presta-me péssimo serviço…”
+&lt;cite&gt;&lt;small title=&quot;Albert Einstein&quot;&gt;Albert Einstein (1879-1955), ganhador do Prêmio Nobel de Física de 1921&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“No fundo o ideal do homem cristão é a superação heroica de tudo o que rebaixa…, naturalmente não apenas por força própria, que é insuficiente, mas com ajuda da graça (de Deus).”
+&lt;cite&gt;&lt;small title=&quot;Friedrich Dessauer&quot;&gt;Friedrich Dessauer (1881-1963), físico, pai da engenharia biomédica&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Para mim, a fé começa com a constatação de que uma inteligência suprema chamou o universo à existência e criou o homem. Não me é difícil crer isso, pois é inegável que onde há um plano, há também inteligência - um universo ordenado e em desdobramento atesta a verdade da declaração mais poderosa que jamais foi proferida: ‘No princípio Deus criou’.”
+&lt;cite&gt;&lt;small title=&quot;Arthur Holly Compton&quot;&gt;Arthur Holly Compton (1892-1962), ganhador do Prêmio Nobel de Física de 1927&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Ele (o pesquisador cristão) sabe que coisa alguma em toda a criação foi feita sem Deus, mas ele sabe também que Deus em nenhum lugar assume o lugar de suas criaturas. Atividade divina onipresente em todos os lugares é essencialmente escondida. Jamais esteve em questão reduzir o Ser supremo ao posto de uma hipótese científica.”
+&lt;cite&gt;&lt;small title=&quot;Georges Lemaître&quot;&gt;Georges Lemaître (1894-1966), teólogo, engenheiro, físico, astrônomo, pai da teoria do “big-bang”&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Talvez os próprios teólogos tenham alguma responsabilidade no mal-entendido que coloca a ciência contra a fé. Quando uma aparência de conflito se origina entre um ponto tradicional de ensino religioso e uma nova hipótese que começa a estabelecer-se com base em fatos, eles mostram uma tendência cômoda demais de esperar até o último momento, quando a hipótese seria definitivamente provada. Eles teriam feito trabalho muito mais útil investigando cuidadosamente esses pontos da doutrina que parecem levar a conflitos… De qualquer forma, sua cortesia inteligente seria muito apreciada nos meios científicos, e constituiria uma apologética do melhor tipo.”
+&lt;cite&gt;&lt;small title=&quot;Georges Lemaître&quot;&gt;Georges Lemaître (1894-1966), teólogo, engenheiro, físico, astrônomo, pai da teoria do “big-bang”&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“E agora, quando olhamos para a outra margem, um único vulto ergue-se das águas e preenche todo o horizonte. É o Salvador - Deus encarnado no homem Jesus de Nazaré.”
+&lt;cite&gt;&lt;small title=&quot;Arnold Joseph Toynbee&quot;&gt;Arnold Joseph Toynbee (1889-1975), historiador&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Ainda que eu hoje esteja convencido da invulnerabilidade da verdade científica em seu campo, nunca me foi possível simplesmente rejeitar o conteúdo do pensamento religioso como parte de um nível superado da consciência da humanidade, uma parte a que no futuro teríamos que renunciar.”
+&lt;cite&gt;&lt;small title=&quot;Werner Heisenberg&quot;&gt;Werner Heisenberg (1901-1976), ganhador do Prêmio Nobel de Física de 1932&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Natureza definitivamente não pode ser discutida de modo completo em termos científicos sem incluir também a indagação por Deus.”
+&lt;cite&gt;&lt;small title=&quot;Walter Heinrich Heitler&quot;&gt;Walter Heinrich Heitler (1904-1981), físico, recebedor da Medalha Max Planck de 1968&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Os milagres da história humana são aqueles em que Deus falou aos homens. O supremo milagre para os cristãos é a ressurreição. Alguma coisa aconteceu àqueles poucos homens que conheciam Jesus que os levou a acreditar que Jesus estava vivo, com tal intensidade e convicção que esta fé permanece a base da igreja cristã dois mil anos depois.”
+&lt;cite&gt;&lt;small title=&quot;Nevill Mott&quot;&gt;Nevill Mott (1905-1996), ganhador do Prêmio Nobel de Física de 1977&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Estou procurando mostrar que não há incompatibilidade entre a verdade científica e a revelação: são duas coisas que tratam de espaços diferentes. Uma trata da realidade da vida, a outra trata do transcendental. E a Bíblia, que é um livro muito interessante de ser lido (principalmente Isaías), não procura ensinar à gente nada de ciência, e sim uma ordem moral. … a Bíblia não quer ensinar como é que se fez o céu, mas quer ensinar como é que se vai ao céu. Trata-se de um preceito teológico muito importante, relativo à questão de graça: a pessoa acredita ou não. Agora, como eu respeito as pessoas que não creem, quero também que elas respeitem a sinceridade de minha fé.”
+&lt;cite&gt;&lt;small title=&quot;Carlos Chagas Filho&quot;&gt;Carlos Chagas Filho (1910-2000), médico, membro da Acad. Bras. Ciências&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Minhas experiências com ciência conduziram-me a Deus. Desafiam a ciência a provar a existência de Deus. Mas precisamos realmente acender uma vela para ver o sol?”
+&lt;cite&gt;&lt;small title=&quot;Wernher von Braun&quot;&gt;Wernher von Braun (1912-1977), pioneiro da exploração espacial&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Você pode perguntar: onde exatamente Deus entra em tudo isto? Talvez minha narrativa possa lhe dar algumas respostas, mas para mim a pergunta quase não faz sentido. Se você crê em Deus, não existe um ‘onde’ em particular. Ele sempre está presente… Para mim Deus é pessoal e também onipresente. Uma grande fonte de força, Ele fez uma enorme diferença para mim.”
+&lt;cite&gt;&lt;small title=&quot;Charles H. Townes&quot;&gt;Charles H. Townes (1915-2015), ganhador do Prêmio Nobel de Física de 1964&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“… eu encontro uma necessidade por Deus no universo e em minha própria vida … Somos afortunados em termos a Bíblia, e especialmente o Novo Testamento, que nos fala de Deus em termos humanos muito acessíveis, embora também nos deixe algumas coisas difíceis de entender.”
+&lt;cite&gt;&lt;small title=&quot;Arthur L. Schawlow&quot;&gt;Arthur L. Schawlow (1921-1999), ganhador do Prêmio Nobel de Física de 1981&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Eu creio em Deus. Não faz o menor sentido para mim supor que o universo e nossa existência são apenas um acidente cósmico, que a vida emergiu por processos aleatórios em um ambiente que apenas por acaso tinha as propriedades certas.”
+&lt;cite&gt;&lt;small title=&quot;Antony Hewish&quot;&gt;Antony Hewish (1924-), ganhador do Prêmio Nobel de Física de 1974&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Como um cristão, começo a compreender o que é a vida através da fé num Criador… revelado por um homem nascido há cerca de 2000 anos.”
+&lt;cite&gt;&lt;small title=&quot;Antony Hewish&quot;&gt;Antony Hewish (1924-), ganhador do Prêmio Nobel de Física de 1974&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Eu creio apaixonadamente na teoria quântica, mas tal crença não ameaça mudar minha vida de forma significativa. Não posso crer em Deus, no entanto, sem saber que devo ser obediente a Sua vontade para mim, à medida que ela se torna conhecida a mim. Deus não está aí apenas para satisfazer minha curiosidade intelectual, ele está aí para ser honrado e respeitado e amado como meu Criador e Salvador. Cuidado! Deixe-me fazer um aviso teológico de saúde, ou melhor, uma promessa: ‘Ler a Bíblia pode mudar sua vida.’”
+&lt;cite&gt;&lt;small title=&quot;John Polkinghorne&quot;&gt;John Polkinghorne (1930- ), físico, teólogo, ex-presidente do Queen’s College, Cambridge&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Eu olho para Deus através das obras de suas mãos e estas obras implicam intenções. Destas intenções recebo uma impressão do Todo Poderoso.”
+&lt;cite&gt;&lt;small title=&quot;Arno Allan Penzias&quot;&gt;Arno Allan Penzias (1933- ), ganhador do Prêmio Nobel de Física de 1978&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Algumas coisas estão além da racionalidade e da demonstração, e não penso que Deus queira que elas sejam analisáveis ou demonstráveis.”
+&lt;cite&gt;&lt;small title=&quot;Donald Ervin Knuth&quot;&gt;Donald Ervin Knuth (1938- ), cientista da computação, ganhador do Prêmio Turing de 1974&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Recentemente tenho voltado à igreja regularmente com um novo foco, para entender da melhor maneira possível o que torna o cristianismo tão vital e poderoso na vida de bilhões de pessoas hoje, apesar de terem se passado quase 2000 anos desde a morte e ressurreição de Cristo. Embora eu suspeite que eu nunca vá entender completamente, agora acho que a resposta é muito simples: é verdade. … O objetivo deste universo é algo que só Deus sabe com certeza, mas é cada vez mais claro à ciência moderna de que o universo foi primorosamente sintonizado para permitir a vida humana. Estamos de alguma forma envolvidos criticamente em Seu propósito. Nosso trabalho é o de perceber este propósito da melhor forma possível, amar uns aos outros, e ajudá-Lo a alcançá-lo.”
+&lt;cite&gt;&lt;small title=&quot;Richard Smalley&quot;&gt;Richard Smalley (1943-2005), ganhador do Prêmio Nobel de Química de 1996&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Muitos cientistas são também pessoas com uma fé religiosa bastante convencional. Eu, um físico, sou um exemplo. Creio em Deus como Criador e como Amigo. Isto é, creio que Deus é pessoal e interage conosco.”
+&lt;cite&gt;&lt;small title=&quot;William Daniel Phillips&quot;&gt;William Daniel Phillips (1948- ), ganhador do Prêmio Nobel de Física de 1997&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Não tenho razão para ver uma discordância entre aquilo, que sei como cientista que passa o dia inteiro estudando o genoma humano, e aquilo, que creio como alguém que presta muita atenção ao que a Bíblia me ensinou sobre Deus e sobre Jesus Cristo. … A noção de que você deve escolher entre um e outro é um mito terrível que tem sido proposto, e que muitas pessoas têm aceito sem real oportunidade de examinar a evidência.”
+&lt;cite&gt;&lt;small title=&quot;Francis Sellers Collins&quot;&gt;Francis Sellers Collins (1950- ), geneticista, ex-diretor do Projeto Genoma Humano&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Fonte: &lt;a href=&quot;http://www.freewebs.com/kienitz/declara.htm&quot;&gt;Fé e Ciência&lt;/a&gt;&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Pensamentos" /><category term="Frases" /><category term="Cientistas" /><category term="Ciência" /><category term="Fé" /><category term="Deus" /><category term="Cristianismo" /><category term="Razão" /><summary type="html">“Penso que os cientistas assim como outras pessoas, precisam aprender de Cristo, e acho que os cristãos cujas mentes dedicam-se à ciência são chamados a estudá-la para que sua visão da glória de Deus possa ser tão extensa quanto possível.” James Clerk Maxwell (1831-1879), físico e matemático</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22math.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">Oficina de Foguetes</title><link href="http://localhost:4000/blog/Oficina-de-Foguetes" rel="alternate" type="text/html" title="Oficina de Foguetes" /><published>2017-05-15T00:00:00-03:00</published><updated>2017-05-15T00:00:00-03:00</updated><id>http://localhost:4000/blog/Oficina-de-Foguetes</id><content type="html" xml:base="http://localhost:4000/blog/Oficina-de-Foguetes">&lt;p&gt;Meus queridos alunos, acessem o material produzido pelos organizadores da OBA. Ele contém os passos para a construção do nosso foguete. Acessem o PDF através do link: &lt;a href=&quot;http://www.oba.org.br/sisglob/sisglob_arquivos/INSTRUCOES%20GERAIS%20de%202015.pdf&quot;&gt;www.oba.org.br&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Não esqueçam de por suas dúvidas no campo de comentário logo abaixo.&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Astronomia e Astronáutica" /><category term="Astronáutica" /><category term="Foguete" /><category term="Física" /><summary type="html">Meus queridos alunos, acessem o material produzido pelos organizadores da OBA. Ele contém os passos para a construção do nosso foguete. Acessem o PDF através do link: www.oba.org.br.</summary></entry><entry><title type="html">Método para o Cálculo da Raiz Quadrada</title><link href="http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada" rel="alternate" type="text/html" title="Método para o Cálculo da Raiz Quadrada" /><published>2017-05-11T00:00:00-03:00</published><updated>2017-05-11T00:00:00-03:00</updated><id>http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada</id><content type="html" xml:base="http://localhost:4000/blog/Metodo-para-o-Calculo-da-Raiz-Quadrada">&lt;p&gt;A operação de raiz quadrada é uma das mais fundamentais da Matemática e aparece em inúmeras situações, mas infelizmente, ao contrário das operações de adição, subtração, multiplicação, divisão e potenciação, calculá-la às vezes não é óbvia para uma pessoa comum. Apesar de existirem alguns métodos numéricos para fazerem tal operação quero trazer uma demonstração de um método que, durante minhas brincadeiras, desenvolvi. Confesso que não sei se alguém já o demonstrou desta maneira (não lembro de tê-lo visto) mas é meu desejo deixar esta contribuição. Então, mãos à obra!&lt;/p&gt;
 
@@ -395,9 +650,4 @@ Unicamente no sacrifício de Jesus.&lt;/p&gt;
 &lt;p&gt;(Clique aqui para baixar uma &lt;a href=&quot;https://drive.google.com/file/d/0B_7PJbOFbVR7R281MXU5SkFqMGM/view?usp=sharing&quot;&gt;cópia&lt;/a&gt; em PDF)&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Jesus Cristo" /><category term="Cruz" /><category term="Sacrifício" /><category term="Páscoa" /><category term="Salvação" /><summary type="html">Shalom para os meus leitores favoritos! Que a paz de Cristo inunde o coração de vocês. Hoje posto uma poesia de minha autoria cuja cópia está anexa em PDF para download. Podem usar na igreja, nos pequenos grupos, no evangelismo, etc… É para a glória do Senhor Jesus Cristo. Só uma coisa peço: não desmereçam minha autoria. Se forem postar em algum lugar me indiquem como autor. Nada mais justo! Mas deixando de conversa, eis a poesia inspirada no grande sacrifício de Cristo, como o nosso Cordeiro Pascal. Não sou um poeta nato; às vezes gosto de brincar disso (rsrsrsrs), mas apreciem pois foi feito para nutrir o coração com o amor de Deus.</summary></entry><entry><title type="html">Santidade, Perfeição e a Segunda Vinda de Cristo</title><link href="http://localhost:4000/blog/Santidade,-Perfei%C3%A7%C3%A3o-e-a-Segunda-Vinda-de-Cristo" rel="alternate" type="text/html" title="Santidade, Perfeição e a Segunda Vinda de Cristo" /><published>2017-03-24T00:00:00-03:00</published><updated>2017-03-24T00:00:00-03:00</updated><id>http://localhost:4000/blog/Santidade,-Perfei%C3%A7%C3%A3o-e-a-Segunda-Vinda-de-Cristo</id><content type="html" xml:base="http://localhost:4000/blog/Santidade,-Perfei%C3%A7%C3%A3o-e-a-Segunda-Vinda-de-Cristo">&lt;blockquote&gt;
   &lt;p&gt;“Cristo aguarda com fremente desejo a manifestação de Si mesmo em Sua igreja. Quando o caráter de Cristo se reproduzir perfeitamente em Seu povo, então virá para reclamá - los como Seus.”
 &lt;small&gt;&lt;cite title=&quot;Ellen G. White&quot;&gt;Ellen G. White - &lt;i&gt;Parábolas de Jesus &lt;/i&gt;, pág. 29.&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Espírito de Profecia" /><category term="Perfeição" /><category term="Santidade" /><category term="Segunda Vinda" /><summary type="html">“Cristo aguarda com fremente desejo a manifestação de Si mesmo em Sua igreja. Quando o caráter de Cristo se reproduzir perfeitamente em Seu povo, então virá para reclamá - los como Seus.” Ellen G. White - Parábolas de Jesus , pág. 29.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22volta-de-Jesus.jpg%22%7D" /></entry><entry><title type="html">Homens de Caráter</title><link href="http://localhost:4000/blog/Homens-de-Carater" rel="alternate" type="text/html" title="Homens de Caráter" /><published>2017-02-22T00:00:00-03:00</published><updated>2017-02-22T00:00:00-03:00</updated><id>http://localhost:4000/blog/Homens-de-Carater</id><content type="html" xml:base="http://localhost:4000/blog/Homens-de-Carater">&lt;blockquote&gt;
-  &lt;p&gt;“A maior necessidade do mundo é a de homens — homens que se não comprem nem se vendam; homens que no íntimo da alma sejam verdadeiros e honestos; homens que não temam chamar o pecado pelo seu nome exato; homens, cuja consciência seja tão fiel ao dever como a bússola o é ao pólo; homens que permaneçam firmes pelo que é reto, ainda que caiam os céus.”
-&lt;small&gt;&lt;cite title=&quot;Ellen G. White&quot;&gt;Ellen G. White&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/2ud96iyxCw4&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Espírito de Profecia" /><summary type="html">“A maior necessidade do mundo é a de homens — homens que se não comprem nem se vendam; homens que no íntimo da alma sejam verdadeiros e honestos; homens que não temam chamar o pecado pelo seu nome exato; homens, cuja consciência seja tão fiel ao dever como a bússola o é ao pólo; homens que permaneçam firmes pelo que é reto, ainda que caiam os céus.” Ellen G. White</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3Enil%7D" /></entry></feed>
+&lt;/blockquote&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Espírito de Profecia" /><category term="Perfeição" /><category term="Santidade" /><category term="Segunda Vinda" /><summary type="html">“Cristo aguarda com fremente desejo a manifestação de Si mesmo em Sua igreja. Quando o caráter de Cristo se reproduzir perfeitamente em Seu povo, então virá para reclamá - los como Seus.” Ellen G. White - Parábolas de Jesus , pág. 29.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22volta-de-Jesus.jpg%22%7D" /></entry></feed>
