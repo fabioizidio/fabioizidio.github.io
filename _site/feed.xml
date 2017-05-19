@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-16T23:48:02-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">A Fé dos Grandes Cientistas</title><link href="http://localhost:4000/blog/a-fe-dos-grandes-cientistas" rel="alternate" type="text/html" title="A Fé dos Grandes Cientistas" /><published>2017-05-16T00:00:00-03:00</published><updated>2017-05-16T00:00:00-03:00</updated><id>http://localhost:4000/blog/a-fe-dos-grandes-cientistas</id><content type="html" xml:base="http://localhost:4000/blog/a-fe-dos-grandes-cientistas">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="http://jekyllrb.com" version="3.4.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-05-17T16:10:59-03:00</updated><id>http://localhost:4000/</id><title type="html">Fábio Izidio</title><subtitle>Um pouco de tudo o que gosto</subtitle><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><entry><title type="html">A Multiplicação Russa</title><link href="http://localhost:4000/blog/a-multiplicacao-russa" rel="alternate" type="text/html" title="A Multiplicação Russa" /><published>2017-05-17T00:00:00-03:00</published><updated>2017-05-17T00:00:00-03:00</updated><id>http://localhost:4000/blog/a-multiplicacao-russa</id><content type="html" xml:base="http://localhost:4000/blog/a-multiplicacao-russa">&lt;p&gt;A múltiplicação russa é um algoritmo computacional muito exótico. Ele era utilizado pelos antigos camponeses russos para efetuar a multiplicação entre dois números inteiros. Naturalmente, não proponho que este método seja a fórmula mágica para simplificar suas contas, pelo contrário! No entanto, o apresento aqui para satisfação da curiosidade e demonstrar que outras civilizações tinham métodos alternativos para efetuar certas operações.&lt;/p&gt;
+
+&lt;p&gt;O procedimento funciona da seguinte forma:&lt;/p&gt;
+
+&lt;p&gt;Vejamos alguns exemplos dessa multiplicação curiosa:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;23 x 45&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1º Número&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;2º Número&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;23&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;45&lt;/td&gt;
+      &lt;td&gt;*&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;46&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;22&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;92&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11&lt;/td&gt;
+      &lt;td&gt;*&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;184&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5&lt;/td&gt;
+      &lt;td&gt;*&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;368&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;736&lt;/td&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1&lt;/td&gt;
+      &lt;td&gt;*&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Logo 23 x 45 = 23 + 92 + 184 + 736 = 1035&lt;/p&gt;
+
+&lt;p&gt;RG 2004007100594
+CPF 046998623-90&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Matemática" /><category term="Matemática" /><category term="História da Matemática" /><category term="Aritmética" /><category term="Números Naturais" /><summary type="html">A múltiplicação russa é um algoritmo computacional muito exótico. Ele era utilizado pelos antigos camponeses russos para efetuar a multiplicação entre dois números inteiros. Naturalmente, não proponho que este método seja a fórmula mágica para simplificar suas contas, pelo contrário! No entanto, o apresento aqui para satisfação da curiosidade e demonstrar que outras civilizações tinham métodos alternativos para efetuar certas operações.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22math.jpg%22,%20%22credit%22=%3Enil,%20%22creditlink%22=%3Enil%7D" /></entry><entry><title type="html">A Fé dos Grandes Cientistas</title><link href="http://localhost:4000/blog/a-fe-dos-grandes-cientistas" rel="alternate" type="text/html" title="A Fé dos Grandes Cientistas" /><published>2017-05-16T00:00:00-03:00</published><updated>2017-05-16T00:00:00-03:00</updated><id>http://localhost:4000/blog/a-fe-dos-grandes-cientistas</id><content type="html" xml:base="http://localhost:4000/blog/a-fe-dos-grandes-cientistas">&lt;blockquote&gt;
   &lt;p&gt;“Penso que os cientistas assim como outras pessoas, precisam aprender de Cristo, e acho que os cristãos cujas mentes dedicam-se à ciência são chamados a estudá-la para que sua visão da glória de Deus possa ser tão extensa quanto possível.”
 &lt;cite&gt;&lt;small title=&quot;James Clerk Maxwell&quot;&gt;James Clerk Maxwell (1831-1879), físico e matemático&lt;/small&gt;&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -647,7 +709,4 @@ Unicamente no sacrifício de Jesus.&lt;/p&gt;
 
 &lt;p&gt;“Lançai fora o velho fermento, para que sejais nova massa, como sois, de fato, sem fermento. Pois também Cristo, nosso cordeiro pascal, foi imolado.” – 1ª Coríntios 5:7.&lt;/p&gt;
 
-&lt;p&gt;(Clique aqui para baixar uma &lt;a href=&quot;https://drive.google.com/file/d/0B_7PJbOFbVR7R281MXU5SkFqMGM/view?usp=sharing&quot;&gt;cópia&lt;/a&gt; em PDF)&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Jesus Cristo" /><category term="Cruz" /><category term="Sacrifício" /><category term="Páscoa" /><category term="Salvação" /><summary type="html">Shalom para os meus leitores favoritos! Que a paz de Cristo inunde o coração de vocês. Hoje posto uma poesia de minha autoria cuja cópia está anexa em PDF para download. Podem usar na igreja, nos pequenos grupos, no evangelismo, etc… É para a glória do Senhor Jesus Cristo. Só uma coisa peço: não desmereçam minha autoria. Se forem postar em algum lugar me indiquem como autor. Nada mais justo! Mas deixando de conversa, eis a poesia inspirada no grande sacrifício de Cristo, como o nosso Cordeiro Pascal. Não sou um poeta nato; às vezes gosto de brincar disso (rsrsrsrs), mas apreciem pois foi feito para nutrir o coração com o amor de Deus.</summary></entry><entry><title type="html">Santidade, Perfeição e a Segunda Vinda de Cristo</title><link href="http://localhost:4000/blog/Santidade,-Perfei%C3%A7%C3%A3o-e-a-Segunda-Vinda-de-Cristo" rel="alternate" type="text/html" title="Santidade, Perfeição e a Segunda Vinda de Cristo" /><published>2017-03-24T00:00:00-03:00</published><updated>2017-03-24T00:00:00-03:00</updated><id>http://localhost:4000/blog/Santidade,-Perfei%C3%A7%C3%A3o-e-a-Segunda-Vinda-de-Cristo</id><content type="html" xml:base="http://localhost:4000/blog/Santidade,-Perfei%C3%A7%C3%A3o-e-a-Segunda-Vinda-de-Cristo">&lt;blockquote&gt;
-  &lt;p&gt;“Cristo aguarda com fremente desejo a manifestação de Si mesmo em Sua igreja. Quando o caráter de Cristo se reproduzir perfeitamente em Seu povo, então virá para reclamá - los como Seus.”
-&lt;small&gt;&lt;cite title=&quot;Ellen G. White&quot;&gt;Ellen G. White - &lt;i&gt;Parábolas de Jesus &lt;/i&gt;, pág. 29.&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Espírito de Profecia" /><category term="Perfeição" /><category term="Santidade" /><category term="Segunda Vinda" /><summary type="html">“Cristo aguarda com fremente desejo a manifestação de Si mesmo em Sua igreja. Quando o caráter de Cristo se reproduzir perfeitamente em Seu povo, então virá para reclamá - los como Seus.” Ellen G. White - Parábolas de Jesus , pág. 29.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/%7B%22feature%22=%3E%22volta-de-Jesus.jpg%22%7D" /></entry></feed>
+&lt;p&gt;(Clique aqui para baixar uma &lt;a href=&quot;https://drive.google.com/file/d/0B_7PJbOFbVR7R281MXU5SkFqMGM/view?usp=sharing&quot;&gt;cópia&lt;/a&gt; em PDF)&lt;/p&gt;</content><author><name>Fábio Izidio</name><email>fabioizidio7@gmail.com</email></author><category term="Poesia" /><category term="Poesias" /><category term="Jesus Cristo" /><category term="Cruz" /><category term="Sacrifício" /><category term="Páscoa" /><category term="Salvação" /><summary type="html">Shalom para os meus leitores favoritos! Que a paz de Cristo inunde o coração de vocês. Hoje posto uma poesia de minha autoria cuja cópia está anexa em PDF para download. Podem usar na igreja, nos pequenos grupos, no evangelismo, etc… É para a glória do Senhor Jesus Cristo. Só uma coisa peço: não desmereçam minha autoria. Se forem postar em algum lugar me indiquem como autor. Nada mais justo! Mas deixando de conversa, eis a poesia inspirada no grande sacrifício de Cristo, como o nosso Cordeiro Pascal. Não sou um poeta nato; às vezes gosto de brincar disso (rsrsrsrs), mas apreciem pois foi feito para nutrir o coração com o amor de Deus.</summary></entry></feed>

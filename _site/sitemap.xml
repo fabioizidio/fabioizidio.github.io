@@ -87,6 +87,10 @@
 <lastmod>2017-05-16T00:00:00-03:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/blog/a-multiplicacao-russa</loc>
+<lastmod>2017-05-17T00:00:00-03:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -259,6 +263,15 @@
 </url>
 <url>
 <loc>http://localhost:4000/archive/tag/raz%C3%A3o/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/archive/tag/hist%C3%B3ria-da-matem%C3%A1tica/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/archive/tag/aritm%C3%A9tica/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/archive/tag/n%C3%BAmeros-naturais/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/archive/category/teologia/</loc>
