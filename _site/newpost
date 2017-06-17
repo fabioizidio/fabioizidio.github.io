@@ -1,0 +1,398 @@
+#!/bin/bash
+
+# Entra com o título da postagem
+echo -e "\033[1;34m"
+read -p "Título: " titulo
+echo -e "\033[0m"
+
+# Obtém data da postagem
+data=$(date +%Y)-$(date +%m)-$(date +%d)
+
+# Cria nome para o arquivo onde será salva a postagem
+# Substitui espaços por -
+nomeArquivo=`echo $titulo | tr " " "-"`.md
+# Converter letras em caixa baixa
+# nomeArquivo=`echo $nomeArquivo | tr [:upper:] [:lower:]`
+# Retirar acentos
+nomeArquivo=`echo $nomeArquivo | iconv -t 'ascii//TRANSLIT'`
+# Insere data ao nome do arquivo
+nomeArquivo=$data-$nomeArquivo
+
+diretorio=`pwd`"/_posts/"$nomeArquivo
+#diretorio=`pwd`"/"$nomeArquivo
+
+touch $diretorio
+
+# Inicializa o Liquid
+echo "---" > $diretorio
+
+# Layout da postagem
+echo "layout: post" >> $diretorio # Cria e alimenta o arquivo da postagem
+
+# Imagem padrão
+$padrao=`pwd`"/images/default_bg.jpg"
+
+echo "photo: "$padrao >> $diretorio
+
+# Tipo da postagem
+loop=1
+
+while [ $loop -eq 1 ]
+do
+    echo -e "\033[1;34m"
+    read -p "Tipo de postagem: ([P]adrão - [S]tatus - [C]itação - [F]oto - [V]ideo)"  opcao
+    echo -e "\033[0m"
+    
+    opcao=`echo $opcao | tr [:upper:] [:lower:]` #Converte de maiúscula para minúscula
+
+    if [ -z $opcao ]; then
+        tipo="";
+        loop=0
+        break
+    else
+        case $opcao in
+            "p")
+                tipo="";
+                loop=0
+                break
+                ;;
+            "s")
+                tipo="status";
+                loop=0
+                break
+                ;;
+            "c")
+                tipo="quote";
+                loop=0
+                break
+                ;;
+            "f")
+                tipo="photo";
+                loop=0
+                break
+                ;;
+            "v")
+                tipo="video";
+                loop=0
+                break
+                ;;
+            "*")
+                echo "Opção Inválida!!!\n"
+                ;;
+        esac
+    fi
+done
+
+echo "type: "$tipo >> $diretorio
+
+# Título da Postagem
+echo "title: "$titulo >> $diretorio
+
+# Descrição da postagem
+echo -e "\033[1;34m"
+read -p "Descrição (opcional): " descricao
+echo -e "\033[0m"
+
+echo "description: "$descricao >> $diretorio
+
+# Cabeçaho da postagem
+echo -e "\033[1;34m"
+read -p "Cabeçalho (opcional): " cabecalho
+echo -e "\033[0m"
+
+echo "headline: "$cabecalho >> $diretorio
+
+# Data da postagem
+echo "modfied: "$data >> $diretorio
+
+# Categoria da postagem
+echo -e "\033[1;34m"
+echo "\Lista de categorias cadastradas\n----------\n"
+echo -e "\033[0m"
+cat `pwd`"/_posts/*" | grep "category: " | cut -d ':' -f 2 | sort | uniq | cat -n
+
+echo -e "\033[1;34m"
+read -p "Categoria (opcional): " categoria
+echo -e "\033[0m"
+
+echo "category: "$categoria >> $diretorio
+
+# Tags da postagem
+echo -e "\033[1;34m"
+echo "\Lista de tags cadastradas\n----------\n"
+echo -e "\033[0m"
+cat `pwd`"/_posts/*" | grep "tags: " | cut -d : -f 2 | tr ',' '\n' | tr -d '][' | sort | sed '1d' | uniq | cat -n
+
+echo -e "\033[1;34m"
+read -p "Tags (opcional): " tags
+echo -e "\033[0m"
+
+echo "tags: ["$tags"]" >> $diretorio
+
+# Imagem da postagem
+echo -e "\033[1;34m"
+echo "Opções da Imagem: "
+echo -e "\033[0m"
+ls `pwd`"/_posts/*.jpg" | cut -d '/' -f 4 | cat -n
+
+echo -e "\033[1;34m"
+read -p "Arquivo da imagem de destaque (opcional): " imagem
+echo -e "\033[0m"
+
+echo -e "\033[1;34m"
+read -p "Crédito (opcional): " credito
+echo -e "\033[0m"
+
+echo -e "\033[1;34m"
+read -p "Link dos créditos (opcional): " linkCredito
+echo -e "\033[0m"
+
+echo "image: " >> $diretorio
+echo "  feature: "$imagem >> $diretorio
+echo "  credit: "$credito >> $diretorio  
+echo "  creditlink: "$linkCredito >> $diretorio 
+
+# Postagem com suporte à link? PADRÃO: NÃO
+echo -e "\033[1;34m"
+read -p "Link (opcional): " link
+echo -e "\033[0m"
+
+echo "link: "$link >> $diretorio
+
+# Postagem com suporte à comentários? PADRÃO: SIM
+loop=1
+
+while [ $loop -eq 1 ]
+do
+    echo -e "\033[1;34m"
+    read -p "Comentários? ([s]im ou [N]ão): " opcao
+    echo -e "\033[0m"
+
+    opcao=`echo $opcao | tr [:upper:] [:lower:]` #Converte de maiúscula para minúscula
+
+    if [ -z $opcao ]; then
+        comentarios="false"
+        loop=0
+    else
+        case $opcao in
+            "s")
+                comentarios="true"
+                loop=0
+                ;;
+            "n")
+                comentarios="false"
+                loop=0
+                ;;
+            "*")
+                echo "Opção Inválida!!!\n"
+               ;;
+        esac
+    fi
+done
+
+echo "comments: "$comentarios >> $diretorio
+
+# Postagem com suporte à compartilhamento? PADRÃO: SIM
+loop=1
+
+while [ $loop -eq 1 ]
+do
+    echo -e "\033[1;34m"
+    read -p "Compartilhamento? ([s]im ou [N]ão): " opcao
+    echo -e "\033[0m"
+
+    opcao=`echo $opcao | tr [:upper:] [:lower:]` #Converte de maiúscula para minúscula
+
+    if [ -z $opcao ]; then
+        share="false"
+        loop=0
+    else
+        case $opcao in
+            "s")
+                share="true"
+                loop=0
+                ;;
+            "n")
+                share="false"
+                loop=0
+                ;;
+            "*")
+                echo "Opção Inválida!!!\n"
+               ;;
+        esac
+    fi
+done
+
+echo "share: "$share >> $diretorio
+
+# Postagem com suporte a equações? PADRÃO: NÃO
+loop=1
+
+while [ $loop -eq 1 ]
+do
+    echo -e "\033[1;34m"
+    read -p "Equações? ([s]im ou [N]ão): " opcao
+    echo -e "\033[0m"
+
+    opcao=`echo $opcao | tr [:upper:] [:lower:]` #Converte de maiúscula para minúscula
+
+    if [ -z $opcao ]; then
+        equacoes="false"
+        loop=0
+    else
+        case $opcao in
+            "s")
+                equacoes="true"
+                loop=0
+                ;;
+            "n")
+                equacoes="false"
+                loop=0
+                ;;
+            "*")
+                echo "Opção Inválida!!!\n"
+               ;;
+        esac
+    fi
+done
+
+echo "mathjax: "$equacoes >> $diretorio
+
+# Postagem com suporte à gráficos? PADRÃO: NÃO
+loop=1
+
+while [ $loop -eq 1 ]
+do
+    echo -e "\033[1;34m"
+    read -p "Gráficos? ([s]im ou [N]ão): " opcao
+    echo -e "\033[0m"
+
+    opcao=`echo $opcao | tr [:upper:] [:lower:]` #Converte de maiúscula para minúscula
+
+    if [ -z $opcao ]; then
+        graficos="false"
+        loop=0
+    else
+        case $opcao in
+            "s")
+                graficos="true"
+                loop=0
+                ;;
+            "n")
+                graficos="false"
+                loop=0
+                ;;
+            "*")
+                echo "Opção Inválida!!!\n"
+               ;;
+        esac
+    fi
+done
+
+echo "chart: "$graficos >> $diretorio
+
+# Destacar postagem? PADRÃO: NÃO
+loop=1
+
+while [ $loop -eq 1 ]
+do
+    echo -e "\033[1;34m"
+    read -p "Destacar postagem? ([s]im ou [N]ão): " opcao
+    echo -e "\033[0m"
+
+    opcao=`echo $opcao | tr [:upper:] [:lower:]` #Converte de maiúscula para minúscula
+
+    if [ -z $opcao ]; then
+        destaque="false"
+        loop=0
+    else
+        case $opcao in
+            "s")
+                destaque="true"
+                loop=0
+                ;;
+            "n")
+                destaque="false"
+                loop=0
+                ;;
+            "*")
+                echo "Opção Inválida!!!\n"
+               ;;
+        esac
+    fi
+done
+
+echo "featured: "$destaque >> $diretorio
+
+# Marcar postagem como publicada? PADRÃO: NÃO
+echo "published: false" >> $diretorio
+
+# Fechar o Liquid
+echo "---" >> $diretorio
+echo
+
+# Executar o editor nano
+
+exec nano -m $diretorio
+
+#loop=1
+
+#while [ $loop -eq 1 ]
+#do
+#    echo "\033[1;34m"
+#    read -p "Editar postagem? ([s]im ou [N]ão): "opcao
+#    echo "\033[0m"
+
+#    opcao=`echo $opcao | tr [:upper:] [:lower:]` #Converte de maiúscula para minúscula
+
+#    if [ -z $opcao ]; then
+#        editar="false"
+#        loop=0
+#    else
+#        case $opcao in
+#            "s")
+#                editar="true"
+#                exec nano -m $diretorio # Executa o editor nano
+#                
+#                loop2=1
+#                
+#                while [ $loop2 -eq 1 ]
+#                do
+#                    echo "\033[1;34m"
+#                    read -p "Publicar postagem? ([s]im ou [N]ão): "opcao
+#                    echo "\033[0m"
+#                
+#                    opcao=`echo $opcao | tr [:upper:] [:lower:]` #Converte de maiúscula para minúscula
+#                
+#                   if [ -z $opcao ]; then
+#                        publicada="false"
+#                        loop2=0
+#                    else
+#                        case $opcao in
+#                            "s")
+#                                publicada="true"
+#                                sed -i 's/^published: false/published: true' $diretorio
+#                                loop2=0
+#                                ;;
+#                            "n")
+#                                publicada="false"
+#                                sed -i 's/^published: true/published: false' $diretorio
+#                                loop2=0
+#                                ;;
+#                            "*")
+#                                echo "Opção Inválida!!!\n"
+#                               ;;
+#                        esac
+#                    fi
+#                done
+#                ;;
+#            "n")
+#                editar="false"
+#                loop=0
+#                ;;
+#            "*")
+#                echo "Opção Inválida!!!\n"
+#               ;;
+#        esac
+#    fi
+#done
