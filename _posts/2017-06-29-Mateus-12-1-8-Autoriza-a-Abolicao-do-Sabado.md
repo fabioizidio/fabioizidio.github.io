@@ -1,7 +1,9 @@
 ---
 published: false
 layout: post
-description: null
+description: >-
+  Uma abordagem bíblica sobre a problemática da observância sábatica em Mateus
+  12:1-8
 headline: Teologia
 category: Teologia
 tags:
