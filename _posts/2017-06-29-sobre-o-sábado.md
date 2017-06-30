@@ -14,8 +14,6 @@ tags:
   - Lei
 imagefeature: volta-de-jesus.jpg
 ---
-## Fábio Izidio - 05/12/16
-
 Ao fazer uma leitura rápida e superficial do texto em questão, o objetor conclui que, pelo fato de Cristo e os discípulos terem colhido espigas no Sábado justifica o trabalho secular neste dia, principalmente por causa que Cristo ter justificado a Sua atitude nos atos de Davi e dos sacerdotes nos serviços do templo. A aparente força da alegação é esta: Como o alimentar-se com os pães da proposição e os serviços no templo fazem parte da dita lei cerimonial, pode-se concluir que o sábado é cerimonial e, portanto, pode ser transgredido sem nenhuma carga de culpa.
 
 Existem alguns pontos que merecem ser considerados:
