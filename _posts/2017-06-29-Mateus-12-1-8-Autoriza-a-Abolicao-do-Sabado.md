@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-description: 'Mateus 12:1-8 Autoriza a Abolição do Sábado?'
+description: null
 headline: Teologia
 category: Teologia
 tags:
@@ -13,6 +13,7 @@ tags:
   - Mandamento
   - Lei
 imagefeature: volta-de-jesus.jpg
+title: 'Mateus 12:1-8 Autoriza a Abolição do Sábado?'
 ---
 Ao fazer uma leitura rápida e superficial do texto em questão, o objetor conclui que, pelo fato de Cristo e os discípulos terem colhido espigas no Sábado justifica o trabalho secular neste dia, principalmente por causa que Cristo ter justificado a Sua atitude nos atos de Davi e dos sacerdotes nos serviços do templo. A aparente força da alegação é esta: Como o alimentar-se com os pães da proposição e os serviços no templo fazem parte da dita lei cerimonial, pode-se concluir que o sábado é cerimonial e, portanto, pode ser transgredido sem nenhuma carga de culpa.
 
