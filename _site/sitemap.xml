@@ -95,8 +95,8 @@
 <lastmod>2017-06-29T00:00:00-03:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/Teste-IFTTT-Telegram</loc>
-<lastmod>2018-01-11T00:00:00-03:00</lastmod>
+<loc>http://localhost:4000/blog/teste-feed-blog</loc>
+<lastmod>2018-01-12T00:00:00-03:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
@@ -294,12 +294,6 @@
 <loc>http://localhost:4000/archive/tag/lei/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/archive/tag/poesia/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/archive/tag/inspira%C3%A7%C3%A3o/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/archive/category/teologia/</loc>
 </url>
 <url>
@@ -322,6 +316,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/archive/category/pensamentos/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/archive/category/matematica/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/blog/2/</loc>
