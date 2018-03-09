@@ -1,6 +1,6 @@
 ---
 layout: post 
-title: "Formula Integral de Cauchy"
+title: "Oficina de Jogos Digitais em JavaScript"
 description: Matematica
 headline: Matematica
 modified: 
@@ -11,4 +11,6 @@ comments: true
 mathjax: true 
 chart: false
 ---
-\\[\displaystyle f^{(n)}(z_0) = \frac{n!}{2\pi\imath} \oint_{\gamma} \frac{f(z)}{(z-z_0)^{n+1}}\,dz \\]
+
+Fábio Izidio:
+https://drive.google.com/file/d/1M6Gx5zfCvPAC_TuLs78EUvRiVhevogmQ/view?usp=sharing
